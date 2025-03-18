@@ -1,0 +1,35 @@
+train: True   # train or eval
+# Devices
+device: 0      # cuda:int
+world_size: 1  #  no. of gpus
+distributed: False
+num_workers: 4   
+
+device_ids: [2]
+
+# Load/Save
+resume: False      # resume training or new
+save_dir: null
+checkpoint:         # load checkpoint directory null==None
+ckpt_pattern: 
+save_every: 1        # save checkpoint every n epochs
+
+# Training
+batch_size: 32        # Batch size
+epochs: 20           # Number of epochs
+gradient_accumulation_steps: 1
+
+learning_rate: 0.00003    # Learning rate
+momentum: 0.9         # Contribution of earlier gradient to gradient update
+weight_decay: 0.00002 # Factor with which weights are added to gradient
+
+use_amp: False
+early_stop: False
+validate_every: 3    # do validation every n epochs
+lr_scheduler: const
+
+# Miscellaneous
+version_name: bart      # for log name and validation saving name
+seed: 11
+
+

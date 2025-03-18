@@ -2,3 +2,5 @@ noto-emoji-main.zip
 twemoji-main.zip
 /noto-emoji-main/
 /twemoji-main/
+runs/
+__pycache__/
