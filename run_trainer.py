@@ -3,7 +3,7 @@ from pathlib import Path
 import yaml
 from torch.utils.data.dataloader import DataLoader
 import logging
-from distribute import parallelize
+from misc.distribute import parallelize
 import torch.multiprocessing as mp
 import torch
 import os
@@ -113,7 +113,7 @@ def main_worker(rank: int, config: dict):
         rank (int): The rank of the current process.
         config (dict): Configuration dictionary containing training parameters.
     """
-    from EmoteTrainer import EmoteTrainer
+    from trainer.EmoteTrainer import EmoteTrainer
     import torch.distributed as dist
     import traceback
     import wandb
@@ -163,8 +163,8 @@ def main_worker(rank: int, config: dict):
 if __name__ == "__main__":
      
     parser = argparse.ArgumentParser()
-    parser.add_argument('--train_config', type=Path, help='Path to config.yaml', default='./trainer_config.yaml')
-    parser.add_argument('--specific_config', type=Path, help='Path to config.yaml', default='./specific_config.yaml')
+    parser.add_argument('--train_config', type=Path, help='Path to config.yaml', default='./config/trainer_config.yaml')
+    parser.add_argument('--specific_config', type=Path, help='Path to config.yaml', default='./config/specific_config.yaml')
     args = parser.parse_args()
 
     if not (args.train_config.exists() and args.specific_config.exists()):

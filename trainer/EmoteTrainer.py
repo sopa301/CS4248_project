@@ -1,4 +1,4 @@
-from base_trainer import BaseTrainer
+from trainer.BaseTrainer import BaseTrainer
 import torch
 import torch.amp as amp
 import torch.nn as nn

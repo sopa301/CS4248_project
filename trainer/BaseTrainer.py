@@ -10,7 +10,7 @@ import torch.optim as optim
 import wandb
 from tqdm import tqdm
 from pathlib import Path
-from misc import RunningAverageDict, is_rank_zero, skip_first_batches
+from misc.misc import RunningAverageDict, is_rank_zero, skip_first_batches
 
 
 class BaseTrainer:
