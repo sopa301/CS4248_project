@@ -1,5 +1,5 @@
-noto-emoji-main.zip
-twemoji-main.zip
-/noto-emoji-main/
-/twemoji-main/
+dataset/noto-emoji-main.zip
+dataset/twemoji-main.zip
+dataset/noto-emoji-main/
+dataset/twemoji-main/
 __pycache__/
