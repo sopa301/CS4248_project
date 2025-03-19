@@ -4,11 +4,11 @@ dataset_dir: /home/andrew/CS4248_project/dataset/
 
 train_dataset:
   filename_ls_path: data_split/train.txt
-  csv_file: train.csv
+  csv_file: original_ELCo_dataset/train.csv
 
 val_dataset:
   filename_ls_path: data_split/val.txt
-  csv_file: val.csv
+  csv_file: original_ELCo_dataset/val.csv
 
 half_precision: False
 
