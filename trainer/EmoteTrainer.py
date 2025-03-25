@@ -20,10 +20,39 @@ class EmoteTrainer(BaseTrainer):
         super().__init__(config, model, train_loader, test_loader, device)
 
         self.metric_criterion = None
+        if not config['resume'] and config['train']:
+            # Initialize specific layers by name.
+            for name, module in model.named_modules():
+                if "classifier" in name and isinstance(module, nn.Linear):
+                    nn.init.kaiming_normal_(module.weight)
+                    if module.bias is not None:
+                        nn.init.zeros_(module.bias)
+                    print(f"Initialized {name} with Kaiming normal.")
+                elif "decoder" in name and isinstance(module, nn.TransformerDecoder):
+                    # Iterate over all parameters in the TransformerDecoder.
+                    for param in module.parameters():
+                        if param.dim() > 1:
+                            nn.init.kaiming_normal_(param)
+                    print(f"Initialized {name} with Kaiming normal.")
+                elif "swin_proj" in name and isinstance(module, nn.Linear):
+                    nn.init.kaiming_normal_(module.weight)
+                    if module.bias is not None:
+                        nn.init.zeros_(module.bias)
+                    print(f"Initialized {name} with Kaiming normal.")
+                elif "self_attention" in name and isinstance(module, nn.TransformerEncoder):
+                    for param in module.parameters():
+                        if param.dim() > 1:
+                            nn.init.kaiming_normal_(param)
+                            print(f"Initialized {name} with Kaiming normal.")
 
         #set trainability
-        for param in model.parameters():
-            param.requires_grad = True   # full finetune
+        for param in self.model.fusion_model.swin.parameters():
+            param.requires_grad = False
+        for param in self.model.fusion_model.bertweet.parameters():
+            param.requires_grad = False
+        for param in self.model.eng_encoder.parameters():
+            param.requires_grad = False
+
 
         self.optimizer = self.init_optimizer()
         self.lr_scheduler = self.init_scheduler()
@@ -39,24 +68,16 @@ class EmoteTrainer(BaseTrainer):
         # Set model to training mode
         self.model.train()
         
-        # If the batch contains a 'strategies' field, separate it out and move to device.
-        if 'strategies' in batch:
-            strategies = batch.pop('strategies').to(self.device)
-        if 'images' in batch:
-            images: list = batch.pop('images').to(self.device)
-
-        # Move the remaining batch data to the device.
-        batch = {key: value.to(self.device) for key, value in batch.items()}
         with autocast('cuda',enabled=self.config['half_precision']):
 
             # Forward pass: get model outputs
-            outputs = self.model(**batch)
+            outputs = self.model(batch['images'], batch['emojis'], batch['EN'])
             
             # Compute loss:
             # Here we assume binary classification, so we convert labels to one-hot encoding.
             loss = self.loss_fn(
-                outputs.logits,
-                torch.nn.functional.one_hot(batch['labels'].long(), num_classes=2).float()
+                outputs,
+                torch.nn.functional.one_hot(batch['labels'].to(self.device), num_classes=2).float()
             )
             loss = loss.mean()
 

@@ -29,7 +29,6 @@ class BaseTrainer:
         self.train_loader = train_loader
         self.test_loader = test_loader
         self.run_index = 0
-        self.experiment_id = f"{self.config['version_name']}_{self.run_index}"
 
         self.model = model
         ############################# initialize save_dir ########################################################
@@ -53,6 +52,8 @@ class BaseTrainer:
                 self.save_dir = Path(self.config['save_dir'])
                 if not self.save_dir.exists():
                     self.save_dir.mkdir(exist_ok=False, parents=True)
+        
+        self.experiment_id = f"{self.config['version_name']}_{self.run_index}"
 
 
     def load_ckpt(self, checkpoint_dir="./runs", ckpt_type="best"):

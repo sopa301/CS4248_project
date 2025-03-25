@@ -5,13 +5,16 @@ from PIL import Image
 import os
 from enum import Enum
 from torchvision import transforms
+import regex
+import ast
+from transformers import AutoImageProcessor
 
 class DatasetMode(Enum):
     EVAL = "evaluate"
     TRAIN = "train"
 
 class EmoteDataset(Dataset):
-    def __init__(self, filename_ls_path: str, csv_file: str, tokenizer, dataset_dir: str, portion=1.0, random_state=1, mode=DatasetMode.TRAIN, **kwargs):
+    def __init__(self, csv_file: str, dataset_dir: str, portion=1.0, random_state=1, mode=DatasetMode.TRAIN, **kwargs):
         """
         Args:
             csv_file (str): Path to the CSV file.
@@ -31,29 +34,17 @@ class EmoteDataset(Dataset):
         self.sent1 = list(data['sent1'])
         self.sent2 = list(data['sent2'])
         self.labels = list(data['label'])
+        self.image_files = data['separate_filenames']
+        self.unicodes = list(data['unicode'])
         self.strategies = list(data['strategy'])
-        
-        self.encodings = tokenizer(
-            self.sent1,
-            self.sent2,
-            truncation=True,
-            padding=True,
-            return_tensors="pt"
-        )
+        self.emojis = list(data['emoji'])
 
         self.base_dir = dataset_dir
-        # store the emoji image path
-        self.filename_ls_path = os.path.join(self.base_dir, filename_ls_path)
-        # Load filenames
-        with open(self.filename_ls_path, "r") as f:
-            self.filenames = [
-                s.split() for s in f.readlines()
-            ]  # [['.../emoji1.png', '.../emoji2.png'], [], ...] (each line is an input with a list of one or more images)
-        
+
         # Define image transformations (apply it no matter it is training or not)
         self.transform = transforms.Compose([
             #TODO: resize the image if needed
-            # transforms.Resize(()),
+            transforms.Resize((256,256)),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # Normalize for ImageNet models
         ])
@@ -62,27 +53,30 @@ class EmoteDataset(Dataset):
 
     def __getitem__(self, idx):
         # Retrieve the tokenized inputs and the corresponding labels/strategies
-        batch = {key: val[idx].clone() for key, val in self.encodings.items()}
+        batch = {}
+        batch['EN'] = self.sent2[idx]
         batch['labels'] = torch.tensor(self.labels[idx]).clone()
-        batch['strategies'] = torch.tensor(self.strategies[idx]).clone()
-        # TODO: uncomment after implementing the image filname split
-        # batch['images'] = self._get_data_item(idx)
-        # if DatasetMode.TRAIN == self.mode:
-        #     batch['images'] = self._training_preprocess(batch['images'])
+        batch['strategies'] = self.strategies[idx]
+        batch['images'] = self._get_images(idx)
+        batch['unicodes'] = self.unicodes[idx]
+        batch['emojis'] = regex.findall(r'\X', self.emojis[idx]) # Split emoji into individual characters in a list
+        if DatasetMode.TRAIN == self.mode:
+            batch['images'] = self._training_preprocess(batch['images'])
         return batch
     
-    def _get_data_item(self, index):
+    def _get_images(self, index):
         """
         Load images for the given index based on the filenames stored in the list.
-        Returns a list of PIL.Image objects.
+        Returns a list of Tensor objects.
         """
-        image_filenames = self.filenames[index]
         images = []
-        for image_filename in image_filenames:
+        for image_filename in ast.literal_eval(self.image_files[index]):
             image_path = os.path.join(self.base_dir, image_filename)
             try:
                 img = Image.open(image_path).convert("RGB")
-                img = self.transform(img)
+                processor = AutoImageProcessor.from_pretrained("microsoft/swinv2-base-patch4-window12-192-22k")
+                processed = processor(img, return_tensors="pt")
+                img = processed["pixel_values"]
             except Exception as e:
                 print(f"Error loading image {image_path}: {e}")
                 return None
