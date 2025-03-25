@@ -1,6 +1,6 @@
-noto-emoji-main.zip
-twemoji-main.zip
-/noto-emoji-main/
-/twemoji-main/
 runs/
+dataset/noto-emoji-main.zip
+dataset/twemoji-main.zip
+dataset/noto-emoji-main/
+dataset/twemoji-main/
 __pycache__/
