@@ -5,9 +5,7 @@ from PIL import Image
 from transformers import AutoTokenizer, AutoModel
 from transformers import AutoImageProcessor, AutoModelForImageClassification
 from torch.nn.utils.rnn import pad_sequence
-# -----------------------------------------
-# Part 1: Fuse Emoji Image and Unicode Text
-# -----------------------------------------
+
 
 class SelfAttention(nn.Module):
     """
@@ -101,9 +99,6 @@ class EmojiEncoder(nn.Module):
         
         return fused_output
 
-# ----------------------------------------------------
-# Part 2: Fuse English Text with the Fused Output Above
-# ----------------------------------------------------
 
 class CrossModal(nn.Module):
     """
@@ -166,9 +161,7 @@ class FinalModel(nn.Module):
         logits = self.classifier(aggregated)                     # [batch, num_classes]
         return logits
 
-# -----------------------------------------
-# Example Usage
-# -----------------------------------------
+
 if __name__ == "__main__":
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = FinalModel(device=device).to(device)
