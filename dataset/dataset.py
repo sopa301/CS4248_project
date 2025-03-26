@@ -8,6 +8,7 @@ from torchvision import transforms
 import regex
 import ast
 from transformers import AutoImageProcessor
+from transformers import AutoTokenizer, AutoModel
 
 class DatasetMode(Enum):
     EVAL = "evaluate"
@@ -18,10 +19,10 @@ class EmoteDataset(Dataset):
         """
         Args:
             csv_file (str): Path to the CSV file.
-            tokenizer: Hugging Face tokenizer for processing the text.
-            max_length (int): Maximum sequence length for tokenization.
+            dataset_dir (str): Directory where the dataset files are stored.
             portion (float): Fraction of data to use from the CSV (default 1.0 for all data).
             random_state (int): Random seed for reproducibility when sampling.
+            mode (DatasetMode): Mode of the dataset (train or evaluate).
         """
         # Read the CSV file
         csv_file = os.path.join(dataset_dir, csv_file)
@@ -37,18 +38,10 @@ class EmoteDataset(Dataset):
         self.image_files = data['separate_filenames']
         self.unicodes = list(data['unicode'])
         self.strategies = list(data['strategy'])
-        self.emojis = list(data['emoji'])
+        self.emojis = data['emoji']
 
         self.base_dir = dataset_dir
-
-        # Define image transformations (apply it no matter it is training or not)
-        self.transform = transforms.Compose([
-            #TODO: resize the image if needed
-            transforms.Resize((256,256)),
-            transforms.ToTensor(),
-            transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # Normalize for ImageNet models
-        ])
-
+        
         self.mode = mode
 
     def __getitem__(self, idx):
@@ -56,10 +49,10 @@ class EmoteDataset(Dataset):
         batch = {}
         batch['EN'] = self.sent2[idx]
         batch['labels'] = torch.tensor(self.labels[idx]).clone()
-        batch['strategies'] = self.strategies[idx]
+        # batch['strategies'] = self.strategies[idx]
         batch['images'] = self._get_images(idx)
-        batch['unicodes'] = self.unicodes[idx]
-        batch['emojis'] = regex.findall(r'\X', self.emojis[idx]) # Split emoji into individual characters in a list
+        # batch['unicodes'] = self.unicodes[idx]
+        batch['emojis'] = self.emojis[idx]    # put all emojis in a string, will be tokenized in collate_fn
         if DatasetMode.TRAIN == self.mode:
             batch['images'] = self._training_preprocess(batch['images'])
         return batch
@@ -82,7 +75,7 @@ class EmoteDataset(Dataset):
                 return None
             images.append(img)
         return images
-
+    
     def _training_preprocess(self, images):
         """
         Apply any training-specific preprocessing (e.g., data augmentation) to the images.

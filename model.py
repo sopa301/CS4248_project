@@ -35,67 +35,44 @@ class EmojiEncoder(nn.Module):
         super(EmojiEncoder, self).__init__()
         self.device = device
         
-        self.processor = AutoImageProcessor.from_pretrained("microsoft/swinv2-base-patch4-window12-192-22k")
-        self.swin = AutoModelForImageClassification.from_pretrained("microsoft/swinv2-base-patch4-window12-192-22k")
+        self.swin = AutoModelForImageClassification.from_pretrained("microsoft/swinv2-base-patch4-window12-192-22k").to(device)
         # Remove the classification head.
         self.swin.head = nn.Identity()
         # Project image features to 768 dimensions.
         SWIN_FEATURES = 21841
         self.swin_proj = nn.Linear(SWIN_FEATURES, 768)
         
-        # Unicode Text Encoder: BERTweet.
-        self.unicode_tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base", normalization=True)
-        self.bertweet = AutoModel.from_pretrained("vinai/bertweet-base")
+        self.bertweet = AutoModel.from_pretrained("vinai/bertweet-base").to(device)
         
         # Fusion with self-attention.
         self.self_attention = SelfAttention(d_model=768, nhead=8, num_layers=1)
         
     
-    def forward(self, images: list[list], emojis: list):
+    def forward(self, images: list[list[torch.Tensor]], emoji_tokens):
         # --- Process the image ---
         batch_images = []
-        batch_emojis = []
         for batch in images:
             image_tokens = []
             for image in batch:
-                if isinstance(image, Image.Image):
-                    processed = self.processor(image, return_tensors="pt").to(self.device)
-                    image_tensor = processed["pixel_values"].to(self.device)
-                else:
-                    image_tensor = image.to(self.device)
+                image_tensor = image.to(self.device)
                 # Get image feature vector.
                 swin_output = self.swin(image_tensor)            # [ swin_features]
                 img_feats = swin_output.logits 
-                img_feats = self.swin_proj(img_feats)            # [ 768]
+                img_token = self.swin_proj(img_feats)            # [1, 768]
                 # Treat image feature as a single token.
-                img_token = img_feats.unsqueeze(0)              # [ 1, 768]
                 image_tokens.append(img_token)
             img_tokens = torch.cat(image_tokens, dim=0)          # [ num_images, 768]
             batch_images.append(img_tokens)
 
-            # --- Process the Unicode text ---
-            # Unicode text is expected to be a string (or a list for batching).
-            emoji_tokens = []
-            for emoji in emojis:
-                encoded_input = self.unicode_tokenizer(emoji, return_tensors='pt', padding=True, truncation=True).to(self.device)
-                emoji_output = self.bertweet(**encoded_input)
-                emoji_token = emoji_output.last_hidden_state  # [num_unicode, seq_len, 768]
-                #TODO: think of different way to concatenate the unicode tokens
-                emoji_token = emoji_token.reshape(-1, 768)       # [seq_len, 768]
-                emoji_tokens.append(emoji_token)
+        encoded_emoji = self.bertweet(**emoji_tokens)
+        emoji_embedding = encoded_emoji.last_hidden_state  # [batch, seq_len, 768]
 
-                
-            emoji_tokens = torch.cat(emoji_tokens, dim=0)  # [ total_emoji_seq_len, 768]
-            batch_emojis.append(emoji_tokens)
-        all_emoji_tokens = pad_sequence(batch_emojis, batch_first=True)  # [batch, total_emoji_seq_len, 768]
-        all_img_tokens = torch.squeeze(pad_sequence(batch_images, batch_first=True))  # [batch, num_images, 768]
-
-        
+        all_img_tokens = pad_sequence(batch_images, batch_first=True)  # [batch, num_images, 768]
 
         # --- Concatenate and Fuse ---
         # Concatenate along the sequence dimension.
-        fused_tokens = torch.cat([all_emoji_tokens, all_img_tokens], dim=1)  # [batch, total_emoji_seq_len+num_images, 768]
-        fused_output = self.self_attention(fused_tokens)       # [batch, total_emoji_seq_len+num_images, 768]
+        fused_tokens = torch.cat([emoji_embedding, all_img_tokens], dim=1)  # [batch, emoji_seq_len+num_images, 768]
+        fused_output = self.self_attention(fused_tokens)       # [batch, emoji_seq_len+num_images, 768]
         
         return fused_output
 
@@ -109,14 +86,14 @@ class CrossModal(nn.Module):
         decoder_layer = nn.TransformerDecoderLayer(d_model=d_model, nhead=nhead)
         self.decoder = nn.TransformerDecoder(decoder_layer, num_layers=num_layers)
     
-    def forward(self, eng_tokens, fused_rep):
-        # eng_tokens: [batch, seq_len_eng, d_model]
-        # fused_rep: [batch, seq_len_fused, d_model]
+    def forward(self, text_embeddings, fused_representation):
+        # text_embeddings: [batch, seq_len_eng, d_model]
+        # fused_representation: [batch, seq_len_fused, d_model]
         # Transformer expects shape [seq_len, batch, d_model]
-        eng_tokens = eng_tokens.transpose(0, 1)
-        fused_rep = fused_rep.transpose(0, 1)
+        text_embeddings = text_embeddings.transpose(0, 1)
+        fused_representation = fused_representation.transpose(0, 1)
         # Let English text tokens (as queries) attend to the fused tokens (as memory).
-        cross_fused = self.decoder(tgt=eng_tokens, memory=fused_rep)
+        cross_fused = self.decoder(tgt=text_embeddings, memory=fused_representation)
         return cross_fused.transpose(0, 1)  # [batch, seq_len_eng, d_model]
 
 class FinalModel(nn.Module):
@@ -135,7 +112,6 @@ class FinalModel(nn.Module):
         self.fusion_model = EmojiEncoder(device=device)
         
         # English Text Encoder: Using a BERT-based model.
-        self.eng_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
         self.eng_encoder = AutoModel.from_pretrained("bert-base-uncased")
         
         # Cross-modal fusion: English text attends to the fused output.
@@ -144,17 +120,16 @@ class FinalModel(nn.Module):
         # Optional classification head.
         self.classifier = nn.Linear(768, 2)  # For binary classification, adjust as needed.
     
-    def forward(self, images: list[Image.Image], emojis: list[str], english_text: str):
+    def forward(self, images: list[Image.Image], emoji_tokens, text_tokens):
         # 1. Fuse emoji image and unicode text.
-        fused_output = self.fusion_model(images, emojis)   # [batch, seq_len_fused, 768]
+        fused_output = self.fusion_model(images, emoji_tokens)   # [batch, seq_len_fused, 768]
         
         # 2. Encode the English sentence.
-        encoded_eng = self.eng_tokenizer(english_text, return_tensors='pt', padding=True, truncation=True).to(self.device)
-        eng_output = self.eng_encoder(**encoded_eng)
-        eng_tokens = eng_output.last_hidden_state              # [batch, seq_len_eng, 768]
+        encoded_text = self.eng_encoder(**text_tokens)
+        text_embeddings = encoded_text.last_hidden_state              # [batch, seq_len_eng, 768]
         
         # 3. Cross-modal fusion: let English tokens attend to fused emoji/unicode representation.
-        cross_fused = self.cross_modal(eng_tokens, fused_output)  # [batch, seq_len_eng, 768]
+        cross_fused = self.cross_modal(text_embeddings, fused_output)  # [batch, seq_len_eng, 768]
         
         # 4. For classification, aggregate (e.g., via mean pooling) the English tokens.
         aggregated = cross_fused.mean(dim=1)                     # [batch, 768]

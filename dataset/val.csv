@@ -1,395 +1,332 @@
-sent1,sent2,label,strategy
-This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far journey.,1,0
-This is footprints [EM] motorway.,This is far journey.,1,1
-This is sleepy_face [EM] world_map.,This is far journey.,1,1
-This is hourglass_not_done [EM] automobile [EM] airplane [EM] railway_track.,This is far journey.,1,0
-This is railway_track [EM] ship [EM] world_map.,This is far journey.,1,1
-This is motorway [EM] bus.,This is far journey.,1,1
-This is world_map [EM] telescope.,This is far journey.,1,0
-This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far side.,1,1
-This is down-left_arrow [EM] motorway.,This is far side.,1,1
-This is sleepy_face [EM] backhand_index_pointing_right.,This is far side.,1,1
-This is prohibited [EM] SOON_arrow [EM] straight_ruler.,This is far side.,1,1
-This is left-right_arrow.,This is far side.,1,4
-This is up_arrow.,This is far side.,1,4
-This is up-right_arrow [EM] up-right_arrow.,This is far side.,1,3
-This is person_walking [EM] sheaf_of_rice [EM] snow-capped_mountain [EM] compass.,This is far trek.,1,1
-This is woman_walking [EM] person_walking [EM] sweat_droplets.,This is far trek.,1,1
-This is face_with_spiral_eyes [EM] woman_walking.,This is far trek.,1,1
-This is prohibited [EM] SOON_arrow [EM] hiking_boot [EM] person_walking.,This is far trek.,1,0
-This is man_climbing [EM] world_map.,This is far trek.,1,1
-This is man_walking [EM] hiking_boot.,This is far trek.,1,1
-This is person_walking [EM] backpack [EM] evergreen_tree [EM] evergreen_tree.,This is far trek.,1,1
-This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far country.,1,1
-This is luggage [EM] airplane_departure [EM] twelve-thirty.,This is far country.,1,1
-This is face_with_spiral_eyes [EM] Åland_Islands.,This is far country.,1,1
-This is prohibited [EM] SOON_arrow [EM] United_States [EM] Clipperton_Island [EM] Côte_d’Ivoire [EM] Ascension_Island [EM] Åland_Islands.,This is far country.,1,0
-This is world_map [EM] left-right_arrow.,This is far country.,1,0
-This is world_map [EM] passenger_ship [EM] airplane_departure.,This is far country.,1,1
-This is globe_showing_Americas [EM] right_arrow_curving_up [EM] up-right_arrow.,This is far country.,1,1
-This is girl [EM] child [EM] boy.,This is average people.,1,2
-This is people_holding_hands [EM] women_holding_hands [EM] men_holding_hands [EM] woman_gesturing_OK.,This is average people.,1,0
-This is confused_face [EM] man.,This is average people.,1,0
-This is man [EM] person [EM] woman [EM] girl.,This is average people.,1,2
-This is man_standing [EM] woman_standing [EM] person_standing.,This is average people.,1,2
-This is man_pouting [EM] woman_pouting.,This is average people.,1,2
-This is man [EM] person [EM] person_shrugging.,This is average people.,1,1
-This is memo [EM] OK_hand.,This is average merit.,1,1
-This is trophy [EM] trophy [EM] woman_gesturing_OK.,This is average merit.,1,1
-This is neutral_face [EM] hundred_points.,This is average merit.,1,0
-This is neutral_face [EM] briefcase [EM] 3rd_place_medal.,This is average merit.,1,0
-This is 2nd_place_medal.,This is average merit.,1,4
-This is man_gesturing_OK [EM] person_gesturing_OK.,This is average merit.,1,2
-This is sports_medal [EM] person_shrugging.,This is average merit.,1,0
-This is person_standing.,This is average size.,1,4
-This is t-shirt [EM] thumbs_up [EM] thumbs_down.,This is average size.,1,1
-This is face_with_raised_eyebrow [EM] palms_up_together.,This is average size.,1,1
-This is cross_mark [EM] black_large_square [EM] cross_mark [EM] black_small_square.,This is average size.,1,1
-This is wavy_dash [EM] balance_scale.,This is average size.,1,0
-This is man_standing [EM] person_standing.,This is average size.,1,2
-This is person_shrugging [EM] straight_ruler.,This is average size.,1,0
-This is face_with_spiral_eyes [EM] thinking_face.,This is puzzling statement.,1,2
-This is speech_balloon [EM] red_question_mark [EM] red_question_mark [EM] face_with_spiral_eyes.,This is puzzling statement.,1,0
-This is speaking_head [EM] red_question_mark [EM] exclamation_question_mark [EM] thinking_face [EM] person_shrugging.,This is puzzling statement.,1,1
-This is red_question_mark [EM] red_question_mark [EM] red_question_mark [EM] red_question_mark.,This is puzzling statement.,1,3
-This is face_with_monocle [EM] red_question_mark.,This is puzzling statement.,1,1
-This is exclamation_question_mark [EM] exclamation_question_mark [EM] red_question_mark [EM] white_question_mark [EM] woman_shrugging [EM] person_shrugging [EM] man_shrugging.,This is puzzling statement.,1,1
-This is face_with_spiral_eyes [EM] face_with_raised_eyebrow [EM] red_question_mark.,This is puzzling statement.,1,1
-This is woman_shrugging [EM] speaking_head.,This is puzzling statement.,1,0
-This is dashing_away [EM] dashing_away [EM] repeat_button [EM] speech_balloon.,This is immediate reply.,1,1
-This is red_exclamation_mark [EM] outbox_tray.,This is immediate reply.,1,0
-This is fast-forward_button [EM] telephone_receiver [EM] mobile_phone.,This is immediate reply.,1,1
-This is SOON_arrow [EM] incoming_envelope.,This is immediate reply.,1,0
-This is police_car_light [EM] mobile_phone_with_arrow.,This is immediate reply.,1,0
-This is man_running [EM] telephone_receiver [EM] thought_balloon.,This is immediate reply.,1,1
-This is fast-forward_button [EM] incoming_envelope.,This is immediate reply.,1,0
-This is stopwatch [EM] mobile_phone_with_arrow.,This is immediate reply.,1,0
-This is dashing_away [EM] dashing_away [EM] man_standing [EM] shuffle_tracks_button [EM] woman_standing.,This is immediate influence.,1,1
-This is woman_dancing [EM] man_dancing [EM] person_raising_hand [EM] woman_raising_hand [EM] man_raising_hand.,This is immediate influence.,1,1
-This is fast-forward_button [EM] woman_judge [EM] man_judge.,This is immediate influence.,1,1
-This is SOON_arrow [EM] family_man_woman_girl_boy.,This is immediate influence.,1,1
-This is woman_bowing_light_skin_tone [EM] woman_bowing_light_skin_tone.,This is immediate influence.,1,3
-This is man_police_officer [EM] backhand_index_pointing_down [EM] folded_hands [EM] handshake.,This is immediate influence.,1,1
-This is TOP_arrow [EM] TOP_arrow.,This is immediate influence.,1,3
-This is people_holding_hands [EM] left-right_arrow [EM] red_exclamation_mark.,This is immediate influence.,1,1
-This is heavy_dollar_sign [EM] heavy_dollar_sign [EM] heavy_dollar_sign [EM] heavy_dollar_sign.,This is high price.,1,3
-This is TOP_arrow [EM] money_with_wings.,This is high price.,1,1
-This is up_arrow [EM] heavy_dollar_sign.,This is high price.,1,0
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high price.,1,0
-This is money_with_wings [EM] money-mouth_face [EM] bank.,This is high price.,1,1
-This is label [EM] money_bag.,This is high price.,1,1
-This is ladder [EM] heavy_dollar_sign.,This is high price.,1,0
-This is heavy_dollar_sign [EM] exploding_head [EM] backhand_index_pointing_up.,This is high price.,1,1
-This is man_bald [EM] pinching_hand.,This is high forehead.,1,1
-This is TOP_arrow [EM] woman_bald.,This is high forehead.,1,0
-This is up_arrow [EM] old_man.,This is high forehead.,1,0
-This is man_bald [EM] cross_mark [EM] boy [EM] man.,This is high forehead.,1,1
-This is up_arrow [EM] woman_bald.,This is high forehead.,1,0
-This is index_pointing_up [EM] man_bald.,This is high forehead.,1,0
-This is ladder [EM] woman_facepalming_light_skin_tone.,This is high forehead.,1,1
-This is man_bald [EM] backhand_index_pointing_up.,This is high forehead.,1,0
-This is smiling_face_with_halo [EM] folded_hands.,This is high hope.,1,1
-This is TOP_arrow [EM] star_of_David.,This is high hope.,1,0
-This is up_arrow [EM] smiling_face.,This is high hope.,1,0
-This is TOP_arrow [EM] crossed_fingers [EM] folded_hands [EM] shooting_star [EM] dizzy [EM] four_leaf_clover [EM] smiling_face_with_open_hands.,This is high hope.,1,1
-This is up_arrow [EM] smiling_face_with_halo [EM] crossed_fingers.,This is high hope.,1,1
-This is up_arrow [EM] folded_hands.,This is high hope.,1,0
-This is ladder [EM] folded_hands_medium-light_skin_tone.,This is high hope.,1,1
-This is folded_hands [EM] relieved_face [EM] backhand_index_pointing_up.,This is high hope.,1,1
-This is TOP_arrow [EM] office_building.,This is high building.,1,0
-This is TOP_arrow [EM] Tokyo_tower.,This is high building.,1,0
-This is up_arrow [EM] Tokyo_tower.,This is high building.,1,0
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high building.,1,0
-This is Tokyo_tower [EM] castle [EM] Japanese_castle.,This is high building.,1,0
-This is up_arrow [EM] cityscape.,This is high building.,1,0
-This is ladder [EM] office_building.,This is high building.,1,1
-This is office_building [EM] backhand_index_pointing_up.,This is high building.,1,0
-This is snow-capped_mountain [EM] astonished_face.,This is high mountain.,1,1
-This is TOP_arrow [EM] mount_fuji.,This is high mountain.,1,0
-This is up_arrow [EM] snow-capped_mountain.,This is high mountain.,1,0
-This is TOP_arrow [EM] mountain.,This is high mountain.,1,0
-This is mountain [EM] snow-capped_mountain [EM] mount_fuji.,This is high mountain.,1,2
-This is up_arrow [EM] mountain.,This is high mountain.,1,0
-This is ladder [EM] snow-capped_mountain.,This is high mountain.,1,1
-This is snow-capped_mountain [EM] backhand_index_pointing_up.,This is high mountain.,1,0
-This is sun [EM] hot_springs [EM] hot_face [EM] thermometer.,This is high temperature.,1,1
-This is TOP_arrow [EM] hot_face.,This is high temperature.,1,1
-This is thermometer [EM] face_with_thermometer.,This is high temperature.,1,1
-This is face_with_thermometer [EM] woozy_face [EM] hot_face.,This is high temperature.,1,1
-This is hot_face [EM] hot_springs [EM] sun [EM] bed.,This is high temperature.,1,1
-This is thermometer [EM] sun.,This is high temperature.,1,1
-This is face_with_thermometer.,This is high temperature.,1,1
-This is thermometer [EM] face_with_thermometer [EM] backhand_index_pointing_up.,This is high temperature.,1,1
-This is face_with_medical_mask [EM] warning [EM] skull_and_crossbones.,This is high risk.,1,1
-This is TOP_arrow [EM] skull_and_crossbones.,This is high risk.,1,0
-This is radioactive [EM] biohazard [EM] warning.,This is high risk.,1,1
-This is TOP_arrow [EM] SOS_button.,This is high risk.,1,0
-This is mount_fuji [EM] skull_and_crossbones [EM] biohazard.,This is high risk.,1,1
-This is skull [EM] red_exclamation_mark.,This is high risk.,1,1
-This is warning [EM] warning [EM] warning.,This is high risk.,1,3
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high risk.,1,0
-This is speaking_head [EM] hundred_points.,This is high opinion.,1,0
-This is TOP_arrow [EM] speaking_head.,This is high opinion.,1,0
-This is woman_health_worker [EM] man_student [EM] thumbs_up.,This is high opinion.,1,1
-This is TOP_arrow [EM] man_health_worker [EM] woman_health_worker.,This is high opinion.,1,1
-This is red_exclamation_mark [EM] double_exclamation_mark.,This is high opinion.,1,1
-This is up_arrow [EM] speaking_head.,This is high opinion.,1,0
-This is thumbs_up_medium-light_skin_tone [EM] thumbs_up_medium-light_skin_tone [EM] thumbs_up_medium-light_skin_tone.,This is high opinion.,1,3
-This is speaking_head [EM] backhand_index_pointing_up.,This is high opinion.,1,0
-This is national_park.,This is high river.,1,4
-This is TOP_arrow [EM] national_park.,This is high river.,1,0
-This is up_arrow [EM] national_park.,This is high river.,1,0
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high river.,1,0
-This is national_park.,This is high river.,1,4
-This is up_arrow [EM] national_park.,This is high river.,1,0
-This is ladder [EM] national_park.,This is high river.,1,0
-This is water_wave [EM] backhand_index_pointing_up.,This is high river.,1,0
-This is TOP_arrow [EM] index_pointing_up.,This is high point.,1,0
-This is TOP_arrow [EM] backhand_index_pointing_up.,This is high point.,1,0
-This is up_arrow [EM] backhand_index_pointing_right.,This is high point.,1,0
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high point.,1,0
-This is snow-capped_mountain.,This is high point.,1,4
-This is up_arrow [EM] index_pointing_up.,This is high point.,1,0
-This is ladder [EM] backhand_index_pointing_up.,This is high point.,1,1
-This is red_triangle_pointed_up [EM] backhand_index_pointing_up.,This is high point.,1,0
-This is OK_hand [EM] fork_and_knife_with_plate.,This is exotic cuisine.,1,1
-This is alien [EM] shallow_pan_of_food.,This is exotic cuisine.,1,0
-This is Venezuela [EM] Montenegro [EM] Myanmar_(Burma) [EM] taco [EM] bento_box [EM] sushi.,This is exotic cuisine.,1,1
-This is smiling_face_with_horns [EM] stuffed_flatbread.,This is exotic cuisine.,1,1
-This is bento_box [EM] croissant [EM] pizza.,This is exotic cuisine.,1,2
-This is exploding_head [EM] mouth [EM] cup_with_straw [EM] bread.,This is exotic cuisine.,1,1
-This is thinking_face [EM] cook [EM] taco.,This is exotic cuisine.,1,1
-This is globe_showing_Asia-Australia [EM] clinking_glasses.,This is exotic cuisine.,1,0
-This is grinning_face [EM] bread.,This is fresh bread.,1,1
-This is control_knobs [EM] alarm_clock [EM] bread [EM] hot_springs.,This is fresh bread.,1,1
-This is NEW_button [EM] bread.,This is fresh bread.,1,0
-This is sparkles [EM] bread.,This is fresh bread.,1,1
-This is bread [EM] timer_clock [EM] hot_springs.,This is fresh bread.,1,1
-This is soap [EM] bread.,This is fresh bread.,1,0
-This is man_cook [EM] hourglass_done [EM] bread.,This is fresh bread.,1,1
-This is cook [EM] bread.,This is fresh bread.,1,1
-This is face_savoring_food [EM] bread.,This is fresh bread.,1,1
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh scent.,1,1
-This is dashing_away [EM] nose [EM] grinning_face_with_big_eyes.,This is fresh scent.,1,1
-This is NEW_button [EM] nose.,This is fresh scent.,1,0
-This is sparkles [EM] dashing_away [EM] smiling_face_with_heart-eyes.,This is fresh scent.,1,1
-This is tangerine [EM] lemon [EM] nose.,This is fresh scent.,1,1
-This is soap [EM] nose [EM] dashing_away.,This is fresh scent.,1,0
-This is boy [EM] shower [EM] soap [EM] hibiscus.,This is fresh scent.,1,2
-This is wind_face.,This is fresh scent.,1,4
-This is face_savoring_food [EM] nose.,This is fresh scent.,1,1
-This is leafy_green.,This is fresh lettuce.,1,4
-This is woman_farmer [EM] leafy_green.,This is fresh lettuce.,1,1
-This is NEW_button [EM] leafy_green.,This is fresh lettuce.,1,0
-This is sparkles [EM] leafy_green.,This is fresh lettuce.,1,1
-This is man_farmer [EM] leafy_green.,This is fresh lettuce.,1,1
-This is soap [EM] leafy_green.,This is fresh lettuce.,1,0
-This is leaf_fluttering_in_wind [EM] leafy_green [EM] leaf_fluttering_in_wind.,This is fresh lettuce.,1,1
-This is farmer [EM] leafy_green [EM] leafy_green.,This is fresh lettuce.,1,1
-This is face_savoring_food [EM] leafy_green.,This is fresh lettuce.,1,1
-This is wind_face [EM] face_exhaling.,This is fresh air.,1,1
-This is globe_showing_Europe-Africa [EM] thumbs_up [EM] dashing_away [EM] multiply [EM] cigarette.,This is fresh air.,1,1
-This is NEW_button [EM] airplane.,This is fresh air.,1,0
-This is wind_face [EM] sparkles.,This is fresh air.,1,1
-This is dashing_away [EM] nose [EM] no_smoking.,This is fresh air.,1,1
-This is soap [EM] dashing_away.,This is fresh air.,1,0
-This is sun [EM] mountain [EM] dashing_away [EM] leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind.,This is fresh air.,1,1
-This is wind_face.,This is fresh air.,1,4
-This is face_savoring_food [EM] tornado.,This is fresh air.,1,0
-This is man_climbing [EM] world_map.,This is far journey.,0,6
-This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far journey.,0,6
-This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far journey.,0,6
-This is face_with_spiral_eyes [EM] Åland_Islands.,This is far journey.,0,6
-This is luggage [EM] airplane_departure [EM] twelve-thirty.,This is far journey.,0,6
-This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far journey.,0,6
-This is prohibited [EM] SOON_arrow [EM] United_States [EM] Clipperton_Island [EM] Côte_d’Ivoire [EM] Ascension_Island [EM] Åland_Islands.,This is far journey.,0,6
-This is luggage [EM] airplane_departure [EM] twelve-thirty.,This is far side.,0,6
-This is person_walking [EM] sheaf_of_rice [EM] snow-capped_mountain [EM] compass.,This is far side.,0,6
-This is man_walking [EM] hiking_boot.,This is far side.,0,6
-This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far side.,0,6
-This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far side.,0,6
-This is face_with_spiral_eyes [EM] woman_walking.,This is far side.,0,6
-This is person_walking [EM] sheaf_of_rice [EM] snow-capped_mountain [EM] compass.,This is far side.,0,6
-This is prohibited [EM] SOON_arrow [EM] straight_ruler.,This is far trek.,0,6
-This is sleepy_face [EM] backhand_index_pointing_right.,This is far trek.,0,6
-This is world_map [EM] passenger_ship [EM] airplane_departure.,This is far trek.,0,6
-This is hourglass_not_done [EM] automobile [EM] airplane [EM] railway_track.,This is far trek.,0,6
-This is prohibited [EM] SOON_arrow [EM] straight_ruler.,This is far trek.,0,6
-This is up-right_arrow [EM] up-right_arrow.,This is far trek.,0,6
-This is footprints [EM] motorway.,This is far trek.,0,6
-This is person_walking [EM] backpack [EM] evergreen_tree [EM] evergreen_tree.,This is far country.,0,6
-This is prohibited [EM] SOON_arrow [EM] straight_ruler.,This is far country.,0,6
-This is up_arrow.,This is far country.,0,6
-This is hourglass_not_done [EM] automobile [EM] airplane [EM] railway_track.,This is far country.,0,6
-This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far country.,0,6
-This is up_arrow.,This is far country.,0,6
-This is person_walking [EM] backpack [EM] evergreen_tree [EM] evergreen_tree.,This is far country.,0,6
-This is person_shrugging [EM] straight_ruler.,This is average people.,0,6
-This is person_standing.,This is average people.,0,6
-This is wavy_dash [EM] balance_scale.,This is average people.,0,6
-This is wavy_dash [EM] balance_scale.,This is average people.,0,6
-This is man_gesturing_OK [EM] person_gesturing_OK.,This is average people.,0,6
-This is neutral_face [EM] hundred_points.,This is average people.,0,6
-This is t-shirt [EM] thumbs_up [EM] thumbs_down.,This is average people.,0,6
-This is face_with_raised_eyebrow [EM] palms_up_together.,This is average merit.,0,6
-This is man [EM] person [EM] person_shrugging.,This is average merit.,0,6
-This is confused_face [EM] man.,This is average merit.,0,6
-This is face_with_raised_eyebrow [EM] palms_up_together.,This is average merit.,0,6
-This is person_standing.,This is average merit.,0,6
-This is people_holding_hands [EM] women_holding_hands [EM] men_holding_hands [EM] woman_gesturing_OK.,This is average merit.,0,6
-This is wavy_dash [EM] balance_scale.,This is average merit.,0,6
-This is 2nd_place_medal.,This is average size.,0,6
-This is trophy [EM] trophy [EM] woman_gesturing_OK.,This is average size.,0,6
-This is memo [EM] OK_hand.,This is average size.,0,6
-This is 2nd_place_medal.,This is average size.,0,6
-This is people_holding_hands [EM] women_holding_hands [EM] men_holding_hands [EM] woman_gesturing_OK.,This is average size.,0,6
-This is man [EM] person [EM] woman [EM] girl.,This is average size.,0,6
-This is confused_face [EM] man.,This is average size.,0,6
-This is face_with_raised_eyebrow [EM] face_with_monocle [EM] woman_shrugging [EM] man_shrugging.,This is puzzling statement.,0,6
-This is red_question_mark [EM] face_with_raised_eyebrow.,This is puzzling statement.,0,6
-This is red_question_mark [EM] red_question_mark [EM] red_question_mark.,This is puzzling statement.,0,6
-This is red_question_mark [EM] face_with_raised_eyebrow.,This is puzzling statement.,0,6
-This is red_question_mark [EM] face_with_raised_eyebrow.,This is puzzling statement.,0,6
-This is face_with_raised_eyebrow [EM] face_with_monocle [EM] woman_shrugging [EM] man_shrugging.,This is puzzling statement.,0,6
-This is red_question_mark [EM] face_with_raised_eyebrow.,This is puzzling statement.,0,6
-This is thinking_face [EM] woman_running.,This is puzzling statement.,0,6
-This is man_police_officer [EM] backhand_index_pointing_down [EM] folded_hands [EM] handshake.,This is immediate reply.,0,6
-This is dashing_away [EM] dashing_away [EM] man_standing [EM] shuffle_tracks_button [EM] woman_standing.,This is immediate reply.,0,6
-This is fast-forward_button [EM] woman_judge [EM] man_judge.,This is immediate reply.,0,6
-This is man_police_officer [EM] backhand_index_pointing_down [EM] folded_hands [EM] handshake.,This is immediate reply.,0,6
-This is dashing_away [EM] dashing_away [EM] man_standing [EM] shuffle_tracks_button [EM] woman_standing.,This is immediate reply.,0,6
-This is woman_dancing [EM] man_dancing [EM] person_raising_hand [EM] woman_raising_hand [EM] man_raising_hand.,This is immediate reply.,0,6
-This is dashing_away [EM] dashing_away [EM] man_standing [EM] shuffle_tracks_button [EM] woman_standing.,This is immediate reply.,0,6
-This is people_holding_hands [EM] left-right_arrow [EM] red_exclamation_mark.,This is immediate reply.,0,6
-This is red_exclamation_mark [EM] outbox_tray.,This is immediate influence.,0,6
-This is red_exclamation_mark [EM] outbox_tray.,This is immediate influence.,0,6
-This is SOON_arrow [EM] incoming_envelope.,This is immediate influence.,0,6
-This is red_exclamation_mark [EM] outbox_tray.,This is immediate influence.,0,6
-This is dashing_away [EM] dashing_away [EM] repeat_button [EM] speech_balloon.,This is immediate influence.,0,6
-This is police_car_light [EM] mobile_phone_with_arrow.,This is immediate influence.,0,6
-This is man_running [EM] telephone_receiver [EM] thought_balloon.,This is immediate influence.,0,6
-This is police_car_light [EM] mobile_phone_with_arrow.,This is immediate influence.,0,6
-This is national_park.,This is high price.,0,6
-This is red_exclamation_mark [EM] double_exclamation_mark.,This is high price.,0,6
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high price.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high price.,0,6
-This is skull [EM] red_exclamation_mark.,This is high price.,0,6
-This is smiling_face_with_halo [EM] folded_hands.,This is high price.,0,6
-This is up_arrow [EM] backhand_index_pointing_right.,This is high price.,0,6
-This is TOP_arrow [EM] man_health_worker [EM] woman_health_worker.,This is high price.,0,6
-This is hot_face [EM] hot_springs [EM] sun [EM] bed.,This is high forehead.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high forehead.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high forehead.,0,6
-This is up_arrow [EM] cityscape.,This is high forehead.,0,6
-This is heavy_dollar_sign [EM] exploding_head [EM] backhand_index_pointing_up.,This is high forehead.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high forehead.,0,6
-This is up_arrow [EM] mountain.,This is high forehead.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high forehead.,0,6
-This is ladder [EM] office_building.,This is high hope.,0,6
-This is Tokyo_tower [EM] castle [EM] Japanese_castle.,This is high hope.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high hope.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high hope.,0,6
-This is sun [EM] hot_springs [EM] hot_face [EM] thermometer.,This is high hope.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high hope.,0,6
-This is radioactive [EM] biohazard [EM] warning.,This is high hope.,0,6
-This is radioactive [EM] biohazard [EM] warning.,This is high hope.,0,6
-This is TOP_arrow [EM] skull_and_crossbones.,This is high building.,0,6
-This is TOP_arrow [EM] SOS_button.,This is high building.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high building.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high building.,0,6
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high building.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high building.,0,6
-This is red_exclamation_mark [EM] double_exclamation_mark.,This is high building.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_up.,This is high building.,0,6
-This is woman_health_worker [EM] man_student [EM] thumbs_up.,This is high mountain.,0,6
-This is TOP_arrow [EM] SOS_button.,This is high mountain.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high mountain.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high mountain.,0,6
-This is ladder [EM] national_park.,This is high mountain.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high mountain.,0,6
-This is TOP_arrow [EM] hot_face.,This is high mountain.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high mountain.,0,6
-This is TOP_arrow [EM] crossed_fingers [EM] folded_hands [EM] shooting_star [EM] dizzy [EM] four_leaf_clover [EM] smiling_face_with_open_hands.,This is high temperature.,0,6
-This is TOP_arrow [EM] money_with_wings.,This is high temperature.,0,6
-This is mount_fuji [EM] skull_and_crossbones [EM] biohazard.,This is high temperature.,0,6
-This is heavy_dollar_sign [EM] exploding_head [EM] backhand_index_pointing_up.,This is high temperature.,0,6
-This is TOP_arrow [EM] crossed_fingers [EM] folded_hands [EM] shooting_star [EM] dizzy [EM] four_leaf_clover [EM] smiling_face_with_open_hands.,This is high temperature.,0,6
-This is radioactive [EM] biohazard [EM] warning.,This is high temperature.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high temperature.,0,6
-This is man_bald [EM] cross_mark [EM] boy [EM] man.,This is high temperature.,0,6
-This is thumbs_up_medium-light_skin_tone [EM] thumbs_up_medium-light_skin_tone [EM] thumbs_up_medium-light_skin_tone.,This is high risk.,0,6
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high risk.,0,6
-This is thermometer [EM] sun.,This is high risk.,0,6
-This is man_bald [EM] backhand_index_pointing_up.,This is high risk.,0,6
-This is up_arrow [EM] smiling_face_with_halo [EM] crossed_fingers.,This is high risk.,0,6
-This is face_with_thermometer [EM] woozy_face [EM] hot_face.,This is high risk.,0,6
-This is TOP_arrow [EM] mountain.,This is high risk.,0,6
-This is ladder [EM] office_building.,This is high risk.,0,6
-This is Tokyo_tower [EM] castle [EM] Japanese_castle.,This is high opinion.,0,6
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high opinion.,0,6
-This is radioactive [EM] biohazard [EM] warning.,This is high opinion.,0,6
-This is TOP_arrow [EM] woman_bald.,This is high opinion.,0,6
-This is face_with_thermometer [EM] woozy_face [EM] hot_face.,This is high opinion.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high opinion.,0,6
-This is office_building [EM] backhand_index_pointing_up.,This is high opinion.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high opinion.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high river.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high river.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high river.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high river.,0,6
-This is ladder [EM] backhand_index_pointing_up.,This is high river.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high river.,0,6
-This is up_arrow [EM] woman_bald.,This is high river.,0,6
-This is speaking_head [EM] backhand_index_pointing_up.,This is high river.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high point.,0,6
-This is TOP_arrow [EM] mount_fuji.,This is high point.,0,6
-This is Tokyo_tower [EM] castle [EM] Japanese_castle.,This is high point.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high point.,0,6
-This is man_bald [EM] cross_mark [EM] boy [EM] man.,This is high point.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high point.,0,6
-This is ladder [EM] folded_hands_medium-light_skin_tone.,This is high point.,0,6
-This is up_arrow [EM] snow-capped_mountain.,This is high point.,0,6
-This is France [EM] Japan [EM] woman_curly_hair.,This is exotic cuisine.,0,6
-This is alien [EM] United_Nations.,This is exotic cuisine.,0,6
-This is Venezuela [EM] Montenegro [EM] Myanmar_(Burma) [EM] studio_microphone [EM] speaking_head.,This is exotic cuisine.,0,6
-This is airplane [EM] cityscape.,This is exotic cuisine.,0,6
-This is Afghanistan [EM] Åland_Islands [EM] Albania.,This is exotic cuisine.,0,6
-This is speaker_high_volume [EM] thinking_face [EM] red_question_mark [EM] red_question_mark.,This is exotic cuisine.,0,6
-This is Venezuela [EM] Montenegro [EM] Myanmar_(Burma) [EM] studio_microphone [EM] speaking_head.,This is exotic cuisine.,0,6
-This is alien [EM] cityscape.,This is exotic cuisine.,0,6
-This is face_savoring_food [EM] nose.,This is fresh bread.,0,6
-This is dashing_away [EM] nose [EM] grinning_face_with_big_eyes.,This is fresh bread.,0,6
-This is NEW_button [EM] airplane.,This is fresh bread.,0,6
-This is face_savoring_food [EM] nose.,This is fresh bread.,0,6
-This is sun [EM] mountain [EM] dashing_away [EM] leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind.,This is fresh bread.,0,6
-This is face_savoring_food [EM] tornado.,This is fresh bread.,0,6
-This is globe_showing_Europe-Africa [EM] thumbs_up [EM] dashing_away [EM] multiply [EM] cigarette.,This is fresh bread.,0,6
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh bread.,0,6
-This is face_savoring_food [EM] nose.,This is fresh bread.,0,6
-This is control_knobs [EM] alarm_clock [EM] bread [EM] hot_springs.,This is fresh scent.,0,6
-This is bread [EM] timer_clock [EM] hot_springs.,This is fresh scent.,0,6
-This is soap [EM] leafy_green.,This is fresh scent.,0,6
-This is farmer [EM] leafy_green [EM] leafy_green.,This is fresh scent.,0,6
-This is man_cook [EM] hourglass_done [EM] bread.,This is fresh scent.,0,6
-This is soap [EM] bread.,This is fresh scent.,0,6
-This is dashing_away [EM] nose [EM] no_smoking.,This is fresh scent.,0,6
-This is control_knobs [EM] alarm_clock [EM] bread [EM] hot_springs.,This is fresh scent.,0,6
-This is wind_face [EM] sparkles.,This is fresh scent.,0,6
-This is wind_face.,This is fresh lettuce.,0,6
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh lettuce.,0,6
-This is soap [EM] bread.,This is fresh lettuce.,0,6
-This is grinning_face [EM] bread.,This is fresh lettuce.,0,6
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh lettuce.,0,6
-This is NEW_button [EM] nose.,This is fresh lettuce.,0,6
-This is tangerine [EM] lemon [EM] nose.,This is fresh lettuce.,0,6
-This is wind_face.,This is fresh lettuce.,0,6
-This is face_savoring_food [EM] bread.,This is fresh lettuce.,0,6
-This is control_knobs [EM] alarm_clock [EM] bread [EM] hot_springs.,This is fresh air.,0,6
-This is dashing_away [EM] nose [EM] grinning_face_with_big_eyes.,This is fresh air.,0,6
-This is soap [EM] nose [EM] dashing_away.,This is fresh air.,0,6
-This is tangerine [EM] lemon [EM] nose.,This is fresh air.,0,6
-This is leaf_fluttering_in_wind [EM] leafy_green [EM] leaf_fluttering_in_wind.,This is fresh air.,0,6
-This is NEW_button [EM] nose.,This is fresh air.,0,6
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh air.,0,6
-This is face_savoring_food [EM] leafy_green.,This is fresh air.,0,6
-This is soap [EM] nose [EM] dashing_away.,This is fresh air.,0,6
+sent1,sent2,unicode,label,strategy,attribute,filename,emoji,separate_filenames
+smiling_face_with_hearts.,warm support,U+1F970,1,Single,EMOTIONALITY,990.png,🥰,['noto-emoji/png/512/emoji_u1f970.png']
+chart_increasing_with_yen [EM] chart_increasing_with_yen.,critical mass,U+1F4B9 U+1F4B9,1,Reduplication,CRITICALITY,807.png,💹💹,"['noto-emoji/png/512/emoji_u1f4b9.png', 'noto-emoji/png/512/emoji_u1f4b9.png']"
+This is house.,This is little man.,U+1F3E0,0,Single,SIZE,609.png,🏠,['noto-emoji/png/512/emoji_u1f3e0.png']
+This is automobile [EM] motorway [EM] check_mark.,This is right bank.,U+1F697 U+1F6E3 U+FE0F U+2714 U+FE0F,0,Direct,CORRECTNESS,262.png,🚗🛣️✔️,"['noto-emoji/png/512/emoji_u1f697.png', 'noto-emoji/png/512/emoji_u1f6e3.png', 'noto-emoji/png/512/emoji_u2714.png']"
+sun [EM] sun [EM] sun [EM] hot_face.,dry climate,U+2600 U+FE0F U+2600 U+FE0F U+2600 U+FE0F U+1F975,1,Metaphorical,WETNESS,1488.png,☀️☀️☀️🥵,"['noto-emoji/png/512/emoji_u2600.png', 'noto-emoji/png/512/emoji_u2600.png', 'noto-emoji/png/512/emoji_u2600.png', 'noto-emoji/png/512/emoji_u1f975.png']"
+This is spade_suit [EM] angry_face_with_horns.,This is dark purpose.,U+2660 U+FE0F U+1F47F,0,Metaphorical,EVIL,190.png,♠️👿,"['noto-emoji/png/512/emoji_u2660.png', 'noto-emoji/png/512/emoji_u1f47f.png']"
+This is down_arrow [EM] cloud.,This is low ceiling.,U+2B07 U+FE0F U+2601 U+FE0F,0,Direct,HEIGHT,749.png,⬇️☁️,"['noto-emoji/png/512/emoji_u2b07.png', 'noto-emoji/png/512/emoji_u2601.png']"
+hot_springs.,thin air,U+2668 U+FE0F,1,Single,CONSISTENCY,874.png,♨️,['noto-emoji/png/512/emoji_u2668.png']
+This is brain [EM] red_exclamation_mark [EM] red_exclamation_mark.,This is intelligent life.,U+1F9E0 U+2757 U+2757,0,Metaphorical,REASONABLENESS,1408.png,🧠❗❗,"['noto-emoji/png/512/emoji_u1f9e0.png', 'noto-emoji/png/512/emoji_u2757.png', 'noto-emoji/png/512/emoji_u2757.png']"
+This is cross_mark [EM] memo [EM] clipboard.,This is wrong paper.,U+274C U+1F4DD U+1F4CB,0,Direct,RIGHTNESS,943.png,❌📝📋,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f4dd.png', 'noto-emoji/png/512/emoji_u1f4cb.png']"
+This is pinching_hand [EM] straight_ruler [EM] oil_drum.,This is thin soup.,U+1F90F U+1F4CF U+1F6E2 U+FE0F,0,Direct,CONSISTENCY,863.png,🤏📏🛢️,"['noto-emoji/png/512/emoji_u1f90f.png', 'noto-emoji/png/512/emoji_u1f4cf.png', 'noto-emoji/png/512/emoji_u1f6e2.png']"
+backhand_index_pointing_down_light_skin_tone [EM] man_walking.,little man,U+1F447 U+1F3FB U+1F6B6 U+200D U+2642 U+FE0F,1,Direct,STATURE,605.png,👇🏻🚶‍♂️,"['noto-emoji/png/512/emoji_u1f447.png', 'noto-emoji/png/512/emoji_u1f3fb.png', 'noto-emoji/png/512/emoji_u1f6b6.png', 'noto-emoji/png/512/emoji_u2642.png']"
+mobile_phone_with_arrow [EM] joystick [EM] woman_technologist.,internal mechanism,U+1F4F2 U+1F579 U+FE0F U+1F469 U+200D U+1F4BB,1,Metaphorical,POSITION,1447.png,📲🕹️👩‍💻,"['noto-emoji/png/512/emoji_u1f4f2.png', 'noto-emoji/png/512/emoji_u1f579.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f4bb.png']"
+This is dashing_away [EM] dashing_away [EM] repeat_button [EM] speech_balloon.,This is immediate influence.,U+1F4A8 U+1F4A8 U+1F501 U+1F4AC,0,Metaphorical,SPEED,841.png,💨💨🔁💬,"['noto-emoji/png/512/emoji_u1f4a8.png', 'noto-emoji/png/512/emoji_u1f4a8.png', 'noto-emoji/png/512/emoji_u1f501.png', 'noto-emoji/png/512/emoji_u1f4ac.png']"
+This is man_bald [EM] cross_mark [EM] boy [EM] man.,This is high temperature.,U+1F468 U+200D U+1F9B2 U+274C U+1F466 U+1F468,0,Metaphorical,HEIGHT,1194.png,👨‍🦲❌👦👨,"['noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f9b2.png', 'noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f468.png']"
+This is busts_in_silhouette [EM] weary_face.,This is common land.,U+1F465 U+1F629,0,Direct,COMMONNESS,491.png,👥😩,"['noto-emoji/png/512/emoji_u1f465.png', 'noto-emoji/png/512/emoji_u1f629.png']"
+This is backhand_index_pointing_right [EM] check_mark.,This is right decision.,U+1F449 U+2714 U+FE0F,0,Metaphorical,POSITION,222.png,👉✔️,"['noto-emoji/png/512/emoji_u1f449.png', 'noto-emoji/png/512/emoji_u2714.png']"
+potable_water [EM] glass_of_milk.,full glass,U+1F6B0 U+1F95B,1,Metaphorical,FULLNESS,582.png,🚰🥛,"['noto-emoji/png/512/emoji_u1f6b0.png', 'noto-emoji/png/512/emoji_u1f95b.png']"
+nauseated_face [EM] foot.,dirty foot,U+1F922 U+1F9B6,1,Direct,CLEANNESS,410.png,🤢🦶,"['noto-emoji/png/512/emoji_u1f922.png', 'noto-emoji/png/512/emoji_u1f9b6.png']"
+This is open_file_folder.,This is clear air.,U+1F4C2,0,Single,CLARITY,1076.png,📂,['noto-emoji/png/512/emoji_u1f4c2.png']
+This is woman [EM] yawning_face [EM] sleeping_face.,This is idyllic spot.,U+1F469 U+1F971 U+1F634,0,Metaphorical,PLEASANTNESS,1332.png,👩🥱😴,"['noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f971.png', 'noto-emoji/png/512/emoji_u1f634.png']"
+ladder [EM] national_park.,high river,U+1FA9C U+1F3DE,1,Direct,DEGREE,1253.png,🪜🏞,"['noto-emoji/png/512/emoji_u1fa9c.png', 'noto-emoji/png/512/emoji_u1f3de.png']"
+This is face_with_symbols_on_mouth.,This is common parlance.,U+1F92C,0,Single,COMMONNESS,489.png,🤬,['noto-emoji/png/512/emoji_u1f92c.png']
+warning [EM] warning [EM] warning.,high risk,U+26A0 U+FE0F U+26A0 U+FE0F U+26A0 U+FE0F,1,Reduplication,DEGREE,1237.png,⚠️⚠️⚠️,"['noto-emoji/png/512/emoji_u26a0.png', 'noto-emoji/png/512/emoji_u26a0.png', 'noto-emoji/png/512/emoji_u26a0.png']"
+This is expressionless_face [EM] yawning_face [EM] tear-off_calendar.,This is dull glow.,U+1F611 U+1F971 U+1F4C6,0,Direct,DULLNESS,689.png,😑🥱📆,"['noto-emoji/png/512/emoji_u1f611.png', 'noto-emoji/png/512/emoji_u1f971.png', 'noto-emoji/png/512/emoji_u1f4c6.png']"
+hundred_points [EM] glass_of_milk.,full glass,U+1F4AF U+1F95B,1,Direct,FULLNESS,581.png,💯🥛,"['noto-emoji/png/512/emoji_u1f4af.png', 'noto-emoji/png/512/emoji_u1f95b.png']"
+This is warning [EM] teacher [EM] woman_teacher [EM] man_teacher.,This is inadequate training.,U+26A0 U+FE0F U+1F9D1 U+200D U+1F3EB U+1F469 U+200D U+1F3EB U+1F468 U+200D U+1F3EB,0,Direct,ADEQUACY,1320.png,⚠️🧑‍🏫👩‍🏫👨‍🏫,"['noto-emoji/png/512/emoji_u26a0.png', 'noto-emoji/png/512/emoji_u1f9d1.png', 'noto-emoji/png/512/emoji_u1f3eb.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f3eb.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f3eb.png']"
+video_game [EM] men_holding_hands [EM] men_holding_hands.,full game,U+1F3AE U+1F46C U+1F46C,1,Metaphorical,COMPLETENESS,564.png,🎮👬👬,"['noto-emoji/png/512/emoji_u1f3ae.png', 'noto-emoji/png/512/emoji_u1f46c.png', 'noto-emoji/png/512/emoji_u1f46c.png']"
+This is old_key [EM] warning [EM] warning.,This is critical temperature.,U+1F5DD U+FE0F U+26A0 U+FE0F U+26A0 U+FE0F,0,Metaphorical,DISPENSABILITY,833.png,🗝️⚠️⚠️,"['noto-emoji/png/512/emoji_u1f5dd.png', 'noto-emoji/png/512/emoji_u26a0.png', 'noto-emoji/png/512/emoji_u26a0.png']"
+This is hourglass_not_done [EM] airplane.,This is short money.,U+23F3 U+2708 U+FE0F,0,Direct,DURATION,322.png,⏳✈️,"['noto-emoji/png/512/emoji_u23f3.png', 'noto-emoji/png/512/emoji_u2708.png']"
+This is bone [EM] hammer [EM] person_in_manual_wheelchair [EM] hourglass_not_done [EM] loudly_crying_face.,This is constant lover.,U+1F9B4 U+1F528 U+1F9D1 U+200D U+1F9BD U+23F3 U+1F62D,0,Metaphorical,CONTINUITY,1429.png,🦴🔨🧑‍🦽⏳😭,"['noto-emoji/png/512/emoji_u1f9b4.png', 'noto-emoji/png/512/emoji_u1f528.png', 'noto-emoji/png/512/emoji_u1f9d1.png', 'noto-emoji/png/512/emoji_u1f9bd.png', 'noto-emoji/png/512/emoji_u23f3.png', 'noto-emoji/png/512/emoji_u1f62d.png']"
+This is down_arrow [EM] woman_rowing_boat [EM] water_wave.,This is low sun.,U+2B07 U+FE0F U+1F6A3 U+200D U+2640 U+FE0F U+1F30A,0,Direct,DEGREE,773.png,⬇️🚣‍♀️🌊,"['noto-emoji/png/512/emoji_u2b07.png', 'noto-emoji/png/512/emoji_u1f6a3.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u1f30a.png']"
+This is face_with_spiral_eyes [EM] Åland_Islands.,This is far journey.,U+1F635 U+200D U+1F4AB U+1F1E6 U+1F1FD,0,Metaphorical,DISTANCE,375.png,😵‍💫🇦🇽,"['noto-emoji/png/512/emoji_u1f635.png', 'noto-emoji/png/512/emoji_u1f4ab.png', 'noto-emoji/png/512/emoji_u1f1e6.png', 'noto-emoji/png/512/emoji_u1f1fd.png']"
+This is droplet [EM] diya_lamp.,This is thin soup.,U+1F4A7 U+20 U+1FA94,0,Metaphorical,CONSISTENCY,860.png,💧 🪔,"['noto-emoji/png/512/emoji_u1f4a7.png', 'noto-emoji/png/512/emoji_u1fa94.png']"
+thermometer [EM] face_with_thermometer.,hot forehead,U+1F321 U+FE0F U+1F912,1,Metaphorical,TEMPERATURE,124.png,🌡️🤒,"['noto-emoji/png/512/emoji_u1f321.png', 'noto-emoji/png/512/emoji_u1f912.png']"
+backhand_index_pointing_right [EM] eyes [EM] backhand_index_pointing_left.,internal sense,U+1F449 U+1F440 U+1F448,1,Metaphorical,INWARDNESS,1444.png,👉👀👈,"['noto-emoji/png/512/emoji_u1f449.png', 'noto-emoji/png/512/emoji_u1f440.png', 'noto-emoji/png/512/emoji_u1f448.png']"
+couch_and_lamp.,low furniture,U+1F6CB U+FE0F,1,Single,HEIGHT,790.png,🛋️,['noto-emoji/png/512/emoji_u1f6cb.png']
+smiling_face_with_smiling_eyes [EM] bed.,cozy nook,U+1F60A U+1F6CF U+FE0F,1,Metaphorical,COMFORT,705.png,😊🛏️,"['noto-emoji/png/512/emoji_u1f60a.png', 'noto-emoji/png/512/emoji_u1f6cf.png']"
+This is hundred_points [EM] red_exclamation_mark.,This is full game.,U+1F4AF U+2757,0,Direct,INTEGRITY,572.png,💯❗,"['noto-emoji/png/512/emoji_u1f4af.png', 'noto-emoji/png/512/emoji_u2757.png']"
+pot_of_food [EM] pot_of_food [EM] thumbs_up.,thick soup,U+1F372 U+1F372 U+1F44D,1,Metaphorical,CONSISTENCY,889.png,🍲🍲👍,"['noto-emoji/png/512/emoji_u1f372.png', 'noto-emoji/png/512/emoji_u1f372.png', 'noto-emoji/png/512/emoji_u1f44d.png']"
+This is police_car_light [EM] woman_lifting_weights.,This is critical illness.,U+1F6A8 U+1F3CB U+FE0F U+200D U+2640 U+FE0F,0,Metaphorical,CRITICALITY,805.png,🚨🏋️‍♀️,"['noto-emoji/png/512/emoji_u1f6a8.png', 'noto-emoji/png/512/emoji_u1f3cb.png', 'noto-emoji/png/512/emoji_u2640.png']"
+This is thumbs_down [EM] coat.,This is dirty work.,U+1F44E U+1F9E5,0,Metaphorical,CLEANNESS,449.png,👎🧥,"['noto-emoji/png/512/emoji_u1f44e.png', 'noto-emoji/png/512/emoji_u1f9e5.png']"
+This is cross_mark [EM] hot_pepper [EM] tongue.,This is delicate china.,U+274C U+1F336 U+1F445,0,Direct,STRENGTH,1577.png,❌🌶👅,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f336.png', 'noto-emoji/png/512/emoji_u1f445.png']"
+This is palms_up_together [EM] handshake.,This is common brand.,U+1F932 U+1F91D,0,Metaphorical,FORMALITY,525.png,🤲🤝,"['noto-emoji/png/512/emoji_u1f932.png', 'noto-emoji/png/512/emoji_u1f91d.png']"
+speaking_head [EM] man_white_hair.,deep voice,U+1F5E3 U+FE0F U+1F468 U+200D U+1F9B3,1,Metaphorical,PITCH,1146.png,🗣️👨‍🦳,"['noto-emoji/png/512/emoji_u1f5e3.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f9b3.png']"
+mouth [EM] exploding_head.,warm debate,U+1F444 U+1F92F,1,Metaphorical,LIVELINESS,1006.png,👄🤯,"['noto-emoji/png/512/emoji_u1f444.png', 'noto-emoji/png/512/emoji_u1f92f.png']"
+down_arrow [EM] chair.,low furniture,U+2B07 U+FE0F U+1FA91,1,Direct,HEIGHT,789.png,⬇️🪑,"['noto-emoji/png/512/emoji_u2b07.png', 'noto-emoji/png/512/emoji_u1fa91.png']"
+This is thumbs_up [EM] coat [EM] cross_mark [EM] cold_face.,This is warm debate.,U+1F44D U+1F9E5 U+274C U+1F976,0,Direct,TEMPERATURE,1037.png,👍🧥❌🥶,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f9e5.png', 'noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f976.png']"
+grinning_face_with_smiling_eyes [EM] person_in_bed.,cozy room,U+1F604 U+1F6CC,1,Metaphorical,FRIENDLINESS,718.png,😄🛌,"['noto-emoji/png/512/emoji_u1f604.png', 'noto-emoji/png/512/emoji_u1f6cc.png']"
+fog [EM] sun_behind_large_cloud.,dull day,U+1F32B U+FE0F U+1F325 U+FE0F,1,Metaphorical,DULLNESS,693.png,🌫️🌥️,"['noto-emoji/png/512/emoji_u1f32b.png', 'noto-emoji/png/512/emoji_u1f325.png']"
+pouting_face [EM] face_with_steam_from_nose.,hot temper,U+1F621 U+1F624,1,Semantic list,EMOTIONALITY,108.png,😡😤,"['noto-emoji/png/512/emoji_u1f621.png', 'noto-emoji/png/512/emoji_u1f624.png']"
+airplane_departure [EM] airplane_arrival.,short holiday,U+1F6EB U+1F6EC,1,Metaphorical,DURATION,279.png,🛫🛬,"['noto-emoji/png/512/emoji_u1f6eb.png', 'noto-emoji/png/512/emoji_u1f6ec.png']"
+boy.,little boy,U+1F466,1,Single,AGE,596.png,👦,['noto-emoji/png/512/emoji_u1f466.png']
+This is heavy_dollar_sign [EM] money-mouth_face [EM] money-mouth_face.,This is low reservoir.,U+1F4B2 U+1F911 U+1F911,0,Metaphorical,DEGREE,782.png,💲🤑🤑,"['noto-emoji/png/512/emoji_u1f4b2.png', 'noto-emoji/png/512/emoji_u1f911.png', 'noto-emoji/png/512/emoji_u1f911.png']"
+fire [EM] squinting_face_with_tongue.,warm personality,U+1F525 U+1F61D,1,Direct,EMOTIONALITY,1042.png,🔥😝,"['noto-emoji/png/512/emoji_u1f525.png', 'noto-emoji/png/512/emoji_u1f61d.png']"
+chart_decreasing [EM] money_bag.,inadequate income,U+1F4C9 U+1F4B0,1,Direct,QUANTITY,1310.png,📉💰,"['noto-emoji/png/512/emoji_u1f4c9.png', 'noto-emoji/png/512/emoji_u1f4b0.png']"
+This is superhero [EM] man_superhero.,This is big city.,U+1F9B8 U+1F9B8 U+200D U+2642 U+FE0F,0,Metaphorical,CONSPICUOUSNESS,38.png,🦸🦸‍♂️,"['noto-emoji/png/512/emoji_u1f9b8.png', 'noto-emoji/png/512/emoji_u1f9b8.png', 'noto-emoji/png/512/emoji_u2642.png']"
+This is coat.,This is warm room.,U+1F9E5,0,Single,TEMPERATURE,1038.png,🧥,['noto-emoji/png/512/emoji_u1f9e5.png']
+expressionless_face [EM] calendar.,dull day,U+1F611 U+1F4C5,1,Direct,DULLNESS,691.png,😑📅,"['noto-emoji/png/512/emoji_u1f611.png', 'noto-emoji/png/512/emoji_u1f4c5.png']"
+This is red_question_mark [EM] face_with_raised_eyebrow.,This is puzzling statement.,U+2753 U+1F928,0,Metaphorical,CLARITY,1118.png,❓🤨,"['noto-emoji/png/512/emoji_u2753.png', 'noto-emoji/png/512/emoji_u1f928.png']"
+nerd_face [EM] brain.,internal sense,U+1F913 U+1F9E0,1,Metaphorical,INWARDNESS,1446.png,🤓🧠,"['noto-emoji/png/512/emoji_u1f913.png', 'noto-emoji/png/512/emoji_u1f9e0.png']"
+new_moon [EM] school [EM] shushing_face [EM] Japanese_secret_button.,dark corner,U+1F311 U+1F3EB U+1F92B U+3299 U+FE0F,1,Metaphorical,LIGHT,196.png,🌑🏫🤫㊙️,"['noto-emoji/png/512/emoji_u1f311.png', 'noto-emoji/png/512/emoji_u1f3eb.png', 'noto-emoji/png/512/emoji_u1f92b.png', 'noto-emoji/png/512/emoji_u3299.png']"
+This is drop_of_blood [EM] face_screaming_in_fear [EM] face_with_crossed-out_eyes [EM] kitchen_knife.,This is deep sleep.,U+1FA78 U+1F631 U+1F635 U+1F52A,0,Metaphorical,SIZE,1138.png,🩸😱😵🔪,"['noto-emoji/png/512/emoji_u1fa78.png', 'noto-emoji/png/512/emoji_u1f631.png', 'noto-emoji/png/512/emoji_u1f635.png', 'noto-emoji/png/512/emoji_u1f52a.png']"
+This is man_gesturing_NO [EM] motorway.,This is wrong medicine.,U+1F645 U+200D U+2642 U+FE0F U+1F6E3 U+FE0F,0,Direct,CORRECTNESS,933.png,🙅‍♂️🛣️,"['noto-emoji/png/512/emoji_u1f645.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f6e3.png']"
+check_mark [EM] briefcase.,clear case,U+2714 U+FE0F U+1F4BC,1,Direct,CLARITY,1071.png,✔️💼,"['noto-emoji/png/512/emoji_u2714.png', 'noto-emoji/png/512/emoji_u1f4bc.png']"
+This is party_popper [EM] raising_hands [EM] hundred_points [EM] family_man_woman_girl_boy.,This is idyllic spot.,U+1F389 U+1F64C U+1F4AF U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466,0,Semantic list,PLEASANTNESS,1331.png,🎉🙌💯👨‍👩‍👧‍👦,"['noto-emoji/png/512/emoji_u1f389.png', 'noto-emoji/png/512/emoji_u1f64c.png', 'noto-emoji/png/512/emoji_u1f4af.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f467.png', 'noto-emoji/png/512/emoji_u1f466.png']"
+sunglasses [EM] sunglasses [EM] bust_in_silhouette.,dark shadow,U+1F576 U+1F576 U+1F464,1,Metaphorical,LIGHT,162.png,🕶🕶👤,"['noto-emoji/png/512/emoji_u1f576.png', 'noto-emoji/png/512/emoji_u1f576.png', 'noto-emoji/png/512/emoji_u1f464.png']"
+This is down-right_arrow [EM] person_bowing [EM] woman_bowing [EM] man_bowing.,This is low furniture.,U+2198 U+FE0F U+1F647 U+1F647 U+200D U+2640 U+FE0F U+1F647 U+200D U+2642 U+FE0F,0,Direct,HEIGHT,764.png,↘️🙇🙇‍♀️🙇‍♂️,"['noto-emoji/png/512/emoji_u2198.png', 'noto-emoji/png/512/emoji_u1f647.png', 'noto-emoji/png/512/emoji_u1f647.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u1f647.png', 'noto-emoji/png/512/emoji_u2642.png']"
+tornado [EM] fog [EM] fog.,dark day,U+1F32A U+1F32B U+1F32B,1,Metaphorical,LIGHT,170.png,🌪🌫🌫,"['noto-emoji/png/512/emoji_u1f32a.png', 'noto-emoji/png/512/emoji_u1f32b.png', 'noto-emoji/png/512/emoji_u1f32b.png']"
+thumbs_up [EM] footprints.,effective step,U+1F44D U+1F463,1,Direct,EFFECTIVENESS,1502.png,👍👣,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f463.png']"
+This is cross_mark [EM] pill [EM] face_with_thermometer.,This is wrong road.,U+274C U+1F48A U+1F912,0,Direct,PROPRIETY,956.png,❌💊🤒,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f48a.png', 'noto-emoji/png/512/emoji_u1f912.png']"
+hot_face [EM] house_with_garden.,warm room,U+1F975 U+1F3E1,1,Direct,TEMPERATURE,1011.png,🥵🏡,"['noto-emoji/png/512/emoji_u1f975.png', 'noto-emoji/png/512/emoji_u1f3e1.png']"
+thermometer [EM] coat.,warm coat,U+1F321 U+1F9E5,1,Direct,TEMPERATURE,1034.png,🌡🧥,"['noto-emoji/png/512/emoji_u1f321.png', 'noto-emoji/png/512/emoji_u1f9e5.png']"
+man_beard [EM] astonished_face [EM] up_arrow.,big man,U+1F9D4 U+200D U+2642 U+FE0F U+1F632 U+2B06 U+FE0F,1,Metaphorical,CONSPICUOUSNESS,32.png,🧔‍♂️😲⬆️,"['noto-emoji/png/512/emoji_u1f9d4.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f632.png', 'noto-emoji/png/512/emoji_u2b06.png']"
+warning [EM] package [EM] fork_and_knife_with_plate.,delicate china,U+26A0 U+FE0F U+1F4E6 U+1F37D U+FE0F,1,Metaphorical,STRENGTH,1552.png,⚠️📦🍽️,"['noto-emoji/png/512/emoji_u26a0.png', 'noto-emoji/png/512/emoji_u1f4e6.png', 'noto-emoji/png/512/emoji_u1f37d.png']"
+This is police_car_light [EM] mobile_phone_with_arrow.,This is immediate influence.,U+1F6A8 U+1F4F2,0,Direct,SPEED,845.png,🚨📲,"['noto-emoji/png/512/emoji_u1f6a8.png', 'noto-emoji/png/512/emoji_u1f4f2.png']"
+This is chart_increasing [EM] chart_decreasing [EM] red_exclamation_mark [EM] red_exclamation_mark.,This is critical mass.,U+1F4C8 U+1F4C9 U+2757 U+2757,0,Direct,CRISIS,816.png,📈📉❗❗,"['noto-emoji/png/512/emoji_u1f4c8.png', 'noto-emoji/png/512/emoji_u1f4c9.png', 'noto-emoji/png/512/emoji_u2757.png', 'noto-emoji/png/512/emoji_u2757.png']"
+This is new_moon_face.,This is dark glass.,U+1F31A,0,Single,LIGHT,166.png,🌚,['noto-emoji/png/512/emoji_u1f31a.png']
+up_arrow [EM] mountain.,high mountain,U+2B06 U+FE0F U+26F0 U+FE0F,1,Direct,HEIGHT,1220.png,⬆️⛰️,"['noto-emoji/png/512/emoji_u2b06.png', 'noto-emoji/png/512/emoji_u26f0.png']"
+fast-forward_button [EM] incoming_envelope.,immediate reply,U+23E9 U+1F4E8,1,Direct,SPEED,847.png,⏩📨,"['noto-emoji/png/512/emoji_u23e9.png', 'noto-emoji/png/512/emoji_u1f4e8.png']"
+men_holding_hands [EM] kiss_man_man [EM] hourglass_not_done [EM] hourglass_done [EM] revolving_hearts [EM] man_white_hair [EM] man_white_hair.,constant lover,U+1F46C U+1F468 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+23F3 U+231B U+1F49E U+1F468 U+200D U+1F9B3 U+1F468 U+200D U+1F9B3,1,Metaphorical,CONSTANCY,1421.png,👬👨‍❤️‍💋‍👨⏳⌛💞👨‍🦳👨‍🦳,"['noto-emoji/png/512/emoji_u1f46c.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u2764.png', 'noto-emoji/png/512/emoji_u1f48b.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u23f3.png', 'noto-emoji/png/512/emoji_u231b.png', 'noto-emoji/png/512/emoji_u1f49e.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f9b3.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f9b3.png']"
+This is speech_balloon [EM] check_mark [EM] cross_mark [EM] red_question_mark.,This is clear glass.,U+1F4AC U+2714 U+FE0F U+274C U+2753,0,Direct,CLARITY,1061.png,💬✔️❌❓,"['noto-emoji/png/512/emoji_u1f4ac.png', 'noto-emoji/png/512/emoji_u2714.png', 'noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u2753.png']"
+This is downcast_face_with_sweat [EM] package.,This is heavy fog.,U+1F613 U+1F4E6,0,Metaphorical,WEIGHT,549.png,😓📦,"['noto-emoji/png/512/emoji_u1f613.png', 'noto-emoji/png/512/emoji_u1f4e6.png']"
+This is bright_button [EM] sun.,This is bright dress.,U+1F506 U+2600 U+FE0F,0,Direct,LUMINOSITY,137.png,🔆☀️,"['noto-emoji/png/512/emoji_u1f506.png', 'noto-emoji/png/512/emoji_u2600.png']"
+This is bowl_with_spoon.,This is thick cream.,U+1F963,0,Single,CONSISTENCY,896.png,🥣,['noto-emoji/png/512/emoji_u1f963.png']
+tumbler_glass [EM] magnifying_glass_tilted_right.,clear glass,U+1F943 U+1F50E,1,Direct,CLEARNESS,1097.png,🥃🔎,"['noto-emoji/png/512/emoji_u1f943.png', 'noto-emoji/png/512/emoji_u1f50e.png']"
+face_exhaling [EM] face_exhaling.,deep sigh,U+1F62E U+200D U+1F4A8 U+1F62E U+200D U+1F4A8,1,Reduplication,DEPTH,1133.png,😮‍💨😮‍💨,"['noto-emoji/png/512/emoji_u1f62e.png', 'noto-emoji/png/512/emoji_u1f4a8.png', 'noto-emoji/png/512/emoji_u1f62e.png', 'noto-emoji/png/512/emoji_u1f4a8.png']"
+magnifying_glass_tilted_left [EM] man_detective [EM] party_popper.,clear-cut evidence,U+1F50D U+1F575 U+FE0F U+200D U+2642 U+FE0F U+1F389,1,Metaphorical,CLARITY,1108.png,🔍🕵️‍♂️🎉,"['noto-emoji/png/512/emoji_u1f50d.png', 'noto-emoji/png/512/emoji_u1f575.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f389.png']"
+This is hourglass_not_done [EM] persevering_face [EM] face_with_head-bandage.,This is constant lover.,U+23F3 U+1F623 U+1F915,0,Metaphorical,CONTINUITY,1427.png,⏳😣🤕,"['noto-emoji/png/512/emoji_u23f3.png', 'noto-emoji/png/512/emoji_u1f623.png', 'noto-emoji/png/512/emoji_u1f915.png']"
+oil_drum.,thin oil,U+1F6E2 U+FE0F,1,Single,CONSISTENCY,857.png,🛢️,['noto-emoji/png/512/emoji_u1f6e2.png']
+fire [EM] nesting_dolls.,hot doll,U+1F525 U+1FA86,1,Direct,POPULARITY,67.png,🔥🪆,"['noto-emoji/png/512/emoji_u1f525.png', 'noto-emoji/png/512/emoji_u1fa86.png']"
+handshake [EM] desert_island.,common land,U+1F91D U+1F3DD U+FE0F,1,Direct,COMMONALITY,486.png,🤝🏝️,"['noto-emoji/png/512/emoji_u1f91d.png', 'noto-emoji/png/512/emoji_u1f3dd.png']"
+This is expressionless_face [EM] calendar.,This is dull glow.,U+1F611 U+1F4C5,0,Direct,DULLNESS,691.png,😑📅,"['noto-emoji/png/512/emoji_u1f611.png', 'noto-emoji/png/512/emoji_u1f4c5.png']"
+hourglass_not_done [EM] airplane.,short flight,U+23F3 U+2708 U+FE0F,1,Direct,DURATION,322.png,⏳✈️,"['noto-emoji/png/512/emoji_u23f3.png', 'noto-emoji/png/512/emoji_u2708.png']"
+shorts [EM] passenger_ship [EM] dashing_away.,short smokestack,U+1FA73 U+1F6F3 U+1F4A8,1,Direct,STATURE,296.png,🩳🛳💨,"['noto-emoji/png/512/emoji_u1fa73.png', 'noto-emoji/png/512/emoji_u1f6f3.png', 'noto-emoji/png/512/emoji_u1f4a8.png']"
+This is thumbs_up [EM] footprints.,This is effective entrance.,U+1F44D U+1F463,0,Direct,EFFECTIVENESS,1502.png,👍👣,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f463.png']"
+This is alien [EM] cityscape.,This is foreign nation.,U+1F47D U+1F3D9 U+FE0F,0,Direct,UNFAMILIARITY,1536.png,👽🏙️,"['noto-emoji/png/512/emoji_u1f47d.png', 'noto-emoji/png/512/emoji_u1f3d9.png']"
+woman_getting_haircut [EM] right_arrow [EM] woman_red_hair.,short hair,U+1F487 U+200D U+2640 U+FE0F U+27A1 U+FE0F U+1F469 U+200D U+1F9B0,1,Metaphorical,LENGTH,289.png,💇‍♀️➡️👩‍🦰,"['noto-emoji/png/512/emoji_u1f487.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u27a1.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f9b0.png']"
+This is dashing_away [EM] woman [EM] desktop_computer.,This is cool room.,U+1F4A8 U+1F469 U+1F5A5,0,Direct,EMOTIONALITY,1286.png,💨👩🖥,"['noto-emoji/png/512/emoji_u1f4a8.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f5a5.png']"
+speaker_low_volume [EM] speaking_head.,sound explanation,U+1F508 U+1F5E3,1,Direct,REASONABLENESS,1624.png,🔈🗣,"['noto-emoji/png/512/emoji_u1f508.png', 'noto-emoji/png/512/emoji_u1f5e3.png']"
+new_moon [EM] night_with_stars.,dark day,U+1F311 U+1F303,1,Direct,LIGHT,175.png,🌑🌃,"['noto-emoji/png/512/emoji_u1f311.png', 'noto-emoji/png/512/emoji_u1f303.png']"
+This is control_knobs [EM] alarm_clock [EM] bread [EM] hot_springs.,This is fresh air.,U+1F39B U+FE0F U+23F0 U+1F35E U+2668 U+FE0F,0,Metaphorical,FRESHNESS,1584.png,🎛️⏰🍞♨️,"['noto-emoji/png/512/emoji_u1f39b.png', 'noto-emoji/png/512/emoji_u23f0.png', 'noto-emoji/png/512/emoji_u1f35e.png', 'noto-emoji/png/512/emoji_u2668.png']"
+This is confused_face [EM] man.,This is average size.,U+1F615 U+1F468,0,Direct,COMMONNESS,382.png,😕👨,"['noto-emoji/png/512/emoji_u1f615.png', 'noto-emoji/png/512/emoji_u1f468.png']"
+This is memo.,This is thin oil.,U+1F4DD,0,Single,WIDTH,884.png,📝,['noto-emoji/png/512/emoji_u1f4dd.png']
+This is cross_mark [EM] information.,This is wrong medicine.,U+274C U+2139 U+FE0F,0,Direct,CORRECTNESS,961.png,❌ℹ️,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u2139.png']"
+man_beard [EM] money_bag.,big tipper,U+1F9D4 U+200D U+2642 U+FE0F U+1F4B0,1,Metaphorical,GENEROSITY,48.png,🧔‍♂️💰,"['noto-emoji/png/512/emoji_u1f9d4.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f4b0.png']"
+check_mark [EM] check_mark.,clear indication,U+2714 U+FE0F U+2714 U+FE0F,1,Reduplication,CLARITY,1057.png,✔️✔️,"['noto-emoji/png/512/emoji_u2714.png', 'noto-emoji/png/512/emoji_u2714.png']"
+This is expressionless_face [EM] unamused_face [EM] boxing_glove.,This is dirty job.,U+1F611 U+1F612 U+1F94A,0,Metaphorical,FAIRNESS,463.png,😑😒🥊,"['noto-emoji/png/512/emoji_u1f611.png', 'noto-emoji/png/512/emoji_u1f612.png', 'noto-emoji/png/512/emoji_u1f94a.png']"
+This is thermometer [EM] lab_coat.,This is warm personality.,U+1F321 U+FE0F U+1F97C,0,Direct,TEMPERATURE,1040.png,🌡️🥼,"['noto-emoji/png/512/emoji_u1f321.png', 'noto-emoji/png/512/emoji_u1f97c.png']"
+This is cross_mark [EM] flexed_biceps_light_skin_tone [EM] butterfly.,This is delicate china.,U+274C U+1F4AA U+1F3FB U+1F98B,0,Direct,STRENGTH,1561.png,❌💪🏻🦋,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f4aa.png', 'noto-emoji/png/512/emoji_u1f3fb.png', 'noto-emoji/png/512/emoji_u1f98b.png']"
+right_arrow [EM] hand_with_fingers_splayed.,right hand,U+27A1 U+FE0F U+1F590,1,Direct,POSITION,218.png,➡️🖐,"['noto-emoji/png/512/emoji_u27a1.png', 'noto-emoji/png/512/emoji_u1f590.png']"
+notebook [EM] notebook_with_decorative_cover [EM] speech_balloon [EM] thought_balloon.,common parlance,U+1F4D3 U+1F4D4 U+1F4AC U+1F4AD,1,Metaphorical,FORMALITY,528.png,📓📔💬💭,"['noto-emoji/png/512/emoji_u1f4d3.png', 'noto-emoji/png/512/emoji_u1f4d4.png', 'noto-emoji/png/512/emoji_u1f4ac.png', 'noto-emoji/png/512/emoji_u1f4ad.png']"
+This is canned_food [EM] soft_ice_cream.,This is thick smoke.,U+1F96B U+1F366,0,Metaphorical,CONSISTENCY,891.png,🥫🍦,"['noto-emoji/png/512/emoji_u1f96b.png', 'noto-emoji/png/512/emoji_u1f366.png']"
+right_arrow [EM] hundred_points.,right thing,U+27A1 U+FE0F U+1F4AF,1,Metaphorical,RIGHTNESS,266.png,➡️💯,"['noto-emoji/png/512/emoji_u27a1.png', 'noto-emoji/png/512/emoji_u1f4af.png']"
+This is Santa_Claus.,This is big group.,U+1F385,0,Single,CONSPICUOUSNESS,33.png,🎅,['noto-emoji/png/512/emoji_u1f385.png']
+ice [EM] cocktail_glass.,cool drink,U+1F9CA U+1F378,1,Metaphorical,TEMPERATURE,1268.png,🧊🍸,"['noto-emoji/png/512/emoji_u1f9ca.png', 'noto-emoji/png/512/emoji_u1f378.png']"
+This is persevering_face [EM] no_one_under_eighteen [EM] money_with_wings.,This is dirty dish.,U+1F623 U+1F51E U+1F4B8,0,Metaphorical,CLEANNESS,432.png,😣🔞💸,"['noto-emoji/png/512/emoji_u1f623.png', 'noto-emoji/png/512/emoji_u1f51e.png', 'noto-emoji/png/512/emoji_u1f4b8.png']"
+This is hot_face [EM] speech_balloon.,This is hot merchandise.,U+1F975 U+1F4AC,0,Direct,EMOTIONALITY,95.png,🥵💬,"['noto-emoji/png/512/emoji_u1f975.png', 'noto-emoji/png/512/emoji_u1f4ac.png']"
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty money.,U+274C U+2696 U+FE0F U+20 U+1F4AA U+1F468 U+200D U+1F9B2 U+1F4A2,0,Metaphorical,FAIRNESS,459.png,❌⚖️ 💪👨‍🦲💢,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u2696.png', 'noto-emoji/png/512/emoji_u1f4aa.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f9b2.png', 'noto-emoji/png/512/emoji_u1f4a2.png']"
+This is ice [EM] man_standing [EM] woman_standing.,This is cool breeze.,U+1F9CA U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2640 U+FE0F,0,Metaphorical,EMOTIONALITY,1277.png,🧊🧍‍♂️🧍‍♀️,"['noto-emoji/png/512/emoji_u1f9ca.png', 'noto-emoji/png/512/emoji_u1f9cd.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f9cd.png', 'noto-emoji/png/512/emoji_u2640.png']"
+This is bread [EM] timer_clock [EM] hot_springs.,This is fresh scent.,U+1F35E U+23F2 U+FE0F U+2668 U+FE0F,0,Metaphorical,FRESHNESS,1587.png,🍞⏲️♨️,"['noto-emoji/png/512/emoji_u1f35e.png', 'noto-emoji/png/512/emoji_u23f2.png', 'noto-emoji/png/512/emoji_u2668.png']"
+woman_gesturing_OK_light_skin_tone [EM] package.,ample supply,U+1F646 U+1F3FB U+200D U+2640 U+FE0F U+1F4E6,1,Direct,SUFFICIENCY,631.png,🙆🏻‍♀️📦,"['noto-emoji/png/512/emoji_u1f646.png', 'noto-emoji/png/512/emoji_u1f3fb.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u1f4e6.png']"
+pile_of_poo [EM] footprints.,dirty foot,U+1F4A9 U+1F463,1,Direct,CLEANNESS,414.png,💩👣,"['noto-emoji/png/512/emoji_u1f4a9.png', 'noto-emoji/png/512/emoji_u1f463.png']"
+house [EM] downwards_button.,little house,U+1F3E0 U+1F53D,1,Direct,SIZE,611.png,🏠🔽,"['noto-emoji/png/512/emoji_u1f3e0.png', 'noto-emoji/png/512/emoji_u1f53d.png']"
+This is pinching_hand [EM] fondue.,This is thin air.,U+1F90F U+1FAD5,0,Direct,CONSISTENCY,870.png,🤏🫕,"['noto-emoji/png/512/emoji_u1f90f.png', 'noto-emoji/png/512/emoji_u1fad5.png']"
+thinking_face [EM] thought_balloon [EM] light_bulb [EM] chart_increasing.,right decision,U+1F914 U+1F4AD U+1F4A1 U+1F4C8,1,Metaphorical,CORRECTNESS,238.png,🤔💭💡📈,"['noto-emoji/png/512/emoji_u1f914.png', 'noto-emoji/png/512/emoji_u1f4ad.png', 'noto-emoji/png/512/emoji_u1f4a1.png', 'noto-emoji/png/512/emoji_u1f4c8.png']"
+This is busts_in_silhouette [EM] mountain.,This is common man.,U+1F465 U+26F0,0,Direct,COMMONALITY,483.png,👥⛰,"['noto-emoji/png/512/emoji_u1f465.png', 'noto-emoji/png/512/emoji_u26f0.png']"
+face_exhaling.,deep sigh,U+1F62E U+200D U+1F4A8,1,Single,DEPTH,1132.png,😮‍💨,"['noto-emoji/png/512/emoji_u1f62e.png', 'noto-emoji/png/512/emoji_u1f4a8.png']"
+This is cityscape [EM] up-down_arrow [EM] left-right_arrow.,This is big voice.,U+1F3D9 U+2195 U+FE0F U+2194 U+FE0F,0,Metaphorical,SIZE,45.png,🏙↕️↔️,"['noto-emoji/png/512/emoji_u1f3d9.png', 'noto-emoji/png/512/emoji_u2195.png', 'noto-emoji/png/512/emoji_u2194.png']"
+This is person_shrugging [EM] money_with_wings [EM] houses.,This is inadequate training.,U+1F937 U+1F4B8 U+1F3D8 U+FE0F,0,Metaphorical,QUANTITY,1308.png,🤷💸🏘️,"['noto-emoji/png/512/emoji_u1f937.png', 'noto-emoji/png/512/emoji_u1f4b8.png', 'noto-emoji/png/512/emoji_u1f3d8.png']"
+This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far journey.,U+1F30E U+2194 U+FE0F U+1F30F,0,Metaphorical,DISTANCE,373.png,🌎↔️🌏,"['noto-emoji/png/512/emoji_u1f30e.png', 'noto-emoji/png/512/emoji_u2194.png', 'noto-emoji/png/512/emoji_u1f30f.png']"
+dashing_away [EM] woman [EM] desktop_computer.,cool reception,U+1F4A8 U+1F469 U+1F5A5,1,Direct,EMOTIONALITY,1286.png,💨👩🖥,"['noto-emoji/png/512/emoji_u1f4a8.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f5a5.png']"
+This is nauseated_face [EM] luggage.,This is dirty work.,U+1F922 U+1F9F3,0,Direct,CLEANNESS,407.png,🤢🧳,"['noto-emoji/png/512/emoji_u1f922.png', 'noto-emoji/png/512/emoji_u1f9f3.png']"
+chart_decreasing [EM] chart_decreasing.,low ceiling,U+1F4C9 U+1F4C9,1,Reduplication,HEIGHT,755.png,📉📉,"['noto-emoji/png/512/emoji_u1f4c9.png', 'noto-emoji/png/512/emoji_u1f4c9.png']"
+clapping_hands [EM] ladder.,effective step,U+1F44F U+1FA9C,1,Metaphorical,EFFECTIVENESS,1497.png,👏🪜,"['noto-emoji/png/512/emoji_u1f44f.png', 'noto-emoji/png/512/emoji_u1fa9c.png']"
+"sun [EM] , [EM] face_with_thermometer [EM] thermometer [EM] face_with_medical_mask [EM] sleeping_face [EM] cold_face.",hot forehead,U+2600 U+FE0F U+2C U+20 U+1F912 U+1F321 U+FE0F U+1F637 U+1F634 U+1F976,1,Metaphorical,TEMPERATURE,120.png,"☀️, 🤒🌡️😷😴🥶","['noto-emoji/png/512/emoji_u2600.png', 'noto-emoji/png/512/emoji_u1f912.png', 'noto-emoji/png/512/emoji_u1f321.png', 'noto-emoji/png/512/emoji_u1f637.png', 'noto-emoji/png/512/emoji_u1f634.png', 'noto-emoji/png/512/emoji_u1f976.png']"
+This is heart_suit [EM] family_man_woman_girl_boy [EM] briefcase [EM] money_bag [EM] money_bag [EM] money_bag [EM] hundred_points.,This is full auditorium.,U+2665 U+FE0F U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466 U+1F4BC U+1F4B0 U+1F4B0 U+1F4B0 U+1F4AF,0,Metaphorical,FULLNESS,586.png,♥️👨‍👩‍👧‍👦💼💰💰💰💯,"['noto-emoji/png/512/emoji_u2665.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f467.png', 'noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f4bc.png', 'noto-emoji/png/512/emoji_u1f4b0.png', 'noto-emoji/png/512/emoji_u1f4b0.png', 'noto-emoji/png/512/emoji_u1f4b0.png', 'noto-emoji/png/512/emoji_u1f4af.png']"
+This is pinching_hand [EM] speaking_head [EM] open_book.,This is short smokestack.,U+1F90F U+1F5E3 U+FE0F U+1F4D6,0,Direct,DURATION,342.png,🤏🗣️📖,"['noto-emoji/png/512/emoji_u1f90f.png', 'noto-emoji/png/512/emoji_u1f5e3.png', 'noto-emoji/png/512/emoji_u1f4d6.png']"
+house [EM] broom.,domestic chore,U+1F3E0 U+1F9F9,1,Direct,DOMESTICITY,1361.png,🏠🧹,"['noto-emoji/png/512/emoji_u1f3e0.png', 'noto-emoji/png/512/emoji_u1f9f9.png']"
+This is cross_mark [EM] hot_pepper [EM] tongue.,This is delicate negotiation.,U+274C U+1F336 U+1F445,0,Direct,STRENGTH,1577.png,❌🌶👅,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f336.png', 'noto-emoji/png/512/emoji_u1f445.png']"
+This is face_exhaling.,This is deep concentration.,U+1F62E U+200D U+1F4A8,0,Single,DEPTH,1129.png,😮‍💨,"['noto-emoji/png/512/emoji_u1f62e.png', 'noto-emoji/png/512/emoji_u1f4a8.png']"
+This is man_running [EM] telephone_receiver [EM] thought_balloon.,This is immediate influence.,U+1F3C3 U+200D U+2642 U+FE0F U+1F4DE U+1F4AD,0,Metaphorical,SPEED,846.png,🏃‍♂️📞💭,"['noto-emoji/png/512/emoji_u1f3c3.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f4de.png', 'noto-emoji/png/512/emoji_u1f4ad.png']"
+woman_scientist [EM] red_exclamation_mark.,critical element,U+1F469 U+200D U+1F52C U+2757,1,Metaphorical,DISPENSABILITY,840.png,👩‍🔬❗,"['noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f52c.png', 'noto-emoji/png/512/emoji_u2757.png']"
+fog [EM] dashing_away.,heavy fog,U+1F32B U+FE0F U+1F4A8,1,Metaphorical,THICKNESS,557.png,🌫️💨,"['noto-emoji/png/512/emoji_u1f32b.png', 'noto-emoji/png/512/emoji_u1f4a8.png']"
+This is sparkles [EM] national_park.,This is idyllic life.,U+2728 U+1F3DE U+FE0F,0,Metaphorical,PERFECTION,1337.png,✨🏞️,"['noto-emoji/png/512/emoji_u2728.png', 'noto-emoji/png/512/emoji_u1f3de.png']"
+This is name_badge [EM] thermometer [EM] fondue.,This is hot argument.,U+1F4DB U+1F321 U+FE0F U+1FAD5,0,Direct,TEMPERATURE,87.png,📛🌡️🫕,"['noto-emoji/png/512/emoji_u1f4db.png', 'noto-emoji/png/512/emoji_u1f321.png', 'noto-emoji/png/512/emoji_u1fad5.png']"
+thermometer [EM] women’s_room [EM] men’s_room.,warm room,U+1F321 U+1F6BA U+1F6B9,1,Direct,TEMPERATURE,1010.png,🌡🚺🚹,"['noto-emoji/png/512/emoji_u1f321.png', 'noto-emoji/png/512/emoji_u1f6ba.png', 'noto-emoji/png/512/emoji_u1f6b9.png']"
+This is speaker_high_volume [EM] thinking_face [EM] red_question_mark [EM] red_question_mark.,This is foreign nation.,U+1F50A U+1F914 U+2753 U+2753,0,Metaphorical,FOREIGNNESS,1522.png,🔊🤔❓❓,"['noto-emoji/png/512/emoji_u1f50a.png', 'noto-emoji/png/512/emoji_u1f914.png', 'noto-emoji/png/512/emoji_u2753.png', 'noto-emoji/png/512/emoji_u2753.png']"
+busts_in_silhouette [EM] syringe [EM] stethoscope [EM] adhesive_bandage [EM] drop_of_blood [EM] health_worker [EM] busts_in_silhouette.,common procedure,U+1F465 U+1F489 U+1FA7A U+1FA79 U+1FA78 U+1F9D1 U+200D U+2695 U+FE0F U+1F465,1,Metaphorical,COMMONNESS,471.png,👥💉🩺🩹🩸🧑‍⚕️👥,"['noto-emoji/png/512/emoji_u1f465.png', 'noto-emoji/png/512/emoji_u1f489.png', 'noto-emoji/png/512/emoji_u1fa7a.png', 'noto-emoji/png/512/emoji_u1fa79.png', 'noto-emoji/png/512/emoji_u1fa78.png', 'noto-emoji/png/512/emoji_u1f9d1.png', 'noto-emoji/png/512/emoji_u2695.png', 'noto-emoji/png/512/emoji_u1f465.png']"
+This is hole [EM] face_exhaling.,This is deep breath.,U+1F573 U+FE0F U+1F62E U+200D U+1F4A8,0,Direct,DEPTH,1127.png,🕳️😮‍💨,"['noto-emoji/png/512/emoji_u1f573.png', 'noto-emoji/png/512/emoji_u1f62e.png', 'noto-emoji/png/512/emoji_u1f4a8.png']"
+hot_face [EM] potable_water.,hot water,U+1F975 U+1F6B0,1,Direct,TEMPERATURE,73.png,🥵🚰,"['noto-emoji/png/512/emoji_u1f975.png', 'noto-emoji/png/512/emoji_u1f6b0.png']"
+pinching_hand [EM] diya_lamp.,thin oil,U+1F90F U+1FA94,1,Direct,CONSISTENCY,859.png,🤏🪔,"['noto-emoji/png/512/emoji_u1f90f.png', 'noto-emoji/png/512/emoji_u1fa94.png']"
+This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high forehead.,U+1F51D U+1F449 U+1F5FC,0,Direct,DEGREE,1258.png,🔝👉🗼,"['noto-emoji/png/512/emoji_u1f51d.png', 'noto-emoji/png/512/emoji_u1f449.png', 'noto-emoji/png/512/emoji_u1f5fc.png']"
+This is man_gesturing_NO [EM] smiling_face_with_horns [EM] shushing_face [EM] writing_hand [EM] page_facing_up [EM] books [EM] hundred_points.,This is wrong way.,U+1F645 U+200D U+2642 U+FE0F U+1F608 U+1F92B U+270D U+FE0F U+1F4C4 U+1F4DA U+1F4AF,0,Metaphorical,RIGHTNESS,941.png,🙅‍♂️😈🤫✍️📄📚💯,"['noto-emoji/png/512/emoji_u1f645.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f608.png', 'noto-emoji/png/512/emoji_u1f92b.png', 'noto-emoji/png/512/emoji_u270d.png', 'noto-emoji/png/512/emoji_u1f4c4.png', 'noto-emoji/png/512/emoji_u1f4da.png', 'noto-emoji/png/512/emoji_u1f4af.png']"
+This is cross_mark [EM] teacher.,This is inadequate income.,U+274C U+1F9D1 U+200D U+1F3EB,0,Direct,ADEQUACY,1311.png,❌🧑‍🏫,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f9d1.png', 'noto-emoji/png/512/emoji_u1f3eb.png']"
+This is backhand_index_pointing_right [EM] eyes [EM] backhand_index_pointing_left.,This is internal mechanism.,U+1F449 U+1F440 U+1F448,0,Metaphorical,INWARDNESS,1444.png,👉👀👈,"['noto-emoji/png/512/emoji_u1f449.png', 'noto-emoji/png/512/emoji_u1f440.png', 'noto-emoji/png/512/emoji_u1f448.png']"
+castle [EM] crown [EM] thumbs_down [EM] thumbs_down [EM] thumbs_down [EM] men_holding_hands [EM] women_holding_hands [EM] pouting_face.,ineffectual ruler,U+1F3F0 U+1F451 U+1F44E U+1F44E U+1F44E U+1F46C U+1F46D U+1F621,1,Metaphorical,POTENCY,1381.png,🏰👑👎👎👎👬👭😡,"['noto-emoji/png/512/emoji_u1f3f0.png', 'noto-emoji/png/512/emoji_u1f451.png', 'noto-emoji/png/512/emoji_u1f44e.png', 'noto-emoji/png/512/emoji_u1f44e.png', 'noto-emoji/png/512/emoji_u1f44e.png', 'noto-emoji/png/512/emoji_u1f46c.png', 'noto-emoji/png/512/emoji_u1f46d.png', 'noto-emoji/png/512/emoji_u1f621.png']"
+This is new_moon [EM] boomerang.,This is dark purpose.,U+1F311 U+1FA83,0,Direct,LIGHT,198.png,🌑🪃,"['noto-emoji/png/512/emoji_u1f311.png', 'noto-emoji/png/512/emoji_u1fa83.png']"
+speaking_head [EM] check_mark.,right thing,U+1F5E3 U+FE0F U+2714 U+FE0F,1,Metaphorical,RIGHTNESS,270.png,🗣️✔️,"['noto-emoji/png/512/emoji_u1f5e3.png', 'noto-emoji/png/512/emoji_u2714.png']"
+This is family [EM] smiling_face_with_hearts.,This is warm greeting.,U+1F46A U+1F970,0,Metaphorical,EMOTIONALITY,988.png,👪🥰,"['noto-emoji/png/512/emoji_u1f46a.png', 'noto-emoji/png/512/emoji_u1f970.png']"
+This is thumbs_up [EM] speaking_head.,This is sound approach.,U+1F44D U+1F5E3 U+FE0F,0,Direct,REASONABLENESS,1621.png,👍🗣️,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f5e3.png']"
+OK_hand_light_skin_tone [EM] fork_and_knife_with_plate [EM] red_apple.,ample food,U+1F44C U+1F3FB U+1F37D U+1F34E,1,Metaphorical,QUANTITY,621.png,👌🏻🍽🍎,"['noto-emoji/png/512/emoji_u1f44c.png', 'noto-emoji/png/512/emoji_u1f3fb.png', 'noto-emoji/png/512/emoji_u1f37d.png', 'noto-emoji/png/512/emoji_u1f34e.png']"
+house [EM] collision.,low ceiling,U+1F3E0 U+1F4A5,1,Direct,HEIGHT,759.png,🏠💥,"['noto-emoji/png/512/emoji_u1f3e0.png', 'noto-emoji/png/512/emoji_u1f4a5.png']"
+house_with_garden [EM] people_hugging [EM] smiling_face_with_smiling_eyes [EM] house_with_garden.,domestic happiness,U+1F3E1 U+1FAC2 U+1F60A U+1F3E1,1,Direct,DOMESTICITY,1351.png,🏡🫂😊🏡,"['noto-emoji/png/512/emoji_u1f3e1.png', 'noto-emoji/png/512/emoji_u1fac2.png', 'noto-emoji/png/512/emoji_u1f60a.png', 'noto-emoji/png/512/emoji_u1f3e1.png']"
+window [EM] briefcase.,clear case,U+1FA9F U+1F4BC,1,Direct,CLARITY,1073.png,🪟💼,"['noto-emoji/png/512/emoji_u1fa9f.png', 'noto-emoji/png/512/emoji_u1f4bc.png']"
+label [EM] money_bag.,high price,U+1F3F7 U+1F4B0,1,Metaphorical,DEGREE,1188.png,🏷💰,"['noto-emoji/png/512/emoji_u1f3f7.png', 'noto-emoji/png/512/emoji_u1f4b0.png']"
+This is cross_mark [EM] pencil [EM] axe [EM] wrench.,This is short month.,U+274C U+270F U+FE0F U+1FA93 U+1F527,0,Direct,QUANTITY,306.png,❌✏️🪓🔧,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u270f.png', 'noto-emoji/png/512/emoji_u1fa93.png', 'noto-emoji/png/512/emoji_u1f527.png']"
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty dish.,U+1F635 U+200D U+1F4AB U+1F616 U+1F449 U+1F6C1,0,Metaphorical,CLEANNESS,451.png,😵‍💫😖👉🛁,"['noto-emoji/png/512/emoji_u1f635.png', 'noto-emoji/png/512/emoji_u1f4ab.png', 'noto-emoji/png/512/emoji_u1f616.png', 'noto-emoji/png/512/emoji_u1f449.png', 'noto-emoji/png/512/emoji_u1f6c1.png']"
+This is thumbs_up [EM] angry_face [EM] pouting_face [EM] face_with_steam_from_nose.,This is remarkable sight.,U+1F44D U+1F620 U+1F621 U+1F624,0,Direct,EFFICACY,1506.png,👍😠😡😤,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f620.png', 'noto-emoji/png/512/emoji_u1f621.png', 'noto-emoji/png/512/emoji_u1f624.png']"
+This is man_standing [EM] flexed_biceps.,This is big expenditure.,U+1F9CD U+200D U+2642 U+FE0F U+1F4AA,0,Metaphorical,CONSPICUOUSNESS,35.png,🧍‍♂️💪,"['noto-emoji/png/512/emoji_u1f9cd.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f4aa.png']"
+tornado [EM] desert_island.,dry land,U+1F32A U+FE0F U+20 U+1F3DD U+FE0F,1,Metaphorical,WETNESS,1467.png,🌪️ 🏝️,"['noto-emoji/png/512/emoji_u1f32a.png', 'noto-emoji/png/512/emoji_u1f3dd.png']"
+up_arrow [EM] woman_bald.,high forehead,U+2B06 U+FE0F U+1F469 U+200D U+1F9B2,1,Direct,HEIGHT,1195.png,⬆️👩‍🦲,"['noto-emoji/png/512/emoji_u2b06.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f9b2.png']"
+hot_springs [EM] paintbrush.,dry paint,U+2668 U+FE0F U+1F58C U+FE0F,1,Direct,WETNESS,1462.png,♨️🖌️,"['noto-emoji/png/512/emoji_u2668.png', 'noto-emoji/png/512/emoji_u1f58c.png']"
+face_with_thermometer [EM] double_exclamation_mark.,critical illness,U+1F912 U+203C U+FE0F,1,Direct,CRISIS,798.png,🤒‼️,"['noto-emoji/png/512/emoji_u1f912.png', 'noto-emoji/png/512/emoji_u203c.png']"
+This is man_with_veil [EM] woman_with_veil [EM] man_in_tuxedo [EM] woman_in_tuxedo.,This is big expenditure.,U+1F470 U+200D U+2642 U+FE0F U+1F470 U+200D U+2640 U+FE0F U+1F935 U+200D U+2642 U+FE0F U+1F935 U+200D U+2640 U+FE0F,0,Metaphorical,IMPORTANCE,60.png,👰‍♂️👰‍♀️🤵‍♂️🤵‍♀️,"['noto-emoji/png/512/emoji_u1f470.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f470.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u1f935.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f935.png', 'noto-emoji/png/512/emoji_u2640.png']"
+cloud_with_lightning [EM] fog.,dull sky,U+1F329 U+FE0F U+1F32B U+FE0F,1,Metaphorical,LUMINOSITY,679.png,🌩️🌫️,"['noto-emoji/png/512/emoji_u1f329.png', 'noto-emoji/png/512/emoji_u1f32b.png']"
+This is hourglass_done [EM] notebook_with_decorative_cover.,This is short hair.,U+231B U+1F4D4,0,Direct,DURATION,339.png,⌛📔,"['noto-emoji/png/512/emoji_u231b.png', 'noto-emoji/png/512/emoji_u1f4d4.png']"
+This is speaking_head [EM] woman_shrugging.,This is foreign city.,U+1F5E3 U+FE0F U+1F937 U+200D U+2640 U+FE0F,0,Metaphorical,FOREIGNNESS,1525.png,🗣️🤷‍♀️,"['noto-emoji/png/512/emoji_u1f5e3.png', 'noto-emoji/png/512/emoji_u1f937.png', 'noto-emoji/png/512/emoji_u2640.png']"
+TOP_arrow [EM] index_pointing_up.,high point,U+1F51D U+261D U+FE0F,1,Direct,DEGREE,1255.png,🔝☝️,"['noto-emoji/png/512/emoji_u1f51d.png', 'noto-emoji/png/512/emoji_u261d.png']"
+mechanical_leg [EM] woman_mechanic.,internal mechanism,U+1F9BF U+1F469 U+200D U+1F527,1,Metaphorical,POSITION,1454.png,🦿👩‍🔧,"['noto-emoji/png/512/emoji_u1f9bf.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f527.png']"
+This is house [EM] collision.,This is low supply.,U+1F3E0 U+1F4A5,0,Direct,HEIGHT,759.png,🏠💥,"['noto-emoji/png/512/emoji_u1f3e0.png', 'noto-emoji/png/512/emoji_u1f4a5.png']"
+person_lifting_weights_light_skin_tone [EM] tractor [EM] luggage.,heavy load,U+1F3CB U+1F3FB U+1F69C U+1F9F3,1,Direct,WEIGHT,547.png,🏋🏻🚜🧳,"['noto-emoji/png/512/emoji_u1f3cb.png', 'noto-emoji/png/512/emoji_u1f3fb.png', 'noto-emoji/png/512/emoji_u1f69c.png', 'noto-emoji/png/512/emoji_u1f9f3.png']"
+face_savoring_food [EM] nose.,fresh scent,U+1F60B U+1F443,1,Metaphorical,FRESHNESS,1600.png,😋👃,"['noto-emoji/png/512/emoji_u1f60b.png', 'noto-emoji/png/512/emoji_u1f443.png']"
+This is sun [EM] thermometer [EM] chart_increasing.,This is warm debate.,U+2600 U+FE0F U+1F321 U+FE0F U+1F4C8,0,Metaphorical,TEMPERATURE,1029.png,☀️🌡️📈,"['noto-emoji/png/512/emoji_u2600.png', 'noto-emoji/png/512/emoji_u1f321.png', 'noto-emoji/png/512/emoji_u1f4c8.png']"
+This is woman_raising_hand [EM] thumbs_up [EM] check_mark_button.,This is right hand.,U+1F64B U+200D U+2640 U+FE0F U+1F44D U+2705,0,Metaphorical,CORRECTNESS,247.png,🙋‍♀️👍✅,"['noto-emoji/png/512/emoji_u1f64b.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u2705.png']"
+This is plunger [EM] toilet [EM] broom.,This is dirty fighter.,U+1FAA0 U+1F6BD U+1F9F9,0,Metaphorical,CLEANNESS,403.png,🪠🚽🧹,"['noto-emoji/png/512/emoji_u1faa0.png', 'noto-emoji/png/512/emoji_u1f6bd.png', 'noto-emoji/png/512/emoji_u1f9f9.png']"
+brain [EM] red_question_mark [EM] speech_balloon.,intelligent question,U+1F9E0 U+2753 U+1F4AC,1,Direct,INTELLIGENCE,1392.png,🧠❓💬,"['noto-emoji/png/512/emoji_u1f9e0.png', 'noto-emoji/png/512/emoji_u2753.png', 'noto-emoji/png/512/emoji_u1f4ac.png']"
+This is TOP_arrow [EM] skull_and_crossbones.,This is high building.,U+1F51D U+2620 U+FE0F,0,Direct,DEGREE,1232.png,🔝☠️,"['noto-emoji/png/512/emoji_u1f51d.png', 'noto-emoji/png/512/emoji_u2620.png']"
+NEW_button [EM] airplane.,fresh air,U+1F195 U+2708 U+FE0F,1,Direct,PURITY,1612.png,🆕✈️,"['noto-emoji/png/512/emoji_u1f195.png', 'noto-emoji/png/512/emoji_u2708.png']"
+woman [EM] smiling_face_with_heart-eyes [EM] man [EM] check_mark.,right man,U+1F469 U+1F60D U+1F468 U+2714 U+FE0F,1,Metaphorical,APPROPRIATENESS,254.png,👩😍👨✔️,"['noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f60d.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u2714.png']"
+beaming_face_with_smiling_eyes [EM] partying_face.,warm personality,U+1F601 U+1F973,1,Semantic list,EMOTIONALITY,1047.png,😁🥳,"['noto-emoji/png/512/emoji_u1f601.png', 'noto-emoji/png/512/emoji_u1f973.png']"
+new_moon [EM] no_one_under_eighteen [EM] water_wave.,dark undercurrent,U+1F311 U+1F51E U+1F30A,1,Direct,EVIL,188.png,🌑🔞🌊,"['noto-emoji/png/512/emoji_u1f311.png', 'noto-emoji/png/512/emoji_u1f51e.png', 'noto-emoji/png/512/emoji_u1f30a.png']"
+This is open_hands [EM] chart_increasing.,This is ample waistline.,U+1F450 U+1F4C8,0,Metaphorical,SUFFICIENCY,632.png,👐📈,"['noto-emoji/png/512/emoji_u1f450.png', 'noto-emoji/png/512/emoji_u1f4c8.png']"
+cityscape_at_dusk [EM] exploding_head.,big city,U+1F306 U+1F92F,1,Metaphorical,SIZE,44.png,🌆🤯,"['noto-emoji/png/512/emoji_u1f306.png', 'noto-emoji/png/512/emoji_u1f92f.png']"
+face_screaming_in_fear [EM] shopping_bags [EM] shopping_cart.,low supply,U+1F631 U+1F6CD U+FE0F U+1F6D2,1,Metaphorical,QUANTITY,742.png,😱🛍️🛒,"['noto-emoji/png/512/emoji_u1f631.png', 'noto-emoji/png/512/emoji_u1f6cd.png', 'noto-emoji/png/512/emoji_u1f6d2.png']"
+This is clapping_hands [EM] boy [EM] person_curly_hair.,This is common knowledge.,U+1F44F U+1F466 U+1F9D1 U+200D U+1F9B1,0,Metaphorical,FORMALITY,526.png,👏👦🧑‍🦱,"['noto-emoji/png/512/emoji_u1f44f.png', 'noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f9d1.png', 'noto-emoji/png/512/emoji_u1f9b1.png']"
+This is COOL_button [EM] woman_and_man_holding_hands.,This is cool room.,U+1F192 U+1F46B,0,Direct,EMOTIONALITY,1275.png,🆒👫,"['noto-emoji/png/512/emoji_u1f192.png', 'noto-emoji/png/512/emoji_u1f46b.png']"
+dress [EM] sparkles.,bright dress,U+1F457 U+2728,1,Direct,COLOR,149.png,👗✨,"['noto-emoji/png/512/emoji_u1f457.png', 'noto-emoji/png/512/emoji_u2728.png']"
+magnifying_glass_tilted_right [EM] glass_of_milk.,clear glass,U+1F50E U+1F95B,1,Direct,CLEARNESS,1091.png,🔎🥛,"['noto-emoji/png/512/emoji_u1f50e.png', 'noto-emoji/png/512/emoji_u1f95b.png']"
+This is speaking_head [EM] anger_symbol.,This is big group.,U+1F5E3 U+FE0F U+1F4A2,0,Metaphorical,VOLUME,20.png,🗣️💢,"['noto-emoji/png/512/emoji_u1f5e3.png', 'noto-emoji/png/512/emoji_u1f4a2.png']"
+This is smiling_face_with_smiling_eyes [EM] house.,This is cozy nook.,U+1F60A U+1F3E0,0,Direct,FRIENDLINESS,713.png,😊🏠,"['noto-emoji/png/512/emoji_u1f60a.png', 'noto-emoji/png/512/emoji_u1f3e0.png']"
+This is cross_mark [EM] page_with_curl.,This is wrong medicine.,U+274C U+FE0F U+1F4C3,0,Direct,CORRECTNESS,926.png,❌️📃,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f4c3.png']"
+This is speaker_high_volume [EM] person_walking.,This is sound explanation.,U+1F50A U+1F6B6,0,Direct,REASONABLENESS,1632.png,🔊🚶,"['noto-emoji/png/512/emoji_u1f50a.png', 'noto-emoji/png/512/emoji_u1f6b6.png']"
+This is yen_banknote [EM] yen_banknote [EM] man_getting_massage [EM] man_getting_haircut.,This is big business.,U+1F4B4 U+1F4B4 U+1F486 U+200D U+2642 U+FE0F U+1F487 U+200D U+2642 U+FE0F,0,Metaphorical,GENEROSITY,50.png,💴💴💆‍♂️💇‍♂️,"['noto-emoji/png/512/emoji_u1f4b4.png', 'noto-emoji/png/512/emoji_u1f4b4.png', 'noto-emoji/png/512/emoji_u1f486.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f487.png', 'noto-emoji/png/512/emoji_u2642.png']"
+house [EM] keyboard.,domestic chore,U+1F3E0 U+2328 U+FE0F,1,Metaphorical,DOMESTICITY,1360.png,🏠⌨️,"['noto-emoji/png/512/emoji_u1f3e0.png', 'noto-emoji/png/512/emoji_u2328.png']"
+This is chart_decreasing [EM] clipboard [EM] check_mark_button.,This is ample waistline.,U+1F4C9 U+1F4CB U+2705,0,Metaphorical,SUFFICIENCY,627.png,📉📋✅,"['noto-emoji/png/512/emoji_u1f4c9.png', 'noto-emoji/png/512/emoji_u1f4cb.png', 'noto-emoji/png/512/emoji_u2705.png']"
+This is smiling_face_with_hearts.,This is warm room.,U+1F970,0,Single,EMOTIONALITY,990.png,🥰,['noto-emoji/png/512/emoji_u1f970.png']
+man_curly_hair [EM] woman_curly_hair.,short hair,U+1F468 U+200D U+1F9B1 U+1F469 U+200D U+1F9B1,1,Semantic list,LENGTH,295.png,👨‍🦱👩‍🦱,"['noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f9b1.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f9b1.png']"
+This is pinched_fingers_light_skin_tone [EM] wavy_dash.,This is thin soup.,U+1F90C U+1F3FB U+3030,0,Direct,WIDTH,888.png,🤌🏻〰,"['noto-emoji/png/512/emoji_u1f90c.png', 'noto-emoji/png/512/emoji_u1f3fb.png', 'noto-emoji/png/512/emoji_u3030.png']"
+hospital.,critical stage,U+1F3E5,1,Single,CRISIS,811.png,🏥,['noto-emoji/png/512/emoji_u1f3e5.png']
+revolving_hearts [EM] steaming_bowl.,delicate flavor,U+1F49E U+1F35C,1,Metaphorical,STRENGTH,1575.png,💞🍜,"['noto-emoji/png/512/emoji_u1f49e.png', 'noto-emoji/png/512/emoji_u1f35c.png']"
+hot_springs [EM] slightly_smiling_face [EM] bust_in_silhouette.,warm personality,U+2668 U+FE0F U+1F642 U+1F464,1,Direct,EMOTIONALITY,1041.png,♨️🙂👤,"['noto-emoji/png/512/emoji_u2668.png', 'noto-emoji/png/512/emoji_u1f642.png', 'noto-emoji/png/512/emoji_u1f464.png']"
+This is nerd_face [EM] light_bulb.,This is intelligent life.,U+1F913 U+1F4A1,0,Direct,REASONABLENESS,1412.png,🤓💡,"['noto-emoji/png/512/emoji_u1f913.png', 'noto-emoji/png/512/emoji_u1f4a1.png']"
+thinking_face [EM] China.,delicate china,U+1F914 U+1F1E8 U+1F1F3,1,Direct,STRENGTH,1558.png,🤔🇨🇳,"['noto-emoji/png/512/emoji_u1f914.png', 'noto-emoji/png/512/emoji_u1f1e8.png', 'noto-emoji/png/512/emoji_u1f1f3.png']"
+This is COOL_button [EM] house.,This is cool breeze.,U+1F192 U+1F3E0,0,Direct,TEMPERATURE,1291.png,🆒🏠,"['noto-emoji/png/512/emoji_u1f192.png', 'noto-emoji/png/512/emoji_u1f3e0.png']"
+thumbs_down [EM] hospital.,ineffectual therapy,U+1F44E U+1F3E5,1,Direct,UTILITY,1385.png,👎🏥,"['noto-emoji/png/512/emoji_u1f44e.png', 'noto-emoji/png/512/emoji_u1f3e5.png']"
+hot_face [EM] foot [EM] pile_of_poo.,dirty foot,U+1F975 U+1F9B6 U+1F4A9,1,Direct,CLEANNESS,411.png,🥵🦶💩,"['noto-emoji/png/512/emoji_u1f975.png', 'noto-emoji/png/512/emoji_u1f9b6.png', 'noto-emoji/png/512/emoji_u1f4a9.png']"
+person_gesturing_NO [EM] kiss_woman_man [EM] broken_heart.,wrong cheating,U+1F645 U+1F469 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+1F494,1,Metaphorical,RIGHTNESS,940.png,🙅👩‍❤️‍💋‍👨💔,"['noto-emoji/png/512/emoji_u1f645.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u2764.png', 'noto-emoji/png/512/emoji_u1f48b.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f494.png']"
+new_moon [EM] cross_mark [EM] light_bulb.,dark corner,U+1F311 U+274C U+1F4A1,1,Metaphorical,LIGHT,195.png,🌑❌💡,"['noto-emoji/png/512/emoji_u1f311.png', 'noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f4a1.png']"
+smiling_face_with_horns [EM] footprints.,dark day,U+1F608 U+1F463,1,Metaphorical,LIGHT,173.png,😈👣,"['noto-emoji/png/512/emoji_u1f608.png', 'noto-emoji/png/512/emoji_u1f463.png']"
+new_moon [EM] face_with_crossed-out_eyes [EM] skull.,dark purpose,U+1F311 U+1F635 U+1F480,1,Metaphorical,EVIL,203.png,🌑😵💀,"['noto-emoji/png/512/emoji_u1f311.png', 'noto-emoji/png/512/emoji_u1f635.png', 'noto-emoji/png/512/emoji_u1f480.png']"
+weary_face [EM] face_with_rolling_eyes [EM] writing_hand_light_skin_tone [EM] memo.,dry critique,U+1F629 U+1F644 U+270D U+1F3FB U+1F4DD,1,Metaphorical,EMOTIONALITY,1474.png,😩🙄✍🏻📝,"['noto-emoji/png/512/emoji_u1f629.png', 'noto-emoji/png/512/emoji_u1f644.png', 'noto-emoji/png/512/emoji_u270d.png', 'noto-emoji/png/512/emoji_u1f3fb.png', 'noto-emoji/png/512/emoji_u1f4dd.png']"
+sun [EM] glowing_star.,bright sun,U+2600 U+FE0F U+1F31F,1,Direct,LUMINOSITY,141.png,☀️🌟,"['noto-emoji/png/512/emoji_u2600.png', 'noto-emoji/png/512/emoji_u1f31f.png']"
+fire [EM] speaking_head.,hot topic,U+1F525 U+1F5E3 U+FE0F,1,Direct,EMOTIONALITY,93.png,🔥🗣️,"['noto-emoji/png/512/emoji_u1f525.png', 'noto-emoji/png/512/emoji_u1f5e3.png']"
+boy_light_skin_tone.,little boy,U+1F466 U+1F3FB,1,Single,AGE,599.png,👦🏻,"['noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f3fb.png']"
+This is thumbs_up_light_skin_tone [EM] wind_face.,This is clear-cut evidence.,U+1F44D U+1F3FB U+1F32C,0,Direct,CLEARNESS,1069.png,👍🏻🌬,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f3fb.png', 'noto-emoji/png/512/emoji_u1f32c.png']"
+This is pinching_hand [EM] nut_and_bolt [EM] gear.,This is short life.,U+1F90F U+1F529 U+2699 U+FE0F,0,Metaphorical,STATURE,301.png,🤏🔩⚙️,"['noto-emoji/png/512/emoji_u1f90f.png', 'noto-emoji/png/512/emoji_u1f529.png', 'noto-emoji/png/512/emoji_u2699.png']"
+sunglasses [EM] ballot_box_with_ballot.,dark corner,U+1F576 U+FE0F U+1F5F3 U+FE0F,1,Direct,LIGHT,192.png,🕶️🗳️,"['noto-emoji/png/512/emoji_u1f576.png', 'noto-emoji/png/512/emoji_u1f5f3.png']"
+check_mark [EM] thumbs_up [EM] cross_mark [EM] skull_and_crossbones.,critical stage,U+2714 U+FE0F U+1F44D U+274C U+2620 U+FE0F,1,Metaphorical,CRISIS,810.png,✔️👍❌☠️,"['noto-emoji/png/512/emoji_u2714.png', 'noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u2620.png']"
+red_exclamation_mark [EM] thermometer.,critical temperature,U+2757 U+1F321 U+FE0F,1,Direct,CRITICALITY,818.png,❗🌡️,"['noto-emoji/png/512/emoji_u2757.png', 'noto-emoji/png/512/emoji_u1f321.png']"
+This is check_mark [EM] man.,This is right road.,U+2714 U+FE0F U+1F468,0,Direct,APPROPRIATENESS,248.png,✔️👨,"['noto-emoji/png/512/emoji_u2714.png', 'noto-emoji/png/512/emoji_u1f468.png']"
+brain [EM] man_health_worker [EM] stethoscope.,internal organ,U+1F9E0 U+1F468 U+200D U+2695 U+FE0F U+1FA7A,1,Metaphorical,POSITION,1431.png,🧠👨‍⚕️🩺,"['noto-emoji/png/512/emoji_u1f9e0.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u2695.png', 'noto-emoji/png/512/emoji_u1fa7a.png']"
+glasses [EM] tumbler_glass.,clear glass,U+1F453 U+1F943,1,Direct,CLEARNESS,1094.png,👓🥃,"['noto-emoji/png/512/emoji_u1f453.png', 'noto-emoji/png/512/emoji_u1f943.png']"
+This is fire [EM] neutral_face [EM] pouting_face.,This is hot stove.,U+1F525 U+1F610 U+1F621,0,Direct,EMOTIONALITY,104.png,🔥😐😡,"['noto-emoji/png/512/emoji_u1f525.png', 'noto-emoji/png/512/emoji_u1f610.png', 'noto-emoji/png/512/emoji_u1f621.png']"
+technologist [EM] woman_technologist [EM] man_technologist [EM] thumbs_down [EM] thumbs_down.,ineffectual ruler,U+1F9D1 U+200D U+1F4BB U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F44E U+1F44E,1,Direct,POTENCY,1378.png,🧑‍💻👩‍💻👨‍💻👎👎,"['noto-emoji/png/512/emoji_u1f9d1.png', 'noto-emoji/png/512/emoji_u1f4bb.png', 'noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f4bb.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f4bb.png', 'noto-emoji/png/512/emoji_u1f44e.png', 'noto-emoji/png/512/emoji_u1f44e.png']"
+This is fork_and_knife_with_plate [EM] raising_hands.,This is delicate negotiation.,U+1F37D U+FE0F U+1F64C,0,Metaphorical,STRENGTH,1557.png,🍽️🙌,"['noto-emoji/png/512/emoji_u1f37d.png', 'noto-emoji/png/512/emoji_u1f64c.png']"
+down_arrow [EM] label [EM] heavy_dollar_sign.,low price,U+2B07 U+FE0F U+1F3F7 U+1F4B2,1,Direct,DEGREE,781.png,⬇️🏷💲,"['noto-emoji/png/512/emoji_u2b07.png', 'noto-emoji/png/512/emoji_u1f3f7.png', 'noto-emoji/png/512/emoji_u1f4b2.png']"
+face_savoring_food [EM] thinking_face.,delicate flavor,U+1F60B U+1F914,1,Metaphorical,STRENGTH,1582.png,😋🤔,"['noto-emoji/png/512/emoji_u1f60b.png', 'noto-emoji/png/512/emoji_u1f914.png']"
+This is face_with_steam_from_nose [EM] broom [EM] sponge [EM] wastebasket.,This is domestic animal.,U+1F624 U+1F9F9 U+1F9FD U+1F5D1 U+FE0F,0,Metaphorical,DOMESTICITY,1364.png,😤🧹🧽🗑️,"['noto-emoji/png/512/emoji_u1f624.png', 'noto-emoji/png/512/emoji_u1f9f9.png', 'noto-emoji/png/512/emoji_u1f9fd.png', 'noto-emoji/png/512/emoji_u1f5d1.png']"
+This is hot_springs [EM] sunset.,This is dry paint.,U+2668 U+FE0F U+1F307,0,Metaphorical,WETNESS,1470.png,♨️🌇,"['noto-emoji/png/512/emoji_u2668.png', 'noto-emoji/png/512/emoji_u1f307.png']"
+white_exclamation_mark [EM] speech_balloon.,delicate negotiation,U+2755 U+1F4AC,1,Direct,DIFFICULTY,1567.png,❕💬,"['noto-emoji/png/512/emoji_u2755.png', 'noto-emoji/png/512/emoji_u1f4ac.png']"
+toilet [EM] construction_worker [EM] hammer_and_wrench.,dirty job,U+1F6BD U+1F477 U+1F6E0 U+FE0F,1,Metaphorical,CLEANNESS,408.png,🚽👷🛠️,"['noto-emoji/png/512/emoji_u1f6bd.png', 'noto-emoji/png/512/emoji_u1f477.png', 'noto-emoji/png/512/emoji_u1f6e0.png']"
+persevering_face [EM] no_one_under_eighteen [EM] money_with_wings.,dirty slum,U+1F623 U+1F51E U+1F4B8,1,Metaphorical,CLEANNESS,432.png,😣🔞💸,"['noto-emoji/png/512/emoji_u1f623.png', 'noto-emoji/png/512/emoji_u1f51e.png', 'noto-emoji/png/512/emoji_u1f4b8.png']"
+This is thumbs_up [EM] face_with_steam_from_nose.,This is effective step.,U+1F44D U+1F624,0,Direct,EFFICACY,1510.png,👍😤,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f624.png']"
+hot_springs [EM] globe_showing_Americas [EM] thermometer.,dry climate,U+2668 U+FE0F U+1F30E U+1F321 U+FE0F,1,Metaphorical,WETNESS,1494.png,♨️🌎🌡️,"['noto-emoji/png/512/emoji_u2668.png', 'noto-emoji/png/512/emoji_u1f30e.png', 'noto-emoji/png/512/emoji_u1f321.png']"
+sun [EM] fog.,bright future,U+2600 U+FE0F U+1F32B,1,Direct,AUSPICIOUSNESS,134.png,☀️🌫,"['noto-emoji/png/512/emoji_u2600.png', 'noto-emoji/png/512/emoji_u1f32b.png']"
+hot_springs [EM] nesting_dolls.,hot doll,U+2668 U+FE0F U+1FA86,1,Direct,POPULARITY,70.png,♨️🪆,"['noto-emoji/png/512/emoji_u2668.png', 'noto-emoji/png/512/emoji_u1fa86.png']"
+This is hot_springs [EM] droplet [EM] potable_water.,This is hot argument.,U+2668 U+FE0F U+1F4A7 U+1F6B0,0,Direct,TEMPERATURE,76.png,♨️💧🚰,"['noto-emoji/png/512/emoji_u2668.png', 'noto-emoji/png/512/emoji_u1f4a7.png', 'noto-emoji/png/512/emoji_u1f6b0.png']"
+cross_mark [EM] money_bag.,short money,U+274C U+1F4B0,1,Direct,QUANTITY,314.png,❌💰,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f4b0.png']"
+police_car_light [EM] chart_decreasing.,critical shortage,U+1F6A8 U+1F4C9,1,Direct,CRISIS,829.png,🚨📉,"['noto-emoji/png/512/emoji_u1f6a8.png', 'noto-emoji/png/512/emoji_u1f4c9.png']"
+busts_in_silhouette [EM] fly [EM] cockroach [EM] spider [EM] busts_in_silhouette.,common nuisance,U+1F465 U+1FAB0 U+1FAB3 U+1F577 U+FE0F U+1F465,1,Metaphorical,COMMONNESS,495.png,👥🪰🪳🕷️👥,"['noto-emoji/png/512/emoji_u1f465.png', 'noto-emoji/png/512/emoji_u1fab0.png', 'noto-emoji/png/512/emoji_u1fab3.png', 'noto-emoji/png/512/emoji_u1f577.png', 'noto-emoji/png/512/emoji_u1f465.png']"
+hourglass_done [EM] spiral_calendar.,short month,U+231B U+1F5D3,1,Direct,DURATION,331.png,⌛🗓,"['noto-emoji/png/512/emoji_u231b.png', 'noto-emoji/png/512/emoji_u1f5d3.png']"
+This is thumbs_up [EM] coat [EM] cross_mark [EM] cold_face.,This is warm personality.,U+1F44D U+1F9E5 U+274C U+1F976,0,Direct,TEMPERATURE,1037.png,👍🧥❌🥶,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f9e5.png', 'noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f976.png']"
+This is woman_gesturing_NO [EM] motorway.,This is wrong paper.,U+1F645 U+200D U+2640 U+FE0F U+1F6E3,0,Direct,CORRECTNESS,931.png,🙅‍♀️🛣,"['noto-emoji/png/512/emoji_u1f645.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u1f6e3.png']"
+globe_showing_Europe-Africa [EM] thumbs_up [EM] dashing_away [EM] multiply [EM] cigarette.,fresh air,U+1F30D U+1F44D U+1F4A8 U+2716 U+FE0F U+1F6AC,1,Metaphorical,PURITY,1611.png,🌍👍💨✖️🚬,"['noto-emoji/png/512/emoji_u1f30d.png', 'noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f4a8.png', 'noto-emoji/png/512/emoji_u2716.png', 'noto-emoji/png/512/emoji_u1f6ac.png']"
+hot_face [EM] desert_island.,warm climate,U+1F975 U+1F3DD,1,Metaphorical,TEMPERATURE,1027.png,🥵🏝,"['noto-emoji/png/512/emoji_u1f975.png', 'noto-emoji/png/512/emoji_u1f3dd.png']"
+This is down-right_arrow [EM] person_bowing [EM] woman_bowing [EM] man_bowing.,This is low hill.,U+2198 U+FE0F U+1F647 U+1F647 U+200D U+2640 U+FE0F U+1F647 U+200D U+2642 U+FE0F,0,Direct,HEIGHT,764.png,↘️🙇🙇‍♀️🙇‍♂️,"['noto-emoji/png/512/emoji_u2198.png', 'noto-emoji/png/512/emoji_u1f647.png', 'noto-emoji/png/512/emoji_u1f647.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u1f647.png', 'noto-emoji/png/512/emoji_u2642.png']"
+new_moon_face.,dark shadow,U+1F31A,1,Single,LIGHT,166.png,🌚,['noto-emoji/png/512/emoji_u1f31a.png']
+TOP_arrow [EM] skull_and_crossbones.,high risk,U+1F51D U+2620 U+FE0F,1,Direct,DEGREE,1232.png,🔝☠️,"['noto-emoji/png/512/emoji_u1f51d.png', 'noto-emoji/png/512/emoji_u2620.png']"
+old_key [EM] chart_increasing.,critical stage,U+1F5DD U+FE0F U+1F4C8,1,Direct,CRISIS,809.png,🗝️📈,"['noto-emoji/png/512/emoji_u1f5dd.png', 'noto-emoji/png/512/emoji_u1f4c8.png']"
+down-right_arrow [EM] houses.,low ceiling,U+2198 U+FE0F U+20 U+1F3D8 U+FE0F,1,Direct,HEIGHT,756.png,↘️ 🏘️,"['noto-emoji/png/512/emoji_u2198.png', 'noto-emoji/png/512/emoji_u1f3d8.png']"
+money-mouth_face [EM] money_with_wings [EM] supervillain.,dirty money,U+1F911 U+1F4B8 U+1F9B9,1,Metaphorical,LEGALITY,442.png,🤑💸🦹,"['noto-emoji/png/512/emoji_u1f911.png', 'noto-emoji/png/512/emoji_u1f4b8.png', 'noto-emoji/png/512/emoji_u1f9b9.png']"
+This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh lettuce.,U+1F32C U+1F443 U+1F44C U+1F60C,0,Metaphorical,FRESHNESS,1592.png,🌬👃👌😌,"['noto-emoji/png/512/emoji_u1f32c.png', 'noto-emoji/png/512/emoji_u1f443.png', 'noto-emoji/png/512/emoji_u1f44c.png', 'noto-emoji/png/512/emoji_u1f60c.png']"
+smirking_face [EM] thumbs_down.,wrong cheating,U+1F60F U+1F44E,1,Metaphorical,RIGHTNESS,944.png,😏👎,"['noto-emoji/png/512/emoji_u1f60f.png', 'noto-emoji/png/512/emoji_u1f44e.png']"
+This is woman_gesturing_NO [EM] motorway.,This is wrong time.,U+1F645 U+200D U+2640 U+FE0F U+1F6E3,0,Direct,CORRECTNESS,931.png,🙅‍♀️🛣,"['noto-emoji/png/512/emoji_u1f645.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u1f6e3.png']"
+pinching_hand [EM] man_cook [EM] oil_drum.,thin oil,U+1F90F U+20 U+1F468 U+200D U+1F373 U+1F6E2,1,Direct,CONSISTENCY,864.png,🤏 👨‍🍳🛢,"['noto-emoji/png/512/emoji_u1f90f.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f373.png', 'noto-emoji/png/512/emoji_u1f6e2.png']"
+man_gesturing_NO [EM] bookmark_tabs [EM] card_index_dividers.,wrong information,U+1F645 U+200D U+2642 U+FE0F U+1F4D1 U+1F5C2 U+FE0F,1,Direct,CORRECTNESS,965.png,🙅‍♂️📑🗂️,"['noto-emoji/png/512/emoji_u1f645.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f4d1.png', 'noto-emoji/png/512/emoji_u1f5c2.png']"
+This is leaf_fluttering_in_wind [EM] pinching_hand.,This is thin line.,U+1F343 U+1F90F,0,Direct,CONSISTENCY,878.png,🍃🤏,"['noto-emoji/png/512/emoji_u1f343.png', 'noto-emoji/png/512/emoji_u1f90f.png']"
+busts_in_silhouette [EM] fly.,common housefly,U+1F465 U+1FAB0,1,Direct,COMMONNESS,507.png,👥🪰,"['noto-emoji/png/512/emoji_u1f465.png', 'noto-emoji/png/512/emoji_u1fab0.png']"
+fog.,dull sky,U+1F32B U+FE0F,1,Single,LUMINOSITY,680.png,🌫️,['noto-emoji/png/512/emoji_u1f32b.png']
+This is ice [EM] post_office.,This is cool drink.,U+1F9CA U+1F3E4,0,Direct,TEMPERATURE,1293.png,🧊🏤,"['noto-emoji/png/512/emoji_u1f9ca.png', 'noto-emoji/png/512/emoji_u1f3e4.png']"
+fog [EM] face_with_raised_eyebrow.,heavy fog,U+1F32B U+FE0F U+1F928,1,Metaphorical,THICKNESS,555.png,🌫️🤨,"['noto-emoji/png/512/emoji_u1f32b.png', 'noto-emoji/png/512/emoji_u1f928.png']"
+house [EM] confounded_face.,domestic worry,U+1F3E0 U+1F616,1,Direct,DOMESTICITY,1345.png,🏠😖,"['noto-emoji/png/512/emoji_u1f3e0.png', 'noto-emoji/png/512/emoji_u1f616.png']"
+check_mark.,right answer,U+2714 U+FE0F,1,Single,CORRECTNESS,240.png,✔️,['noto-emoji/png/512/emoji_u2714.png']
+warning [EM] package [EM] face_savoring_food.,delicate flavor,U+26A0 U+FE0F U+1F4E6 U+1F60B,1,Metaphorical,STRENGTH,1576.png,⚠️📦😋,"['noto-emoji/png/512/emoji_u26a0.png', 'noto-emoji/png/512/emoji_u1f4e6.png', 'noto-emoji/png/512/emoji_u1f60b.png']"
+smiling_face_with_horns [EM] dollar_banknote [EM] dollar_banknote [EM] prohibited [EM] backhand_index_pointing_right [EM] police_officer.,dirty money,U+1F608 U+1F4B5 U+1F4B5 U+1F6AB U+1F449 U+1F46E,1,Metaphorical,LEGALITY,443.png,😈💵💵🚫👉👮,"['noto-emoji/png/512/emoji_u1f608.png', 'noto-emoji/png/512/emoji_u1f4b5.png', 'noto-emoji/png/512/emoji_u1f4b5.png', 'noto-emoji/png/512/emoji_u1f6ab.png', 'noto-emoji/png/512/emoji_u1f449.png', 'noto-emoji/png/512/emoji_u1f46e.png']"
+This is smiling_face_with_horns [EM] chart_increasing.,This is dark glass.,U+1F608 U+1F4C8,0,Metaphorical,EVIL,191.png,😈📈,"['noto-emoji/png/512/emoji_u1f608.png', 'noto-emoji/png/512/emoji_u1f4c8.png']"
+pile_of_poo [EM] broom.,dirty job,U+1F4A9 U+1F9F9,1,Direct,CLEANNESS,402.png,💩🧹,"['noto-emoji/png/512/emoji_u1f4a9.png', 'noto-emoji/png/512/emoji_u1f9f9.png']"
+man_detective [EM] woman_detective.,warm debate,U+1F575 U+200D U+2642 U+FE0F U+1F575 U+200D U+2640 U+FE0F,1,Reduplication,LIVELINESS,1003.png,🕵‍♂️🕵‍♀️,"['noto-emoji/png/512/emoji_u1f575.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f575.png', 'noto-emoji/png/512/emoji_u2640.png']"
+This is woman_in_steamy_room [EM] man_getting_massage [EM] man_in_steamy_room [EM] smiling_face_with_halo.,This is idyllic spot.,U+1F9D6 U+200D U+2640 U+FE0F U+1F486 U+200D U+2642 U+FE0F U+1F9D6 U+200D U+2642 U+FE0F U+1F607,0,Semantic list,PLEASANTNESS,1327.png,🧖‍♀️💆‍♂️🧖‍♂️😇,"['noto-emoji/png/512/emoji_u1f9d6.png', 'noto-emoji/png/512/emoji_u2640.png', 'noto-emoji/png/512/emoji_u1f486.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f9d6.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f607.png']"
+This is face_vomiting [EM] dress [EM] woman’s_clothes.,This is dirty money.,U+1F92E U+1F457 U+1F45A,0,Direct,CLEANNESS,453.png,🤮👗👚,"['noto-emoji/png/512/emoji_u1f92e.png', 'noto-emoji/png/512/emoji_u1f457.png', 'noto-emoji/png/512/emoji_u1f45a.png']"
+boy [EM] backhand_index_pointing_left [EM] baby.,little boy,U+1F466 U+1F448 U+1F476,1,Metaphorical,AGE,598.png,👦👈👶,"['noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f448.png', 'noto-emoji/png/512/emoji_u1f476.png']"
+pile_of_poo [EM] rescue_worker’s_helmet [EM] briefcase.,dirty work,U+1F4A9 U+26D1 U+FE0F U+1F4BC,1,Direct,CLEANNESS,438.png,💩⛑️💼,"['noto-emoji/png/512/emoji_u1f4a9.png', 'noto-emoji/png/512/emoji_u26d1.png', 'noto-emoji/png/512/emoji_u1f4bc.png']"
+This is thumbs_up [EM] sweat_droplets [EM] droplet.,This is clear-cut evidence.,U+1F44D U+1F4A6 U+1F4A7,0,Direct,CLEARNESS,1101.png,👍💦💧,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f4a6.png', 'noto-emoji/png/512/emoji_u1f4a7.png']"
+brain [EM] hundred_points.,intelligent solution,U+1F9E0 U+1F4AF,1,Metaphorical,REASONABLENESS,1414.png,🧠💯,"['noto-emoji/png/512/emoji_u1f9e0.png', 'noto-emoji/png/512/emoji_u1f4af.png']"
+This is face_with_head-bandage [EM] health_worker [EM] pill [EM] face_with_medical_mask [EM] microbe [EM] headstone.,This is critical element.,U+1F915 U+1F9D1 U+200D U+2695 U+FE0F U+1F48A U+1F637 U+1F9A0 U+1FAA6,0,Metaphorical,CRISIS,795.png,🤕🧑‍⚕️💊😷🦠🪦,"['noto-emoji/png/512/emoji_u1f915.png', 'noto-emoji/png/512/emoji_u1f9d1.png', 'noto-emoji/png/512/emoji_u2695.png', 'noto-emoji/png/512/emoji_u1f48a.png', 'noto-emoji/png/512/emoji_u1f637.png', 'noto-emoji/png/512/emoji_u1f9a0.png', 'noto-emoji/png/512/emoji_u1faa6.png']"
+This is expressionless_face [EM] pinata [EM] teddy_bear.,This is dull day.,U+1F611 U+1FA85 U+1F9F8,0,Direct,INTEREST,666.png,😑🪅🧸,"['noto-emoji/png/512/emoji_u1f611.png', 'noto-emoji/png/512/emoji_u1fa85.png', 'noto-emoji/png/512/emoji_u1f9f8.png']"
+thermometer [EM] cold_face [EM] house.,cool room,U+1F321 U+FE0F U+1F976 U+1F3E0,1,Direct,TEMPERATURE,1289.png,🌡️🥶🏠,"['noto-emoji/png/512/emoji_u1f321.png', 'noto-emoji/png/512/emoji_u1f976.png', 'noto-emoji/png/512/emoji_u1f3e0.png']"
+This is flexed_biceps [EM] purse.,This is heavy metal.,U+1F4AA U+1F45B,0,Metaphorical,WEIGHT,550.png,💪👛,"['noto-emoji/png/512/emoji_u1f4aa.png', 'noto-emoji/png/512/emoji_u1f45b.png']"
+This is cross_mark [EM] alarm_clock.,This is wrong assumption.,U+274C U+23F0,0,Direct,CORRECTNESS,977.png,❌⏰,"['noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u23f0.png']"
+expressionless_face [EM] yawning_face [EM] soccer_ball.,dull play,U+1F611 U+1F971 U+26BD,1,Direct,INTEREST,665.png,😑🥱⚽,"['noto-emoji/png/512/emoji_u1f611.png', 'noto-emoji/png/512/emoji_u1f971.png', 'noto-emoji/png/512/emoji_u26bd.png']"
+This is hourglass_not_done [EM] closed_book.,This is short money.,U+23F3 U+1F4D5,0,Direct,DURATION,338.png,⏳📕,"['noto-emoji/png/512/emoji_u23f3.png', 'noto-emoji/png/512/emoji_u1f4d5.png']"
+This is bright_button [EM] men’s_room [EM] women’s_room.,This is bright dress.,U+1F506 U+1F6B9 U+1F6BA,0,Direct,LIGHT,153.png,🔆🚹🚺,"['noto-emoji/png/512/emoji_u1f506.png', 'noto-emoji/png/512/emoji_u1f6b9.png', 'noto-emoji/png/512/emoji_u1f6ba.png']"
+This is thumbs_down [EM] person_getting_massage.,This is ineffectual ruler.,U+1F44E U+1F486,0,Direct,UTILITY,1384.png,👎💆,"['noto-emoji/png/512/emoji_u1f44e.png', 'noto-emoji/png/512/emoji_u1f486.png']"
+TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,high building,U+1F51D U+1F3E2 U+1F306,1,Direct,HEIGHT,1210.png,🔝🏢🌆,"['noto-emoji/png/512/emoji_u1f51d.png', 'noto-emoji/png/512/emoji_u1f3e2.png', 'noto-emoji/png/512/emoji_u1f306.png']"
+COOL_button [EM] couch_and_lamp.,cool room,U+1F192 U+1F6CB U+FE0F,1,Direct,TEMPERATURE,1288.png,🆒🛋️,"['noto-emoji/png/512/emoji_u1f192.png', 'noto-emoji/png/512/emoji_u1f6cb.png']"
+This is person_shrugging [EM] money_with_wings [EM] houses.,This is inadequate staff.,U+1F937 U+1F4B8 U+1F3D8 U+FE0F,0,Metaphorical,QUANTITY,1308.png,🤷💸🏘️,"['noto-emoji/png/512/emoji_u1f937.png', 'noto-emoji/png/512/emoji_u1f4b8.png', 'noto-emoji/png/512/emoji_u1f3d8.png']"
+backhand_index_pointing_right [EM] motorway.,right road,U+1F449 U+1F6E3 U+FE0F,1,Direct,CORRECTNESS,257.png,👉🛣️,"['noto-emoji/png/512/emoji_u1f449.png', 'noto-emoji/png/512/emoji_u1f6e3.png']"
+family_man_boy [EM] family_man_boy [EM] family_man_boy [EM] family_man_boy [EM] family_man_boy [EM] family_man_boy [EM] family_man_boy.,big group,U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466,1,Reduplication,SIZE,25.png,👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦,"['noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f466.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f466.png']"
+face_vomiting [EM] fork_and_knife_with_plate.,dirty dish,U+1F92E U+1F37D,1,Direct,CLEANNESS,423.png,🤮🍽,"['noto-emoji/png/512/emoji_u1f92e.png', 'noto-emoji/png/512/emoji_u1f37d.png']"
+thinking_face [EM] white_question_mark [EM] man_teacher [EM] speaking_head [EM] light_bulb [EM] check_mark_button [EM] grinning_face.,clear explanation,U+1F914 U+2754 U+1F468 U+200D U+1F3EB U+1F5E3 U+FE0F U+1F4A1 U+2705 U+1F600,1,Metaphorical,CLARITY,1089.png,🤔❔👨‍🏫🗣️💡✅😀,"['noto-emoji/png/512/emoji_u1f914.png', 'noto-emoji/png/512/emoji_u2754.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f3eb.png', 'noto-emoji/png/512/emoji_u1f5e3.png', 'noto-emoji/png/512/emoji_u1f4a1.png', 'noto-emoji/png/512/emoji_u2705.png', 'noto-emoji/png/512/emoji_u1f600.png']"
+face_with_spiral_eyes [EM] woman_walking.,far trek,U+1F635 U+200D U+1F4AB U+1F6B6 U+200D U+2640 U+FE0F,1,Metaphorical,LENGTH,368.png,😵‍💫🚶‍♀️,"['noto-emoji/png/512/emoji_u1f635.png', 'noto-emoji/png/512/emoji_u1f4ab.png', 'noto-emoji/png/512/emoji_u1f6b6.png', 'noto-emoji/png/512/emoji_u2640.png']"
+This is brain [EM] red_exclamation_mark [EM] red_exclamation_mark.,This is intelligent question.,U+1F9E0 U+2757 U+2757,0,Metaphorical,REASONABLENESS,1408.png,🧠❗❗,"['noto-emoji/png/512/emoji_u1f9e0.png', 'noto-emoji/png/512/emoji_u2757.png', 'noto-emoji/png/512/emoji_u2757.png']"
+wind_face [EM] face_exhaling.,fresh air,U+1F32C U+1F62E U+200D U+1F4A8,1,Metaphorical,PURITY,1610.png,🌬😮‍💨,"['noto-emoji/png/512/emoji_u1f32c.png', 'noto-emoji/png/512/emoji_u1f62e.png', 'noto-emoji/png/512/emoji_u1f4a8.png']"
+This is woman_technologist [EM] man_technologist [EM] school.,This is full attention.,U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F3EB,0,Metaphorical,FULLNESS,567.png,👩‍💻👨‍💻🏫,"['noto-emoji/png/512/emoji_u1f469.png', 'noto-emoji/png/512/emoji_u1f4bb.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u1f4bb.png', 'noto-emoji/png/512/emoji_u1f3eb.png']"
+This is woozy_face [EM] face_with_thermometer [EM] man_health_worker.,This is hot temper.,U+1F974 U+1F912 U+1F468 U+200D U+2695 U+FE0F,0,Metaphorical,TEMPERATURE,121.png,🥴🤒👨‍⚕️,"['noto-emoji/png/512/emoji_u1f974.png', 'noto-emoji/png/512/emoji_u1f912.png', 'noto-emoji/png/512/emoji_u1f468.png', 'noto-emoji/png/512/emoji_u2695.png']"
+pinching_hand [EM] luggage [EM] baggage_claim.,short holiday,U+1F90F U+1F9F3 U+1F6C4,1,Metaphorical,DURATION,278.png,🤏🧳🛄,"['noto-emoji/png/512/emoji_u1f90f.png', 'noto-emoji/png/512/emoji_u1f9f3.png', 'noto-emoji/png/512/emoji_u1f6c4.png']"
+speaking_head [EM] left-right_arrow [EM] speaking_head.,common parlance,U+1F5E3 U+FE0F U+2194 U+FE0F U+1F5E3 U+FE0F,1,Metaphorical,FORMALITY,527.png,🗣️↔️🗣️,"['noto-emoji/png/512/emoji_u1f5e3.png', 'noto-emoji/png/512/emoji_u2194.png', 'noto-emoji/png/512/emoji_u1f5e3.png']"
+speaker_high_volume [EM] boxing_glove.,sound thrashing,U+1F50A U+1F94A,1,Direct,COMPLETENESS,1641.png,🔊🥊,"['noto-emoji/png/512/emoji_u1f50a.png', 'noto-emoji/png/512/emoji_u1f94a.png']"
+sports_medal [EM] person_shrugging.,average merit,U+1F3C5 U+1F937,1,Direct,ORDINARINESS,393.png,🏅🤷,"['noto-emoji/png/512/emoji_u1f3c5.png', 'noto-emoji/png/512/emoji_u1f937.png']"
+hourglass_not_done [EM] airplane [EM] airplane_departure [EM] airplane_arrival.,short flight,U+23F3 U+2708 U+FE0F U+1F6EB U+1F6EC,1,Direct,DURATION,324.png,⏳✈️🛫🛬,"['noto-emoji/png/512/emoji_u23f3.png', 'noto-emoji/png/512/emoji_u2708.png', 'noto-emoji/png/512/emoji_u1f6eb.png', 'noto-emoji/png/512/emoji_u1f6ec.png']"
+This is leaf_fluttering_in_wind [EM] cross_mark [EM] cigarette [EM] broom.,This is clear-cut evidence.,U+1F343 U+274C U+1F6AC U+1F9F9,0,Metaphorical,CLEARNESS,1066.png,🍃❌🚬🧹,"['noto-emoji/png/512/emoji_u1f343.png', 'noto-emoji/png/512/emoji_u274c.png', 'noto-emoji/png/512/emoji_u1f6ac.png', 'noto-emoji/png/512/emoji_u1f9f9.png']"
+This is face_with_thermometer.,This is warm support.,U+1F912,0,Single,TEMPERATURE,1020.png,🤒,['noto-emoji/png/512/emoji_u1f912.png']
+This is thermometer [EM] house.,This is warm greeting.,U+1F321 U+FE0F U+1F3E0,0,Direct,TEMPERATURE,1016.png,🌡️🏠,"['noto-emoji/png/512/emoji_u1f321.png', 'noto-emoji/png/512/emoji_u1f3e0.png']"
+thumbs_up [EM] face_with_symbols_on_mouth.,effective reprimand,U+1F44D U+1F92C,1,Direct,EFFICACY,1503.png,👍🤬,"['noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f92c.png']"
+droplet [EM] ice [EM] snowflake.,low sun,U+1F4A7 U+1F9CA U+2744 U+FE0F,1,Metaphorical,HEIGHT,734.png,💧🧊❄️,"['noto-emoji/png/512/emoji_u1f4a7.png', 'noto-emoji/png/512/emoji_u1f9ca.png', 'noto-emoji/png/512/emoji_u2744.png']"
+This is hourglass_not_done [EM] spiral_calendar [EM] calendar.,This is short flight.,U+23F3 U+1F5D3 U+FE0F U+1F4C5,0,Direct,DURATION,332.png,⏳🗓️📅,"['noto-emoji/png/512/emoji_u23f3.png', 'noto-emoji/png/512/emoji_u1f5d3.png', 'noto-emoji/png/512/emoji_u1f4c5.png']"
+This is person_in_lotus_position [EM] dove [EM] peace_symbol [EM] speaking_head.,This is delicate wing.,U+1F9D8 U+1F54A U+262E U+FE0F U+1F5E3,0,Metaphorical,DIFFICULTY,1569.png,🧘🕊☮️🗣,"['noto-emoji/png/512/emoji_u1f9d8.png', 'noto-emoji/png/512/emoji_u1f54a.png', 'noto-emoji/png/512/emoji_u262e.png', 'noto-emoji/png/512/emoji_u1f5e3.png']"
+fly [EM] neutral_face.,common housefly,U+1FAB0 U+1F610,1,Direct,COMMONNESS,506.png,🪰😐,"['noto-emoji/png/512/emoji_u1fab0.png', 'noto-emoji/png/512/emoji_u1f610.png']"
+fire [EM] speaker_high_volume [EM] speaking_head [EM] speaking_head [EM] thinking_face [EM] thinking_face [EM] thumbs_up [EM] thumbs_down.,hot topic,U+1F525 U+1F50A U+1F5E3 U+FE0F U+1F5E3 U+FE0F U+1F914 U+1F914 U+1F44D U+1F44E,1,Metaphorical,EMOTIONALITY,88.png,🔥🔊🗣️🗣️🤔🤔👍👎,"['noto-emoji/png/512/emoji_u1f525.png', 'noto-emoji/png/512/emoji_u1f50a.png', 'noto-emoji/png/512/emoji_u1f5e3.png', 'noto-emoji/png/512/emoji_u1f5e3.png', 'noto-emoji/png/512/emoji_u1f914.png', 'noto-emoji/png/512/emoji_u1f914.png', 'noto-emoji/png/512/emoji_u1f44d.png', 'noto-emoji/png/512/emoji_u1f44e.png']"
+This is face_with_symbols_on_mouth [EM] pouting_face.,This is dirty slum.,U+1F92C U+1F621,0,Metaphorical,FAIRNESS,458.png,🤬😡,"['noto-emoji/png/512/emoji_u1f92c.png', 'noto-emoji/png/512/emoji_u1f621.png']"
+pinching_hand [EM] writing_hand.,thin line,U+1F90F U+270D U+FE0F,1,Direct,WIDTH,881.png,🤏✍️,"['noto-emoji/png/512/emoji_u1f90f.png', 'noto-emoji/png/512/emoji_u270d.png']"
+This is busts_in_silhouette [EM] syringe [EM] stethoscope [EM] adhesive_bandage [EM] drop_of_blood [EM] health_worker [EM] busts_in_silhouette.,This is common brand.,U+1F465 U+1F489 U+1FA7A U+1FA79 U+1FA78 U+1F9D1 U+200D U+2695 U+FE0F U+1F465,0,Metaphorical,COMMONNESS,471.png,👥💉🩺🩹🩸🧑‍⚕️👥,"['noto-emoji/png/512/emoji_u1f465.png', 'noto-emoji/png/512/emoji_u1f489.png', 'noto-emoji/png/512/emoji_u1fa7a.png', 'noto-emoji/png/512/emoji_u1fa79.png', 'noto-emoji/png/512/emoji_u1fa78.png', 'noto-emoji/png/512/emoji_u1f9d1.png', 'noto-emoji/png/512/emoji_u2695.png', 'noto-emoji/png/512/emoji_u1f465.png']"
+This is man_gesturing_NO [EM] pill.,This is wrong cheating.,U+1F645 U+200D U+2642 U+FE0F U+1F48A,0,Direct,PROPRIETY,957.png,🙅‍♂️💊,"['noto-emoji/png/512/emoji_u1f645.png', 'noto-emoji/png/512/emoji_u2642.png', 'noto-emoji/png/512/emoji_u1f48a.png']"
+This is house [EM] cow [EM] goat [EM] guide_dog [EM] chicken [EM] house.,This is domestic worry.,U+1F3E0 U+1F404 U+1F410 U+1F9AE U+1F414 U+1F3E0,0,Semantic list,TAMENESS,1367.png,🏠🐄🐐🦮🐔🏠,"['noto-emoji/png/512/emoji_u1f3e0.png', 'noto-emoji/png/512/emoji_u1f404.png', 'noto-emoji/png/512/emoji_u1f410.png', 'noto-emoji/png/512/emoji_u1f9ae.png', 'noto-emoji/png/512/emoji_u1f414.png', 'noto-emoji/png/512/emoji_u1f3e0.png']"
+This is OK_hand_light_skin_tone [EM] fork_and_knife_with_plate [EM] red_apple.,This is ample supply.,U+1F44C U+1F3FB U+1F37D U+1F34E,0,Metaphorical,QUANTITY,621.png,👌🏻🍽🍎,"['noto-emoji/png/512/emoji_u1f44c.png', 'noto-emoji/png/512/emoji_u1f3fb.png', 'noto-emoji/png/512/emoji_u1f37d.png', 'noto-emoji/png/512/emoji_u1f34e.png']"
+fog [EM] face_in_clouds.,heavy fog,U+1F32B U+FE0F U+1F636 U+200D U+1F32B,1,Metaphorical,THICKNESS,554.png,🌫️😶‍🌫,"['noto-emoji/png/512/emoji_u1f32b.png', 'noto-emoji/png/512/emoji_u1f636.png', 'noto-emoji/png/512/emoji_u1f32b.png']"
+pile_of_poo [EM] money_with_wings [EM] house.,dirty slum,U+1F4A9 U+1F4B8 U+1F3E0,1,Direct,CLEANNESS,430.png,💩💸🏠,"['noto-emoji/png/512/emoji_u1f4a9.png', 'noto-emoji/png/512/emoji_u1f4b8.png', 'noto-emoji/png/512/emoji_u1f3e0.png']"
+magnifying_glass_tilted_right [EM] speaking_head.,clear explanation,U+1F50E U+1F5E3,1,Direct,CLARITY,1084.png,🔎🗣,"['noto-emoji/png/512/emoji_u1f50e.png', 'noto-emoji/png/512/emoji_u1f5e3.png']"
+This is dna [EM] peace_symbol.,This is internal organ.,U+1F9EC U+262E U+FE0F,0,Metaphorical,INWARDNESS,1440.png,🧬☮️,"['noto-emoji/png/512/emoji_u1f9ec.png', 'noto-emoji/png/512/emoji_u262e.png']"
+This is sunglasses [EM] water_wave.,This is dark day.,U+1F576 U+FE0F U+1F30A,0,Direct,EVIL,184.png,🕶️🌊,"['noto-emoji/png/512/emoji_u1f576.png', 'noto-emoji/png/512/emoji_u1f30a.png']"

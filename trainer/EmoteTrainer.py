@@ -71,7 +71,7 @@ class EmoteTrainer(BaseTrainer):
         with autocast('cuda',enabled=self.config['half_precision']):
 
             # Forward pass: get model outputs
-            outputs = self.model(batch['images'], batch['emojis'], batch['EN'])
+            outputs = self.model(batch['images'], batch['emoji_tokens'].to(self.device), batch['text_tokens'].to(self.device))
             
             # Compute loss:
             # Here we assume binary classification, so we convert labels to one-hot encoding.

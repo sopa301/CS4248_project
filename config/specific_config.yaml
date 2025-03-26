@@ -3,10 +3,10 @@ model_name: "bart-large"
 dataset_dir: /home/andrew/CS4248_project/dataset/
 
 train_dataset:
-  csv_file: merged_emoji.csv
+  csv_file: train.csv
 
 val_dataset:
-  csv_file: 
+  csv_file: val.csv
 
 half_precision: False
 

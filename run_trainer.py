@@ -38,42 +38,27 @@ def get_model_path(config):
         raise ValueError("Invalid model name.")
     return model_path
 
+def get_emoji_tokenizer():
+    from transformers import AutoTokenizer
+    tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base", normalization=True)
+    return tokenizer
+def get_text_tokenizer():
+    from transformers import AutoTokenizer
+    tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+    return tokenizer
 
 def custom_collate_fn(batch):
-    collated_batch = {}
-    # Initialize lists for images and emoji processing
-    images_batch = []
-    emoji_batch = []
-    
-    # Loop over every sample in the batch
-    for sample in batch:
-        # Process images and emojis as before
-        images = sample['images']
-        emojis = sample['emojis']
-        target_length = max(len(images), len(emojis))
-        
-        # Pad images and emojis if needed
-        if len(images) < target_length:
-            images = images + [None] * (target_length - len(images))
-        if len(emojis) < target_length:
-            emojis = emojis + [""] * (target_length - len(emojis))
-        
-        images_batch.append(images)
-        emoji_batch.append(emojis)
-    
-    # Add the processed keys
-    collated_batch["images"] = images_batch
-    collated_batch["emojis"] = emoji_batch
+    batch_out = {}
+    text = [item["EN"] for item in batch]
+    text_tokenizer = get_text_tokenizer()
+    batch_out["text_tokens"] = text_tokenizer(text, padding=True, return_tensors="pt")  # Pad dynamically
+    batch_out["labels"] = torch.stack([item["labels"] for item in batch])
+    emojis = [item["emojis"] for item in batch]
+    emoji_tokenizer = get_emoji_tokenizer()
+    batch_out["emoji_tokens"] = emoji_tokenizer(emojis, padding=True, return_tensors="pt")  # Pad dynamically
+    batch_out["images"] = [item["images"] for item in batch]
+    return batch_out
 
-    # For every other key in the sample, keep the original data unchanged
-    # Assumes that all samples share the same keys
-    sample_keys = batch[0].keys()
-    for key in sample_keys:
-        if key not in ["images", "emojis"]:
-            collated_batch[key] = [sample[key] for sample in batch]
-
-    collated_batch["labels"] = torch.tensor(collated_batch["labels"]).long()
-    return collated_batch
 
 
 
@@ -113,13 +98,13 @@ def get_dataloader(config):
     val_config = config['val_dataset']
     val_dataloader = None
     # Create the validation dataset
-    # val_dataset = EmoteDataset(
-    #     csv_file=val_config['csv_file'],
-    #     dataset_dir=config['dataset_dir'],
-    #     portion=1.0,  # use full data for validation
-    #     random_state=config['seed'],
-    #     mode=DatasetMode.EVAL
-    # )
+    val_dataset = EmoteDataset(
+        csv_file=val_config['csv_file'],
+        dataset_dir=config['dataset_dir'],
+        portion=1.0,  # use full data for validation
+        random_state=config['seed'],
+        mode=DatasetMode.EVAL
+    )
 
     # Create the DataLoader for training
     train_dataloader = DataLoader(
@@ -132,12 +117,13 @@ def get_dataloader(config):
     )
 
     # Create the DataLoader for validation
-    # val_dataloader = DataLoader(
-    #     val_dataset,
-    #     batch_size=config.get('batch_size', 32),
-    #     shuffle=False,
-    #     num_workers=config.get('num_workers', 4)
-    # )
+    val_dataloader = DataLoader(
+        val_dataset,
+        batch_size=config.get('batch_size', 32),
+        shuffle=False,
+        collate_fn=custom_collate_fn,
+        num_workers=config.get('num_workers', 4)
+    )
     
     return train_dataloader, val_dataloader
 
