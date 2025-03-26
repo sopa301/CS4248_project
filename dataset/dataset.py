@@ -67,7 +67,10 @@ class EmoteDataset(Dataset):
             image_path = os.path.join(self.base_dir, image_filename)
             try:
                 img = Image.open(image_path).convert("RGB")
-                processor = AutoImageProcessor.from_pretrained("microsoft/swinv2-base-patch4-window12-192-22k")
+                processor = AutoImageProcessor.from_pretrained(
+                    "microsoft/swinv2-base-patch4-window12-192-22k",
+                    use_fast=False
+                )
                 processed = processor(img, return_tensors="pt")
                 img = processed["pixel_values"]
             except Exception as e:

@@ -30,12 +30,15 @@ class RunningAverageDict:
                 self._dict[key] = RunningAverage()
 
         for key, value in new_dict.items():
-            self._dict[key].update(value)
+            if key == 'f1_score':
+                self._dict[key] = value # f1_score is not a RunningAverage object
+            else:
+                self._dict[key].update(value)
 
     def get_value(self):
         if self._dict is None:
             return None
-        return {key: value.get_value() for key, value in self._dict.items()}
+        return {key: value if key == 'f1_score' else value.get_value() for key, value in self._dict.items()} # return f1_score as is
 
 
 # kwargs of the DataLoader in min version 1.4.0.

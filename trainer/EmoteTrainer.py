@@ -14,12 +14,15 @@ import os
 import logging
 import tqdm
 from torchvision.transforms import InterpolationMode, Resize
+from torchmetrics.classification import F1Score
 
 class EmoteTrainer(BaseTrainer):
     def __init__(self, config, model, train_loader, test_loader=None, device=None):
         super().__init__(config, model, train_loader, test_loader, device)
 
-        self.metric_criterion = None
+        self.metric_criterion = "accuracy"
+        self.f1_metric = F1Score(task="binary").to(self.device)
+
         if not config['resume'] and config['train']:
             # Initialize specific layers by name.
             for name, module in model.named_modules():
@@ -97,6 +100,37 @@ class EmoteTrainer(BaseTrainer):
         self.n_batch_in_epoch += 1
 
         return loss
+
+    def validate_on_batch(self, val_step, batch) -> tuple[dict, dict]:
+        # Set the model to evaluation mode.
+        self.model.eval()
+        # Forward pass
+        outputs = self.model(
+            batch['images'],
+            batch['emoji_tokens'].to(self.device),
+            batch['text_tokens'].to(self.device)
+        )
+        # Compute loss with one-hot encoded targets
+        loss = self.loss_fn(
+            outputs,
+            torch.nn.functional.one_hot(batch['labels'].to(self.device), num_classes=2).float()
+        )
+        loss = loss.mean()
+        
+        # Compute predictions by taking the argmax over class logits.
+        preds = torch.argmax(outputs, dim=1)
+        labels = batch['labels'].to(self.device)
+        
+        # Calculate accuracy: mean of correctly predicted labels.
+        accuracy = (preds == labels).float().mean()
+        # Compute F1 Score for binary classification
+        self.f1_metric.update(preds, labels)
+        f1_score = self.f1_metric.compute()
+
+        # Package the loss and metric dictionaries.
+        losses = {"loss": loss.item()}
+        metrics = {"accuracy": accuracy.item(), "f1_score": f1_score.item()}
+        return losses, metrics
 
 
 

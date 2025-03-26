@@ -119,10 +119,9 @@ def get_dataloader(config):
     # Create the DataLoader for validation
     val_dataloader = DataLoader(
         val_dataset,
-        batch_size=config.get('batch_size', 32),
+        batch_size=1,
         shuffle=False,
         collate_fn=custom_collate_fn,
-        num_workers=config.get('num_workers', 4)
     )
     
     return train_dataloader, val_dataloader
@@ -164,7 +163,7 @@ def main_worker(rank: int, config: dict):
 
         # Instantiate the trainer.
         trainer = EmoteTrainer(
-            config, model, train_dataloader, device=rank
+            config, model, train_dataloader, val_dataloader, device=rank
         )
 
         # Train or validate based on configuration.
@@ -178,10 +177,11 @@ def main_worker(rank: int, config: dict):
     finally:
         # clean up the distributed process group and finish wandb logging.
         # save checkpoint in case of failure
-        trainer.save_checkpoint("corrupt.pth")
-        dist.barrier()
-        dist.destroy_process_group()
-        wandb.finish()
+        if config['train']:
+            trainer.save_checkpoint("corrupt.pth")
+            dist.barrier()
+            dist.destroy_process_group()
+            wandb.finish()
 
 if __name__ == "__main__":
      
