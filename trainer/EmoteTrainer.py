@@ -23,42 +23,13 @@ class EmoteTrainer(BaseTrainer):
         self.metric_criterion = "accuracy"
         self.f1_metric = F1Score(task="binary").to(self.device)
 
-        if not config['resume'] and config['train']:
-            # Initialize specific layers by name.
-            for name, module in model.named_modules():
-                if "classifier" in name and isinstance(module, nn.Linear):
-                    nn.init.kaiming_normal_(module.weight)
-                    if module.bias is not None:
-                        nn.init.zeros_(module.bias)
-                    print(f"Initialized {name} with Kaiming normal.")
-                elif "decoder" in name and isinstance(module, nn.TransformerDecoder):
-                    # Iterate over all parameters in the TransformerDecoder.
-                    for param in module.parameters():
-                        if param.dim() > 1:
-                            nn.init.kaiming_normal_(param)
-                    print(f"Initialized {name} with Kaiming normal.")
-                elif "swin_proj" in name and isinstance(module, nn.Linear):
-                    nn.init.kaiming_normal_(module.weight)
-                    if module.bias is not None:
-                        nn.init.zeros_(module.bias)
-                    print(f"Initialized {name} with Kaiming normal.")
-                elif "self_attention" in name and isinstance(module, nn.TransformerEncoder):
-                    for param in module.parameters():
-                        if param.dim() > 1:
-                            nn.init.kaiming_normal_(param)
-                            print(f"Initialized {name} with Kaiming normal.")
+        if config['train']:
+            self.__set_trainability()
+            if not config['resume']:
+                self.__init_model_weights()
 
-        #set trainability
-        for param in self.model.fusion_model.swin.parameters():
-            param.requires_grad = False
-        for param in self.model.fusion_model.bertweet.parameters():
-            param.requires_grad = False
-        for param in self.model.eng_encoder.parameters():
-            param.requires_grad = False
-
-
-        self.optimizer = self.init_optimizer()
-        self.lr_scheduler = self.init_scheduler()
+        self.optimizer = self._init_optimizer()
+        self.lr_scheduler = self._init_scheduler()
         self.scaler = GradScaler()
         self.loss_fn = torch.nn.CrossEntropyLoss()
         if config['resume'] or not config['train']:
@@ -67,17 +38,14 @@ class EmoteTrainer(BaseTrainer):
 
 
 
-    def train_on_batch(self, train_step, batch):
+    def _train_on_batch(self, train_step, batch):
         # Set model to training mode
         self.model.train()
         
         with autocast('cuda',enabled=self.config['half_precision']):
 
-            # Forward pass: get model outputs
             outputs = self.model(batch['images'], batch['emoji_tokens'].to(self.device), batch['text_tokens'].to(self.device))
             
-            # Compute loss:
-            # Here we assume binary classification, so we convert labels to one-hot encoding.
             loss = self.loss_fn(
                 outputs,
                 torch.nn.functional.one_hot(batch['labels'].to(self.device), num_classes=2).float()
@@ -101,7 +69,7 @@ class EmoteTrainer(BaseTrainer):
 
         return loss
 
-    def validate_on_batch(self, val_step, batch) -> tuple[dict, dict]:
+    def _validate_on_batch(self, val_step, batch) -> tuple[dict, dict]:
         # Set the model to evaluation mode.
         self.model.eval()
         # Forward pass
@@ -134,10 +102,44 @@ class EmoteTrainer(BaseTrainer):
 
 
 
-    def init_scheduler(self):
+    def _init_scheduler(self):
         from torch.optim.lr_scheduler import ConstantLR
         if self.config['lr_scheduler'] == 'const':
             lr_scheduler = ConstantLR(optimizer=self.optimizer, factor=1)
         else:
             raise NameError
         return lr_scheduler
+    
+    def __init_model_weights(self):
+        # Initialize specific layers by name.
+        for name, module in self.model.named_modules():
+            if "classifier" in name and isinstance(module, nn.Linear):
+                nn.init.kaiming_normal_(module.weight)
+                if module.bias is not None:
+                    nn.init.zeros_(module.bias)
+                print(f"Initialized {name} with Kaiming normal.")
+            elif "decoder" in name and isinstance(module, nn.TransformerDecoder):
+                # Iterate over all parameters in the TransformerDecoder.
+                for param in module.parameters():
+                    if param.dim() > 1:
+                        nn.init.kaiming_normal_(param)
+                print(f"Initialized {name} with Kaiming normal.")
+            elif "swin_proj" in name and isinstance(module, nn.Linear):
+                nn.init.kaiming_normal_(module.weight)
+                if module.bias is not None:
+                    nn.init.zeros_(module.bias)
+                print(f"Initialized {name} with Kaiming normal.")
+            elif "self_attention" in name and isinstance(module, nn.TransformerEncoder):
+                for param in module.parameters():
+                    if param.dim() > 1:
+                        nn.init.kaiming_normal_(param)
+                        print(f"Initialized {name} with Kaiming normal.")
+
+    def __set_trainability(self):
+        #set trainability
+        for param in self.model.fusion_model.swin.parameters():
+            param.requires_grad = False
+        for param in self.model.fusion_model.bertweet.parameters():
+            param.requires_grad = False
+        for param in self.model.eng_encoder.parameters():
+            param.requires_grad = False

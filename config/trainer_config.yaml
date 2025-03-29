@@ -1,4 +1,4 @@
-train: False   # train or eval
+train: True   # train or eval
 # Devices
 device: 0      # cuda:int
 world_size: 1  #  no. of gpus
@@ -10,13 +10,14 @@ device_ids: [2]
 # Load/Save
 resume: False      # resume training or new
 save_dir: null
-checkpoint: /home/andrew/CS4248_project/runs/run47/latest.pth        # load checkpoint directory null==None
+# /home/andrew/CS4248_project/runs/run47/latest.pth
+checkpoint: /home/andrew/CS4248_project/runs/run49/latest.pth        # load checkpoint directory null==None
 ckpt_pattern: 
 save_every: 1        # save checkpoint every n epochs
 
 # Training
 batch_size: 32        # Batch size
-epochs: 20           # Number of epochs
+epochs: 15           # Number of epochs
 gradient_accumulation_steps: 1
 
 learning_rate: 0.00003    # Learning rate

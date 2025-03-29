@@ -31,27 +31,7 @@ class BaseTrainer:
         self.run_index = 0
 
         self.model = model
-        ############################# initialize save_dir ########################################################
-        # Initialize the directory where runs are saved.
-        runs_dir = Path('runs')
-
-        # Determine if the current process should handle saving (primary process)
-        is_primary = (not self.config['distributed'] or is_rank_zero(self.config))
-
-        if is_primary and self.config['train']:
-            # Find the next available run index by incrementing until a non-existent directory is found.
-            while (runs_dir / f"run{self.run_index}").exists():
-                self.run_index += 1
-
-            if self.config['save_dir'] is None:
-                # If no specific save_dir is provided, create a new one within the runs directory.
-                self.save_dir = runs_dir / f"run{self.run_index}"
-                self.save_dir.mkdir(exist_ok=False, parents=True)
-            else:
-                # Otherwise, use the provided save_dir from the configuration.
-                self.save_dir = Path(self.config['save_dir'])
-                if not self.save_dir.exists():
-                    self.save_dir.mkdir(exist_ok=False, parents=True)
+        self._init_save_dir()
         
         self.experiment_id = f"{self.config['version_name']}_{self.run_index}"
 
@@ -108,20 +88,42 @@ class BaseTrainer:
         if (not self.config['distributed']) or self.config.get('rank', 0) == 0:
             print(f"Loaded weights from {checkpoint}")
 
-    def init_optimizer(self):
+    def _init_save_dir(self):
+        # Initialize the directory where runs are saved.
+        runs_dir = Path('runs')
+
+        # Determine if the current process should handle saving (primary process)
+        is_primary = (not self.config['distributed'] or is_rank_zero(self.config))
+
+        if is_primary and self.config['train']:
+            # Find the next available run index by incrementing until a non-existent directory is found.
+            while (runs_dir / f"run{self.run_index}").exists():
+                self.run_index += 1
+
+            if self.config['save_dir'] is None:
+                # If no specific save_dir is provided, create a new one within the runs directory.
+                self.save_dir = runs_dir / f"run{self.run_index}"
+                self.save_dir.mkdir(exist_ok=False, parents=True)
+            else:
+                # Otherwise, use the provided save_dir from the configuration.
+                self.save_dir = Path(self.config['save_dir'])
+                if not self.save_dir.exists():
+                    self.save_dir.mkdir(exist_ok=False, parents=True)
+
+    def _init_optimizer(self):
         params = self.model.parameters()
         return optim.AdamW(params, lr=self.config['learning_rate'], weight_decay=self.config['weight_decay'])
 
-    def init_scheduler(self):
+    def _init_scheduler(self):
         raise NotImplementedError
     
-    def train_on_batch(self, train_step, batch):
+    def _train_on_batch(self, train_step, batch):
         raise NotImplementedError
 
-    def validate_on_batch(self, val_step, batch)->tuple[Dict|None, Dict|None]: # loss, metric
+    def _validate_on_batch(self, val_step, batch)->tuple[Dict|None, Dict|None]: # loss, metric
         raise NotImplementedError
 
-    def raise_if_nan(self, loss):
+    def _raise_if_nan(self, loss):
         if torch.isnan(loss):
             raise ValueError(f"loss is NaN, Stopping training")
 
@@ -133,106 +135,45 @@ class BaseTrainer:
     def total_iters(self):
         return self.config['epochs'] * self.iters_per_epoch
 
-    def should_early_stop(self):
+    def _should_early_stop(self):
         if self.config['early_stop'] != False and self.step > self.config['early_stop']:
             return True
 
     def train(self):
-        """
-        Train the model, logging metrics and saving checkpoints along the way.
-        """
         print("Training")
-
-        # Setup logging and checkpoint conditions.
-        self.should_write = not self.config['distributed'] or is_rank_zero(self.config)
-        self.should_log = self.should_write  # This can be expanded later if needed.
-        
-        if self.should_log:
-            wandb.init(
-                name=self.experiment_id,
-                config=self.config,
-                dir=str(self.save_dir),
-                settings=wandb.Settings(start_method="fork")
-            )
+        self._init_logging()
 
         self.step = 0
         best_loss = np.inf
         validate_interval = int(self.config['validate_every'] * self.iters_per_epoch)
 
         for epoch in range(self.epoch, self.config['epochs']):
-            if self.should_early_stop():
+            if self._should_early_stop():
                 break
 
             self.epoch = epoch
+            self._log_epoch_start()
 
-            # Log the beginning of a new epoch.
-            if self.should_log:
-                wandb.log({"Epoch": epoch}, step=self.step)
-
-            # Prepare training data loader with skipped batches if needed.
             train_loader = skip_first_batches(self.train_loader, self.n_batch_in_epoch)
+            pbar = self._get_progress_bar(train_loader)
 
-            # Setup progress bar for the primary process.
-            if is_rank_zero(self.config):
-                pbar = tqdm(
-                    enumerate(train_loader),
-                    desc=f"Epoch: {epoch + 1}/{self.config['epochs']}. Loop: Train",
-                    total=len(train_loader)
-                )
-            else:
-                pbar = enumerate(self.train_loader)
-
-            # Process each batch.
             for i, batch in pbar:
-                if self.should_early_stop():
+                if self._should_early_stop():
                     print("Early stopping")
                     break
 
-                loss = self.train_on_batch(i, batch)
-                self.raise_if_nan(loss)
+                loss = self._train_batch(i, batch, pbar)
 
-                # Update progress bar description.
-                if is_rank_zero(self.config):
-                    pbar.set_description(
-                        f"Epoch: {epoch + 1}/{self.config['epochs']}. Loop: Train. Loss: {loss.item()}"
-                    )
-
-                # Log training loss every 50 steps.
-                if self.should_log and self.step % 50 == 0:
-                    wandb.log({'Train/loss': loss.item()}, step=self.step)
+                if self._should_log_now():
+                    self._log_train_loss(loss)
 
                 self.step += 1
-                ################################ validate ####################################################
-                # Perform validation if a test loader is available.
-                if self.test_loader and self.step % validate_interval == 0:
-                    metrics, test_losses = self.validate()
+                if self._should_validate(validate_interval):
+                    best_loss = self._maybe_validate(best_loss)
 
-                    if self.should_log:
-                        # Log test losses and metrics.
-                        wandb.log({f"Test/{name}": tloss for name, tloss in test_losses.items()}, step=self.step)
-                        wandb.log({f"Metrics/{k}": v for k, v in metrics.items()}, step=self.step)
-
-                        # Save a checkpoint if a new best loss is achieved.
-                        if metrics[self.metric_criterion] < best_loss and self.should_write:
-                            self.save_checkpoint(f"{self.experiment_id}_best.pth")
-                            best_loss = metrics[self.metric_criterion]
-
-                    # Synchronize processes in distributed training.
-                    if self.config['distributed']:
-                        dist.barrier()
-
-            # Save checkpoint at regular epoch intervals.
-            if (epoch + 1) % self.config['save_every'] == 0:
-                if self.should_write:
-                    self.save_checkpoint("latest.pth")
-                    print(f"Saved checkpoint to {str(self.save_dir)}/latest.pth")
-                if self.config['distributed']:
-                    dist.barrier()
-
-            # Reset batch counter for the next epoch.
+            self._maybe_save_epoch_ckpt()
             self.n_batch_in_epoch = 0
 
-        # Final logging step.
         self.step += 1
 
         
@@ -244,7 +185,7 @@ class BaseTrainer:
         for i, batch in tqdm(enumerate(self.test_loader), desc=f"Loop: Validation",
                                 total=len(self.test_loader), disable=not is_rank_zero(self.config)):
             
-            losses, metrics = self.validate_on_batch(i, batch)
+            losses, metrics = self._validate_on_batch(i, batch)
 
             if losses:
                 losses_avg.update(losses)
@@ -267,3 +208,73 @@ class BaseTrainer:
                 "n_batch_in_epoch": self.n_batch_in_epoch,
                 "config": self.config,
             }, str(fpath))
+
+    def _init_logging(self):
+        self.should_write = not self.config['distributed'] or is_rank_zero(self.config)
+        self.should_log = self.should_write
+
+        if self.should_log:
+            wandb.init(
+                name=self.experiment_id,
+                config=self.config,
+                dir=str(self.save_dir),
+                settings=wandb.Settings(start_method="fork")
+            )
+
+    def _log_epoch_start(self):
+        if self.should_log:
+            wandb.log({"Epoch": self.epoch}, step=self.step)
+
+    def _get_progress_bar(self, loader):
+        if is_rank_zero(self.config):
+            return tqdm(
+                enumerate(loader),
+                desc=f"Epoch: {self.epoch + 1}/{self.config['epochs']}. Loop: Train",
+                total=len(loader)
+            )
+        else:
+            return enumerate(loader)
+        
+    def _train_batch(self, i, batch, pbar):
+        loss = self._train_on_batch(i, batch)
+        self._raise_if_nan(loss)
+
+        if is_rank_zero(self.config):
+            pbar.set_description(
+                f"Epoch: {self.epoch + 1}/{self.config['epochs']}. Loop: Train. Loss: {loss.item()}"
+            )
+
+        return loss
+
+    def _should_log_now(self):
+        return self.should_log and self.step % 50 == 0
+
+    def _log_train_loss(self, loss):
+        wandb.log({'Train/loss': loss.item()}, step=self.step)
+
+    def _should_validate(self, validate_interval):
+        return self.test_loader and self.step % validate_interval == 0
+    
+    def _maybe_validate(self, best_loss):
+        metrics, test_losses = self.validate()
+
+        if self.should_log:
+            wandb.log({f"Test/{name}": val for name, val in test_losses.items()}, step=self.step)
+            wandb.log({f"Metrics/{k}": v for k, v in metrics.items()}, step=self.step)
+
+            if metrics[self.metric_criterion] < best_loss and self.should_write:
+                self.save_checkpoint(f"{self.experiment_id}_best.pth")
+                best_loss = metrics[self.metric_criterion]
+
+        if self.config['distributed']:
+            dist.barrier()
+
+        return best_loss
+
+    def _maybe_save_epoch_ckpt(self):
+        if (self.epoch + 1) % self.config['save_every'] == 0:
+            if self.should_write:
+                self.save_checkpoint("latest.pth")
+                print(f"Saved checkpoint to {str(self.save_dir)}/latest.pth")
+            if self.config['distributed']:
+                dist.barrier()

@@ -3,4 +3,5 @@ dataset/noto-emoji-main.zip
 dataset/twemoji-main.zip
 dataset/noto-emoji-main/
 dataset/twemoji-main/
+dataset_following_elco_split/googlefonts-noto-emoji-main-png-512/
 __pycache__/

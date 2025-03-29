@@ -60,8 +60,6 @@ def custom_collate_fn(batch):
     return batch_out
 
 
-
-
 def build_model(config):
     from model import FinalModel
     if config['half_precision']:

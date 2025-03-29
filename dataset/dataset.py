@@ -32,13 +32,12 @@ class EmoteDataset(Dataset):
         if portion < 1.0:
             data = data.sample(frac=portion, random_state=random_state).reset_index(drop=True)
         
-        self.sent1 = list(data['sent1'])
-        self.sent2 = list(data['sent2'])
+        self.en = list(data['EN'])
         self.labels = list(data['label'])
         self.image_files = data['separate_filenames']
         self.unicodes = list(data['unicode'])
         self.strategies = list(data['strategy'])
-        self.emojis = data['emoji']
+        self.emojis = data['EM']
 
         self.base_dir = dataset_dir
         
@@ -47,7 +46,7 @@ class EmoteDataset(Dataset):
     def __getitem__(self, idx):
         # Retrieve the tokenized inputs and the corresponding labels/strategies
         batch = {}
-        batch['EN'] = self.sent2[idx]
+        batch['EN'] = self.en[idx]
         batch['labels'] = torch.tensor(self.labels[idx]).clone()
         # batch['strategies'] = self.strategies[idx]
         batch['images'] = self._get_images(idx)
