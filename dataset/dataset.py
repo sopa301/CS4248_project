@@ -7,7 +7,7 @@ from enum import Enum
 from torchvision import transforms
 import regex
 import ast
-from transformers import AutoImageProcessor
+from transformers import AutoImageProcessor, AutoFeatureExtractor
 from transformers import AutoTokenizer, AutoModel
 
 class DatasetMode(Enum):
@@ -67,7 +67,8 @@ class EmoteDataset(Dataset):
             try:
                 img = Image.open(image_path).convert("RGB")
                 processor = AutoImageProcessor.from_pretrained(
-                    "microsoft/swinv2-base-patch4-window12-192-22k",
+                    "microsoft/swin-base-patch4-window12-384-in22k",
+                    # 'microsoft/swinv2-base-patch4-window12-192-22k',
                     use_fast=False
                 )
                 processed = processor(img, return_tensors="pt")

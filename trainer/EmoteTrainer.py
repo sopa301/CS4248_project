@@ -110,35 +110,64 @@ class EmoteTrainer(BaseTrainer):
             raise NameError
         return lr_scheduler
     
+    # def __init_model_weights(self):
+    #     # Initialize specific layers by name.
+    #     for name, module in self.model.named_modules():
+    #         if "classifier" in name and isinstance(module, nn.Linear):
+    #             nn.init.kaiming_normal_(module.weight)
+    #             if module.bias is not None:
+    #                 nn.init.zeros_(module.bias)
+    #             print(f"Initialized {name} with Kaiming normal.")
+    #         elif "decoder" in name and isinstance(module, nn.TransformerDecoder):
+    #             # Iterate over all parameters in the TransformerDecoder.
+    #             for param in module.parameters():
+    #                 if param.dim() > 1:
+    #                     nn.init.kaiming_normal_(param)
+    #             print(f"Initialized {name} with Kaiming normal.")
+    #         elif "swin_proj" in name and isinstance(module, nn.Linear):
+    #             nn.init.kaiming_normal_(module.weight)
+    #             if module.bias is not None:
+    #                 nn.init.zeros_(module.bias)
+    #             print(f"Initialized {name} with Kaiming normal.")
+    #         elif "self_attention" in name and isinstance(module, nn.TransformerEncoder):
+    #             for param in module.parameters():
+    #                 if param.dim() > 1:
+    #                     nn.init.kaiming_normal_(param)
+    #                     print(f"Initialized {name} with Kaiming normal.")
     def __init_model_weights(self):
-        # Initialize specific layers by name.
+        def is_custom_module(name):
+            # Skip initializing pretrained model modules
+            return not any(x in name for x in ['bertweet', 'swin', 'eng_encoder'])
+
         for name, module in self.model.named_modules():
-            if "classifier" in name and isinstance(module, nn.Linear):
+            if not is_custom_module(name):
+                continue
+
+            # Initialize Linear layers
+            if isinstance(module, nn.Linear):
                 nn.init.kaiming_normal_(module.weight)
                 if module.bias is not None:
                     nn.init.zeros_(module.bias)
-                print(f"Initialized {name} with Kaiming normal.")
-            elif "decoder" in name and isinstance(module, nn.TransformerDecoder):
-                # Iterate over all parameters in the TransformerDecoder.
+                print(f"Initialized Linear layer '{name}' with Kaiming normal.")
+
+            # Initialize Transformer Encoder/Decoder blocks
+            elif isinstance(module, (nn.TransformerEncoder, nn.TransformerDecoder)):
                 for param in module.parameters():
                     if param.dim() > 1:
                         nn.init.kaiming_normal_(param)
-                print(f"Initialized {name} with Kaiming normal.")
-            elif "swin_proj" in name and isinstance(module, nn.Linear):
-                nn.init.kaiming_normal_(module.weight)
-                if module.bias is not None:
-                    nn.init.zeros_(module.bias)
-                print(f"Initialized {name} with Kaiming normal.")
-            elif "self_attention" in name and isinstance(module, nn.TransformerEncoder):
+                print(f"Initialized Transformer block '{name}' with Kaiming normal.")
+
+            # Catch any other custom modules (e.g., self-attention wrapper)
+            elif "self_attention" in name or "fusion_transformer" in name:
                 for param in module.parameters():
                     if param.dim() > 1:
                         nn.init.kaiming_normal_(param)
-                        print(f"Initialized {name} with Kaiming normal.")
+                print(f"Initialized custom module '{name}' with Kaiming normal.")
 
     def __set_trainability(self):
         #set trainability
-        for param in self.model.fusion_model.swin.parameters():
-            param.requires_grad = False
+        # for param in self.model.fusion_model.swin.parameters():
+        #     param.requires_grad = False
         for param in self.model.fusion_model.bertweet.parameters():
             param.requires_grad = False
         for param in self.model.eng_encoder.parameters():

@@ -61,8 +61,8 @@ def custom_collate_fn(batch):
 
 
 def build_model(config):
-    from model import FinalModel
-    # from model2 import FinalModel
+    # from model import FinalModel
+    from model2 import FinalModel
     if config['half_precision']:
         weight_dtype = torch.float16
         logging.info(f"Running with half precision ({weight_dtype}).")

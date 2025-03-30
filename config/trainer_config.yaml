@@ -1,23 +1,23 @@
-train: True   # train or eval
+train: False   # train or eval
 # Devices
 device: 0      # cuda:int
 world_size: 1  #  no. of gpus
 distributed: False
-num_workers: 4   
+num_workers: 2   
 
-device_ids: [2]
+device_ids: [1]
 
 # Load/Save
 resume: False      # resume training or new
 save_dir: null
 # /home/andrew/CS4248_project/runs/run47/latest.pth
-checkpoint: /home/andrew/CS4248_project/runs/run49/latest.pth        # load checkpoint directory null==None
+checkpoint: /home/andrew/CS4248_project/runs/run23/epoch19.pth        # load checkpoint directory null==None
 ckpt_pattern: 
-save_every: 1        # save checkpoint every n epochs
+save_every: 5        # save checkpoint every n epochs
 
 # Training
 batch_size: 32        # Batch size
-epochs: 15           # Number of epochs
+epochs: 30           # Number of epochs
 gradient_accumulation_steps: 1
 
 learning_rate: 0.00003    # Learning rate
@@ -30,7 +30,7 @@ validate_every: 3    # do validation every n epochs
 lr_scheduler: const
 
 # Miscellaneous
-version_name: bart      # for log name and validation saving name
+version_name: one_two_two_layers      # for log name and validation saving name
 seed: 11
 
 

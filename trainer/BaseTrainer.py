@@ -136,7 +136,7 @@ class BaseTrainer:
         return self.config['epochs'] * self.iters_per_epoch
 
     def _should_early_stop(self):
-        if self.config['early_stop'] != False and self.step > self.config['early_stop']:
+        if self.config['early_stop'] and self.step > self.config['early_stop']:
             return True
 
     def train(self):
@@ -257,7 +257,7 @@ class BaseTrainer:
     
     def _maybe_validate(self, best_loss):
         metrics, test_losses = self.validate()
-
+        print(f"metric:{metrics} \nloss:{test_losses}")
         if self.should_log:
             wandb.log({f"Test/{name}": val for name, val in test_losses.items()}, step=self.step)
             wandb.log({f"Metrics/{k}": v for k, v in metrics.items()}, step=self.step)
@@ -274,7 +274,9 @@ class BaseTrainer:
     def _maybe_save_epoch_ckpt(self):
         if (self.epoch + 1) % self.config['save_every'] == 0:
             if self.should_write:
-                self.save_checkpoint("latest.pth")
-                print(f"Saved checkpoint to {str(self.save_dir)}/latest.pth")
+                # self.save_checkpoint("latest.pth")
+                # print(f"Saved checkpoint to {str(self.save_dir)}/latest.pth")
+                self.save_checkpoint(f"epoch{self.epoch}.pth")
+                print(f"Saved checkpoint to {str(self.save_dir)}/epoch{self.epoch}.pth")
             if self.config['distributed']:
                 dist.barrier()

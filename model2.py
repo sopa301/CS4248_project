@@ -65,15 +65,17 @@ class EmojiEncoder(nn.Module):
     def __init__(self, device='cuda' if torch.cuda.is_available() else 'cpu'):
         super(EmojiEncoder, self).__init__()
         self.device = device
+        self.bertweet = AutoModel.from_pretrained("vinai/bertweet-base").to(device)
         self.image_encoder = SetImageEncoder(device=device)
         self.self_attention = SelfAttention(d_model=768, nhead=8, num_layers=2)
 
-    def forward(self, images):
+    def forward(self, images, emoji_tokens):
         image_embeddings = self.image_encoder(images)  # [batch, 768]
         image_embeddings = image_embeddings.unsqueeze(1)  # [batch, 1, 768]
-        # Self-attention over just the image tokens
-        return self.self_attention(image_embeddings)  # [batch, 1, 768]
-
+        encoded_emoji = self.bertweet(**emoji_tokens)
+        emoji_embedding = encoded_emoji.last_hidden_state  # [batch, seq_len, 768]
+        fused_tokens = torch.cat([emoji_embedding, image_embeddings], dim=1)  # [batch, seq+1, 768]
+        return self.self_attention(fused_tokens)  # [batch, seq+1, 768]
 
 
 class CrossModal(nn.Module):
