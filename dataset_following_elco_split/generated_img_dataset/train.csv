@@ -280,7 +280,6 @@ EM,EN,unicode,label,strategy,image
 🧍‍♂️🤢,dirty overall,U+1F9CD U+200D U+2642 U+FE0F U+1F922,1,0,./generated_img_dataset/train_google/278.png
 💩👖,dirty overall,U+1F4A9 U+1F456,1,0,./generated_img_dataset/train_google/279.png
 👎🥊,dirty fighter,U+1F44E U+1F94A,1,0,./generated_img_dataset/train_google/280.png
-🤬:pouting_face:,dirty fighter,U+1F92C U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,1,./generated_img_dataset/train_google/281.png
 ❌⚖️💪👨‍🦲💢,dirty fighter,U+274C U+2696 U+FE0F U+1F4AA U+1F468 U+200D U+1F9B2 U+1F4A2,1,1,./generated_img_dataset/train_google/282.png
 🤬🤼‍♂️,dirty fighter,U+1F92C U+1F93C U+200D U+2642 U+FE0F,1,0,./generated_img_dataset/train_google/283.png
 🤮🥋,dirty fighter,U+1F92E U+1F94B,1,0,./generated_img_dataset/train_google/284.png
@@ -310,7 +309,6 @@ EM,EN,unicode,label,strategy,image
 🤲🌆,common land,U+1F932 U+1F306,1,0,./generated_img_dataset/train_google/308.png
 🤝🏝️,common land,U+1F91D U+1F3DD U+FE0F,1,0,./generated_img_dataset/train_google/309.png
 👥🏝️🙌👥,common land,U+1F465 U+1F3DD U+FE0F U+1F64C U+1F465,1,0,./generated_img_dataset/train_google/310.png
-🌎🇦🇽🇮🇴🇻🇬🇧🇶🇧🇶🇰🇾,common land,U+1F30E U+1F1E6 U+1F1FD U+1F1EE U+1F1F4 U+1F1FB U+1F1EC U+1F1E7 U+1F1F6 U+1F1E7 U+1F1F6 U+1F1F0 U+1F1FE,1,2,./generated_img_dataset/train_google/311.png
 🤬,common nuisance,U+1F92C,1,4,./generated_img_dataset/train_google/312.png
 😒😒,common nuisance,U+1F612 U+1F612,1,3,./generated_img_dataset/train_google/313.png
 👥😩,common nuisance,U+1F465 U+1F629,1,0,./generated_img_dataset/train_google/314.png
@@ -366,7 +364,6 @@ EM,EN,unicode,label,strategy,image
 ⚒️⛓️,heavy metal,U+2692 U+FE0F U+26D3 U+FE0F,1,2,./generated_img_dataset/train_google/364.png
 😓🪨,heavy metal,U+1F613 U+1FAA8,1,1,./generated_img_dataset/train_google/365.png
 ⚖️⚙️,heavy metal,U+2696 U+FE0F U+2699 U+FE0F,1,1,./generated_img_dataset/train_google/366.png
-📦📦📦📦📦📦📦📦📦✖️💯,heavy load,U+1F4E6 U+1F4E6 U+1F4E6 U+1F4E6 U+1F4E6 U+1F4E6 U+1F4E6 U+1F4E6 U+1F4E6 U+2716 U+FE0F U+1F4AF,1,3,./generated_img_dataset/train_google/367.png
 🏋️🎒,heavy load,U+1F3CB U+FE0F U+1F392,1,0,./generated_img_dataset/train_google/368.png
 🏋️‍♂️📦,heavy load,U+1F3CB U+FE0F U+200D U+2642 U+FE0F U+1F4E6,1,0,./generated_img_dataset/train_google/369.png
 🏋🏻🚜🧳,heavy load,U+1F3CB U+1F3FB U+1F69C U+1F9F3,1,0,./generated_img_dataset/train_google/370.png
@@ -385,7 +382,6 @@ EM,EN,unicode,label,strategy,image
 🍙🍚🍘🍜,ample food,U+1F359 U+1F35A U+1F358 U+1F35C,1,2,./generated_img_dataset/train_google/383.png
 🥖🥞🥫🍛🍲,ample food,U+1F956 U+1F95E U+1F96B U+1F35B U+1F372,1,2,./generated_img_dataset/train_google/384.png
 👌🏻🍽️🍎,ample food,U+1F44C U+1F3FB U+1F37D U+FE0F U+1F34E,1,1,./generated_img_dataset/train_google/385.png
-🍏🍎🍐🍊🥔🍠🥐🥯🍞🫓🍑🥥🥝,ample food,U+1F34F U+1F34E U+1F350 U+1F34A U+1F954 U+1F360 U+1F950 U+1F96F U+1F35E U+1FAD3 U+1F351 U+1F965 U+1F95D,1,2,./generated_img_dataset/train_google/386.png
 🍔🌭🌮🌯🥪🍕,ample food,U+1F354 U+1F32D U+1F32E U+1F32F U+1F96A U+1F355,1,2,./generated_img_dataset/train_google/387.png
 👐😋,ample food,U+1F450 U+1F60B,1,1,./generated_img_dataset/train_google/388.png
 😊📈,ample supply,U+1F60A U+1F4C8,1,1,./generated_img_dataset/train_google/389.png
@@ -393,7 +389,6 @@ EM,EN,unicode,label,strategy,image
 📉📋✅,ample supply,U+1F4C9 U+1F4CB U+2705,1,1,./generated_img_dataset/train_google/391.png
 🍽️✅,ample supply,U+1F37D U+FE0F U+2705,1,1,./generated_img_dataset/train_google/392.png
 👌🏻🔒,ample supply,U+1F44C U+1F3FB U+1F512,1,1,./generated_img_dataset/train_google/393.png
-🍏🍌🥐🌮🥪🥨🧀🥚🥞🥬🌶️🍢🧋🌰🍪🎂🥂🍨,ample supply,U+1F34F U+1F34C U+1F950 U+1F32E U+1F96A U+1F968 U+1F9C0 U+1F95A U+1F95E U+1F96C U+1F336 U+FE0F U+1F362 U+1F9CB U+1F330 U+1F36A U+1F382 U+1F942 U+1F368,1,2,./generated_img_dataset/train_google/394.png
 🙆🏻‍♀️📦,ample supply,U+1F646 U+1F3FB U+200D U+2640 U+FE0F U+1F4E6,1,0,./generated_img_dataset/train_google/395.png
 👐📈,ample supply,U+1F450 U+1F4C8,1,1,./generated_img_dataset/train_google/396.png
 😊,ample waistline,U+1F60A,1,4,./generated_img_dataset/train_google/397.png
@@ -401,7 +396,6 @@ EM,EN,unicode,label,strategy,image
 📏👖,ample waistline,U+1F4CF U+1F456,1,1,./generated_img_dataset/train_google/399.png
 🍴🍴🍝🎅,ample waistline,U+1F374 U+1F374 U+1F35D U+1F385,1,1,./generated_img_dataset/train_google/400.png
 🤌🏻👗,ample waistline,U+1F90C U+1F3FB U+1F457,1,1,./generated_img_dataset/train_google/401.png
-💸🏦💵🪙💰💹🏧💲💳🤑,ample waistline,U+1F4B8 U+1F3E6 U+1F4B5 U+1FA99 U+1F4B0 U+1F4B9 U+1F3E7 U+1F4B2 U+1F4B3 U+1F911,1,1,./generated_img_dataset/train_google/402.png
 🙆🏻‍♀️🩳,ample waistline,U+1F646 U+1F3FB U+200D U+2640 U+FE0F U+1FA73,1,0,./generated_img_dataset/train_google/403.png
 👐🤰,ample waistline,U+1F450 U+1F930,1,1,./generated_img_dataset/train_google/404.png
 🤯🤩,remarkable sight,U+1F92F U+1F929,1,0,./generated_img_dataset/train_google/405.png
@@ -421,7 +415,6 @@ EM,EN,unicode,label,strategy,image
 😔😪,dull mood,U+1F614 U+1F62A,1,2,./generated_img_dataset/train_google/419.png
 😓,dull mood,U+1F613,1,4,./generated_img_dataset/train_google/420.png
 😑🥱⚽,dull play,U+1F611 U+1F971 U+26BD,1,0,./generated_img_dataset/train_google/421.png
-😑:pinata:🧸,dull play,U+1F611 U+3A U+70 U+69 U+6E U+61 U+74 U+61 U+3A U+1F9F8,1,0,./generated_img_dataset/train_google/422.png
 🥱🎭,dull play,U+1F971 U+1F3AD,1,0,./generated_img_dataset/train_google/423.png
 🥱🎭,dull play,U+1F971 U+1F3AD,1,0,./generated_img_dataset/train_google/424.png
 😒⚽,dull play,U+1F612 U+26BD,1,0,./generated_img_dataset/train_google/425.png
@@ -474,7 +467,6 @@ EM,EN,unicode,label,strategy,image
 🥰🚪,cozy room,U+1F970 U+1F6AA,1,1,./generated_img_dataset/train_google/472.png
 🛋️☕🖥️,cozy room,U+1F6CB U+FE0F U+2615 U+1F5A5 U+FE0F,1,1,./generated_img_dataset/train_google/473.png
 😄🛌,cozy room,U+1F604 U+1F6CC,1,1,./generated_img_dataset/train_google/474.png
-🛏️🛋️:zzz:🕯️,cozy room,U+1F6CF U+FE0F U+1F6CB U+FE0F U+3A U+7A U+7A U+7A U+3A U+1F56F U+FE0F,1,1,./generated_img_dataset/train_google/475.png
 😴🛋️,cozy room,U+1F634 U+1F6CB U+FE0F,1,1,./generated_img_dataset/train_google/476.png
 ↘️🏔️,low hill,U+2198 U+FE0F U+1F3D4 U+FE0F,1,0,./generated_img_dataset/train_google/477.png
 👇⛰️,low hill,U+1F447 U+26F0 U+FE0F,1,0,./generated_img_dataset/train_google/478.png
@@ -878,10 +870,7 @@ EM,EN,unicode,label,strategy,image
 😴😪🛌,deep sleep,U+1F634 U+1F62A U+1F6CC,1,1,./generated_img_dataset/train_google/876.png
 😴😴😴,deep sleep,U+1F634 U+1F634 U+1F634,1,3,./generated_img_dataset/train_google/877.png
 😪🤤😴😵,deep sleep,U+1F62A U+1F924 U+1F634 U+1F635,1,1,./generated_img_dataset/train_google/878.png
-😴🛌:zzz::zzz:,deep sleep,U+1F634 U+1F6CC U+3A U+7A U+7A U+7A U+3A U+3A U+7A U+7A U+7A U+3A,1,1,./generated_img_dataset/train_google/879.png
-😪:zzz:,deep sleep,U+1F62A U+3A U+7A U+7A U+7A U+3A,1,1,./generated_img_dataset/train_google/880.png
 😴😴,deep sleep,U+1F634 U+1F634,1,3,./generated_img_dataset/train_google/881.png
-😴😴:zzz::zzz:,deep sleep,U+1F634 U+1F634 U+3A U+7A U+7A U+7A U+3A U+3A U+7A U+7A U+7A U+3A,1,1,./generated_img_dataset/train_google/882.png
 🕳️😮‍💨,deep breath,U+1F573 U+FE0F U+1F62E U+200D U+1F4A8,1,0,./generated_img_dataset/train_google/883.png
 😮🫁,deep breath,U+1F62E U+1FAC1,1,1,./generated_img_dataset/train_google/884.png
 😮‍💨😮‍💨😮‍💨,deep breath,U+1F62E U+200D U+1F4A8 U+1F62E U+200D U+1F4A8 U+1F62E U+200D U+1F4A8,1,3,./generated_img_dataset/train_google/885.png
@@ -970,7 +959,6 @@ EM,EN,unicode,label,strategy,image
 👩🌴🧉,idyllic spot,U+1F469 U+1F334 U+1F9C9,1,1,./generated_img_dataset/train_google/968.png
 😁🌥️🍱🏕️,idyllic spot,U+1F601 U+1F325 U+FE0F U+1F371 U+1F3D5 U+FE0F,1,1,./generated_img_dataset/train_google/969.png
 😃🕶️🌴,idyllic spot,U+1F603 U+1F576 U+FE0F U+1F334,1,1,./generated_img_dataset/train_google/970.png
-🏠🏛️👮‍♀️📈🇸🇬,domestic worry,U+1F3E0 U+1F3DB U+FE0F U+1F46E U+200D U+2640 U+FE0F U+1F4C8 U+1F1F8 U+1F1EC,1,1,./generated_img_dataset/train_google/971.png
 🏠🥺,domestic worry,U+1F3E0 U+1F97A,1,0,./generated_img_dataset/train_google/972.png
 🏠😖,domestic worry,U+1F3E0 U+1F616,1,0,./generated_img_dataset/train_google/973.png
 🏡🥺😟,domestic worry,U+1F3E1 U+1F97A U+1F61F,1,0,./generated_img_dataset/train_google/974.png
@@ -1030,7 +1018,6 @@ EM,EN,unicode,label,strategy,image
 🔂💑👩‍❤️‍👨👩‍❤️‍👩,constant lover,U+1F502 U+1F491 U+1F469 U+200D U+2764 U+FE0F U+200D U+1F468 U+1F469 U+200D U+2764 U+FE0F U+200D U+1F469,1,0,./generated_img_dataset/train_google/1028.png
 💍👰‍♂️👰‍♀️🤵‍♂️💑,constant lover,U+1F48D U+1F470 U+200D U+2642 U+FE0F U+1F470 U+200D U+2640 U+FE0F U+1F935 U+200D U+2642 U+FE0F U+1F491,1,1,./generated_img_dataset/train_google/1029.png
 ❤️🧓👵,constant lover,U+2764 U+FE0F U+1F9D3 U+1F475,1,1,./generated_img_dataset/train_google/1030.png
-🕰️:zzz:🫂,constant lover,U+1F570 U+FE0F U+3A U+7A U+7A U+7A U+3A U+1FAC2,1,1,./generated_img_dataset/train_google/1031.png
 💘👩‍❤️‍👨🔃,constant lover,U+1F498 U+1F469 U+200D U+2764 U+FE0F U+200D U+1F468 U+1F503,1,0,./generated_img_dataset/train_google/1032.png
 👬👨‍❤️‍💋‍👨⏳⌛💞👨‍🦳👨‍🦳,constant lover,U+1F46C U+1F468 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+23F3 U+231B U+1F49E U+1F468 U+200D U+1F9B3 U+1F468 U+200D U+1F9B3,1,1,./generated_img_dataset/train_google/1033.png
 💑😁,constant lover,U+1F491 U+1F601,1,1,./generated_img_dataset/train_google/1034.png
@@ -1108,36 +1095,19 @@ EM,EN,unicode,label,strategy,image
 ♨️🌎🌡️,dry climate,U+2668 U+FE0F U+1F30E U+1F321 U+FE0F,1,1,./generated_img_dataset/train_google/1106.png
 ✈️🗣️,foreign accent,U+2708 U+FE0F U+1F5E3 U+FE0F,1,0,./generated_img_dataset/train_google/1107.png
 👽🗣️,foreign accent,U+1F47D U+1F5E3 U+FE0F,1,0,./generated_img_dataset/train_google/1108.png
-🇻🇪🇲🇪🇲🇲🎙️🗣️,foreign accent,U+1F1FB U+1F1EA U+1F1F2 U+1F1EA U+1F1F2 U+1F1F2 U+1F399 U+FE0F U+1F5E3 U+FE0F,1,1,./generated_img_dataset/train_google/1109.png
 🔊🤔❓❓,foreign accent,U+1F50A U+1F914 U+2753 U+2753,1,1,./generated_img_dataset/train_google/1110.png
-🇫🇷🇯🇵👩‍🦱,foreign accent,U+1F1EB U+1F1F7 U+1F1EF U+1F1F5 U+1F469 U+200D U+1F9B1,1,1,./generated_img_dataset/train_google/1111.png
 ✈️🗣️👂,foreign accent,U+2708 U+FE0F U+1F5E3 U+FE0F U+1F442,1,0,./generated_img_dataset/train_google/1112.png
 🗣️🤷‍♀️,foreign accent,U+1F5E3 U+FE0F U+1F937 U+200D U+2640 U+FE0F,1,1,./generated_img_dataset/train_google/1113.png
 🌏🗣️,foreign accent,U+1F30F U+1F5E3 U+FE0F,1,0,./generated_img_dataset/train_google/1114.png
 ✈️🗺️,foreign nation,U+2708 U+FE0F U+1F5FA U+FE0F,1,1,./generated_img_dataset/train_google/1115.png
-👽🇺🇳,foreign nation,U+1F47D U+1F1FA U+1F1F3,1,0,./generated_img_dataset/train_google/1116.png
-🇻🇪🇲🇪🇲🇲🇺🇳,foreign nation,U+1F1FB U+1F1EA U+1F1F2 U+1F1EA U+1F1F2 U+1F1F2 U+1F1FA U+1F1F3,1,2,./generated_img_dataset/train_google/1117.png
-❓❓🇧🇱🇲🇵🇩🇬🇹🇦,foreign nation,U+2753 U+2753 U+1F1E7 U+1F1F1 U+1F1F2 U+1F1F5 U+1F1E9 U+1F1EC U+1F1F9 U+1F1E6,1,0,./generated_img_dataset/train_google/1118.png
-🇦🇫🇦🇽🇦🇱,foreign nation,U+1F1E6 U+1F1EB U+1F1E6 U+1F1FD U+1F1E6 U+1F1F1,1,2,./generated_img_dataset/train_google/1119.png
 ✈️🏝️,foreign nation,U+2708 U+FE0F U+1F3DD U+FE0F,1,1,./generated_img_dataset/train_google/1120.png
-🧳🇮🇴🇧🇦🇬🇾🇬🇶🎌🇬🇪,foreign nation,U+1F9F3 U+1F1EE U+1F1F4 U+1F1E7 U+1F1E6 U+1F1EC U+1F1FE U+1F1EC U+1F1F6 U+1F38C U+1F1EC U+1F1EA,1,2,./generated_img_dataset/train_google/1121.png
-🌏🇬🇧,foreign nation,U+1F30F U+1F1EC U+1F1E7,1,2,./generated_img_dataset/train_google/1122.png
 ✈️🏙️,foreign city,U+2708 U+FE0F U+1F3D9 U+FE0F,1,1,./generated_img_dataset/train_google/1123.png
 👽🏙️,foreign city,U+1F47D U+1F3D9 U+FE0F,1,0,./generated_img_dataset/train_google/1124.png
-🇻🇪🇲🇪🇲🇲🌆,foreign city,U+1F1FB U+1F1EA U+1F1F2 U+1F1EA U+1F1F2 U+1F1F2 U+1F306,1,2,./generated_img_dataset/train_google/1125.png
 ❓❓🌆,foreign city,U+2753 U+2753 U+1F306,1,0,./generated_img_dataset/train_google/1126.png
-🇨🇿🇬🇪🇬🇭,foreign city,U+1F1E8 U+1F1FF U+1F1EC U+1F1EA U+1F1EC U+1F1ED,1,2,./generated_img_dataset/train_google/1127.png
 ✈️🏝️,foreign city,U+2708 U+FE0F U+1F3DD U+FE0F,1,1,./generated_img_dataset/train_google/1128.png
-🧳🇮🇴,foreign city,U+1F9F3 U+1F1EE U+1F1F4,1,1,./generated_img_dataset/train_google/1129.png
 🌏🏙️,foreign city,U+1F30F U+1F3D9 U+FE0F,1,1,./generated_img_dataset/train_google/1130.png
-❗🇨🇳,delicate china,U+2757 U+1F1E8 U+1F1F3,1,0,./generated_img_dataset/train_google/1131.png
 ⚠️📦🍽️,delicate china,U+26A0 U+FE0F U+1F4E6 U+1F37D U+FE0F,1,1,./generated_img_dataset/train_google/1132.png
-❌💪🏻🇨🇳☕,delicate china,U+274C U+1F4AA U+1F3FB U+1F1E8 U+1F1F3 U+2615,1,1,./generated_img_dataset/train_google/1133.png
-💪🇨🇳,delicate china,U+1F4AA U+1F1E8 U+1F1F3,1,0,./generated_img_dataset/train_google/1134.png
-🇨🇳😁👍,delicate china,U+1F1E8 U+1F1F3 U+1F601 U+1F44D,1,0,./generated_img_dataset/train_google/1135.png
-🫖🍽️🇨🇳,delicate china,U+1FAD6 U+1F37D U+FE0F U+1F1E8 U+1F1F3,1,2,./generated_img_dataset/train_google/1136.png
 🍽️🙌,delicate china,U+1F37D U+FE0F U+1F64C,1,1,./generated_img_dataset/train_google/1137.png
-🤔🇨🇳,delicate china,U+1F914 U+1F1E8 U+1F1F3,1,0,./generated_img_dataset/train_google/1138.png
 🛑🐝,delicate wing,U+1F6D1 U+1F41D,1,1,./generated_img_dataset/train_google/1139.png
 ⚠️📦🐣,delicate wing,U+26A0 U+FE0F U+1F4E6 U+1F423,1,1,./generated_img_dataset/train_google/1140.png
 ❌💪🏻🦋,delicate wing,U+274C U+1F4AA U+1F3FB U+1F98B,1,0,./generated_img_dataset/train_google/1141.png
@@ -1186,7 +1156,6 @@ EM,EN,unicode,label,strategy,image
 🗣️🗑️,sound thrashing,U+1F5E3 U+FE0F U+1F5D1 U+FE0F,1,0,./generated_img_dataset/train_google/1184.png
 🔊🥊,sound thrashing,U+1F50A U+1F94A,1,0,./generated_img_dataset/train_google/1185.png
 🔈🗑️🚮,sound thrashing,U+1F508 U+1F5D1 U+FE0F U+1F6AE,1,0,./generated_img_dataset/train_google/1186.png
-:pouting_face:🧹😭,sound thrashing,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F9F9 U+1F62D,1,1,./generated_img_dataset/train_google/1187.png
 🔊🙅,sound thrashing,U+1F50A U+1F645,1,0,./generated_img_dataset/train_google/1188.png
 👂🗑️,sound thrashing,U+1F442 U+1F5D1 U+FE0F,1,0,./generated_img_dataset/train_google/1189.png
 🤔,sound advice,U+1F914,1,4,./generated_img_dataset/train_google/1190.png
@@ -1447,7 +1416,6 @@ EM,EN,unicode,label,strategy,image
 👎🦶,dirty dish,U+1F44E U+1F9B6,0,6,./generated_img_dataset/train_google/1445.png
 😵‍💫😖👉🛁,dirty dish,U+1F635 U+200D U+1F4AB U+1F616 U+1F449 U+1F6C1,0,6,./generated_img_dataset/train_google/1446.png
 💩👊🥊,dirty slum,U+1F4A9 U+1F44A U+1F94A,0,6,./generated_img_dataset/train_google/1447.png
-🤬:pouting_face:,dirty slum,U+1F92C U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/train_google/1448.png
 💩💵💰,dirty slum,U+1F4A9 U+1F4B5 U+1F4B0,0,6,./generated_img_dataset/train_google/1449.png
 😵‍💫😖👉🛁,dirty slum,U+1F635 U+200D U+1F4AB U+1F616 U+1F449 U+1F6C1,0,6,./generated_img_dataset/train_google/1450.png
 💩👖,dirty slum,U+1F4A9 U+1F456,0,6,./generated_img_dataset/train_google/1451.png
@@ -1541,7 +1509,6 @@ EM,EN,unicode,label,strategy,image
 👥⛰️,common man,U+1F465 U+26F0 U+FE0F,0,6,./generated_img_dataset/train_google/1539.png
 🪰,common man,U+1FAB0,0,6,./generated_img_dataset/train_google/1540.png
 ▶️🧠,common man,U+25B6 U+FE0F U+1F9E0,0,6,./generated_img_dataset/train_google/1541.png
-🌎🇦🇽🇮🇴🇻🇬🇧🇶🇧🇶🇰🇾,common man,U+1F30E U+1F1E6 U+1F1FD U+1F1EE U+1F1F4 U+1F1FB U+1F1EC U+1F1E7 U+1F1F6 U+1F1E7 U+1F1F6 U+1F1F0 U+1F1FE,0,6,./generated_img_dataset/train_google/1542.png
 👥🪰🪳🕷️👥,common parlance,U+1F465 U+1FAB0 U+1FAB3 U+1F577 U+FE0F U+1F465,0,6,./generated_img_dataset/train_google/1543.png
 👥📚📖👥,common parlance,U+1F465 U+1F4DA U+1F4D6 U+1F465,0,6,./generated_img_dataset/train_google/1544.png
 🤝🏝️,common parlance,U+1F91D U+1F3DD U+FE0F,0,6,./generated_img_dataset/train_google/1545.png
@@ -1585,7 +1552,6 @@ EM,EN,unicode,label,strategy,image
 🤰📈,ample food,U+1F930 U+1F4C8,0,6,./generated_img_dataset/train_google/1583.png
 👩‍👩‍👧‍👧👨‍👨‍👧‍👧👨‍👩‍👧‍👧📈,ample food,U+1F469 U+200D U+1F469 U+200D U+1F467 U+200D U+1F467 U+1F468 U+200D U+1F468 U+200D U+1F467 U+200D U+1F467 U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F467 U+1F4C8,0,6,./generated_img_dataset/train_google/1584.png
 📉📋✅,ample food,U+1F4C9 U+1F4CB U+2705,0,6,./generated_img_dataset/train_google/1585.png
-🍏🍌🥐🌮🥪🥨🧀🥚🥞🥬🌶️🍢🧋🌰🍪🎂🥂🍨,ample food,U+1F34F U+1F34C U+1F950 U+1F32E U+1F96A U+1F968 U+1F9C0 U+1F95A U+1F95E U+1F96C U+1F336 U+FE0F U+1F362 U+1F9CB U+1F330 U+1F36A U+1F382 U+1F942 U+1F368,0,6,./generated_img_dataset/train_google/1586.png
 👌🏻🔒,ample food,U+1F44C U+1F3FB U+1F512,0,6,./generated_img_dataset/train_google/1587.png
 🤌🏻👗,ample supply,U+1F90C U+1F3FB U+1F457,0,6,./generated_img_dataset/train_google/1588.png
 🍔🌭🌮😊,ample supply,U+1F354 U+1F32D U+1F32E U+1F60A,0,6,./generated_img_dataset/train_google/1589.png
@@ -1593,7 +1559,6 @@ EM,EN,unicode,label,strategy,image
 👌🏻🍽️🍎,ample supply,U+1F44C U+1F3FB U+1F37D U+FE0F U+1F34E,0,6,./generated_img_dataset/train_google/1591.png
 👌🏻🍽️🍎,ample supply,U+1F44C U+1F3FB U+1F37D U+FE0F U+1F34E,0,6,./generated_img_dataset/train_google/1592.png
 👐🤰,ample supply,U+1F450 U+1F930,0,6,./generated_img_dataset/train_google/1593.png
-💸🏦💵🪙💰💹🏧💲💳🤑,ample supply,U+1F4B8 U+1F3E6 U+1F4B5 U+1FA99 U+1F4B0 U+1F4B9 U+1F3E7 U+1F4B2 U+1F4B3 U+1F911,0,6,./generated_img_dataset/train_google/1594.png
 🤰📈,ample supply,U+1F930 U+1F4C8,0,6,./generated_img_dataset/train_google/1595.png
 👌🏻🔒,ample waistline,U+1F44C U+1F3FB U+1F512,0,6,./generated_img_dataset/train_google/1596.png
 👐📈,ample waistline,U+1F450 U+1F4C8,0,6,./generated_img_dataset/train_google/1597.png
@@ -1605,8 +1570,6 @@ EM,EN,unicode,label,strategy,image
 👐📈,ample waistline,U+1F450 U+1F4C8,0,6,./generated_img_dataset/train_google/1603.png
 👍🤬,remarkable sight,U+1F44D U+1F92C,0,6,./generated_img_dataset/train_google/1604.png
 😤🗣️💬,remarkable sight,U+1F624 U+1F5E3 U+FE0F U+1F4AC,0,6,./generated_img_dataset/train_google/1605.png
-👍😠:pouting_face:😤,remarkable sight,U+1F44D U+1F620 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,0,6,./generated_img_dataset/train_google/1606.png
-👍😠:pouting_face:😤,remarkable sight,U+1F44D U+1F620 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,0,6,./generated_img_dataset/train_google/1607.png
 👍🤬,remarkable sight,U+1F44D U+1F92C,0,6,./generated_img_dataset/train_google/1608.png
 👍🚪,remarkable sight,U+1F44D U+1F6AA,0,6,./generated_img_dataset/train_google/1609.png
 👍🚪,remarkable sight,U+1F44D U+1F6AA,0,6,./generated_img_dataset/train_google/1610.png
@@ -1635,7 +1598,6 @@ EM,EN,unicode,label,strategy,image
 💡🕶️😒,dull sky,U+1F4A1 U+1F576 U+FE0F U+1F612,0,6,./generated_img_dataset/train_google/1633.png
 🥈😔,dull sky,U+1F948 U+1F614,0,6,./generated_img_dataset/train_google/1634.png
 🌫️🥈,dull sky,U+1F32B U+FE0F U+1F948,0,6,./generated_img_dataset/train_google/1635.png
-😑:pinata:🧸,dull silver,U+1F611 U+3A U+70 U+69 U+6E U+61 U+74 U+61 U+3A U+1F9F8,0,6,./generated_img_dataset/train_google/1636.png
 💡❌🌟,dull silver,U+1F4A1 U+274C U+1F31F,0,6,./generated_img_dataset/train_google/1637.png
 💡❌🌟,dull silver,U+1F4A1 U+274C U+1F31F,0,6,./generated_img_dataset/train_google/1638.png
 😒🌫️,dull silver,U+1F612 U+1F32B U+FE0F,0,6,./generated_img_dataset/train_google/1639.png
@@ -1650,7 +1612,6 @@ EM,EN,unicode,label,strategy,image
 🌫️🪙,dull day,U+1F32B U+FE0F U+1FA99,0,6,./generated_img_dataset/train_google/1648.png
 🌑🌃,dull day,U+1F311 U+1F303,0,6,./generated_img_dataset/train_google/1649.png
 😔😪,dull day,U+1F614 U+1F62A,0,6,./generated_img_dataset/train_google/1650.png
-😑:pinata:🧸,dull day,U+1F611 U+3A U+70 U+69 U+6E U+61 U+74 U+61 U+3A U+1F9F8,0,6,./generated_img_dataset/train_google/1651.png
 🌫️🍴🥄,dull glow,U+1F32B U+FE0F U+1F374 U+1F944,0,6,./generated_img_dataset/train_google/1652.png
 🥈⚙️🌑,dull glow,U+1F948 U+2699 U+FE0F U+1F311,0,6,./generated_img_dataset/train_google/1653.png
 💍❌🌟,dull glow,U+1F48D U+274C U+1F31F,0,6,./generated_img_dataset/train_google/1654.png
@@ -1658,12 +1619,10 @@ EM,EN,unicode,label,strategy,image
 😑🥱📆,dull glow,U+1F611 U+1F971 U+1F4C6,0,6,./generated_img_dataset/train_google/1656.png
 😑📅,dull glow,U+1F611 U+1F4C5,0,6,./generated_img_dataset/train_google/1657.png
 💍❌🌟,dull glow,U+1F48D U+274C U+1F31F,0,6,./generated_img_dataset/train_google/1658.png
-😑:pinata:🧸,dull glow,U+1F611 U+3A U+70 U+69 U+6E U+61 U+74 U+61 U+3A U+1F9F8,0,6,./generated_img_dataset/train_google/1659.png
 🛋️☕🖥️,cozy nook,U+1F6CB U+FE0F U+2615 U+1F5A5 U+FE0F,0,6,./generated_img_dataset/train_google/1660.png
 🛋️☕🖥️,cozy nook,U+1F6CB U+FE0F U+2615 U+1F5A5 U+FE0F,0,6,./generated_img_dataset/train_google/1661.png
 😴🛋️,cozy nook,U+1F634 U+1F6CB U+FE0F,0,6,./generated_img_dataset/train_google/1662.png
 🛋️☕🖥️,cozy nook,U+1F6CB U+FE0F U+2615 U+1F5A5 U+FE0F,0,6,./generated_img_dataset/train_google/1663.png
-🛏️🛋️:zzz:🕯️,cozy nook,U+1F6CF U+FE0F U+1F6CB U+FE0F U+3A U+7A U+7A U+7A U+3A U+1F56F U+FE0F,0,6,./generated_img_dataset/train_google/1664.png
 😊🏠,cozy nook,U+1F60A U+1F3E0,0,6,./generated_img_dataset/train_google/1665.png
 🛋️☕🖥️,cozy nook,U+1F6CB U+FE0F U+2615 U+1F5A5 U+FE0F,0,6,./generated_img_dataset/train_google/1666.png
 🛋️☕🖥️,cozy nook,U+1F6CB U+FE0F U+2615 U+1F5A5 U+FE0F,0,6,./generated_img_dataset/train_google/1667.png
@@ -2037,14 +1996,12 @@ EM,EN,unicode,label,strategy,image
 🤔🤔,deep sigh,U+1F914 U+1F914,0,6,./generated_img_dataset/train_google/2035.png
 🧐🤯,deep sigh,U+1F9D0 U+1F92F,0,6,./generated_img_dataset/train_google/2036.png
 📖,deep sigh,U+1F4D6,0,6,./generated_img_dataset/train_google/2037.png
-😴🛌:zzz::zzz:,deep sigh,U+1F634 U+1F6CC U+3A U+7A U+7A U+7A U+3A U+3A U+7A U+7A U+7A U+3A,0,6,./generated_img_dataset/train_google/2038.png
 🕳️😋,deep sigh,U+1F573 U+FE0F U+1F60B,0,6,./generated_img_dataset/train_google/2039.png
 😮‍💨,deep sigh,U+1F62E U+200D U+1F4A8,0,6,./generated_img_dataset/train_google/2040.png
 🧐👩‍💻✏️,deep sigh,U+1F9D0 U+1F469 U+200D U+1F4BB U+270F U+FE0F,0,6,./generated_img_dataset/train_google/2041.png
 😮‍💨,deep cut,U+1F62E U+200D U+1F4A8,0,6,./generated_img_dataset/train_google/2042.png
 🧐👩‍💻✏️,deep cut,U+1F9D0 U+1F469 U+200D U+1F4BB U+270F U+FE0F,0,6,./generated_img_dataset/train_google/2043.png
 😴😴😴,deep cut,U+1F634 U+1F634 U+1F634,0,6,./generated_img_dataset/train_google/2044.png
-😴😴:zzz::zzz:,deep cut,U+1F634 U+1F634 U+3A U+7A U+7A U+7A U+3A U+3A U+7A U+7A U+7A U+3A,0,6,./generated_img_dataset/train_google/2045.png
 😵‍💫,deep cut,U+1F635 U+200D U+1F4AB,0,6,./generated_img_dataset/train_google/2046.png
 😴😪🛌,deep cut,U+1F634 U+1F62A U+1F6CC,0,6,./generated_img_dataset/train_google/2047.png
 😵,deep cut,U+1F635,0,6,./generated_img_dataset/train_google/2048.png
@@ -2237,10 +2194,8 @@ EM,EN,unicode,label,strategy,image
 🙍‍♀️❤️🙍‍♂️♾️,constant pain,U+1F64D U+200D U+2640 U+FE0F U+2764 U+FE0F U+1F64D U+200D U+2642 U+FE0F U+267E U+FE0F,0,6,./generated_img_dataset/train_google/2235.png
 💍👰‍♂️👰‍♀️🤵‍♂️💑,constant pain,U+1F48D U+1F470 U+200D U+2642 U+FE0F U+1F470 U+200D U+2640 U+FE0F U+1F935 U+200D U+2642 U+FE0F U+1F491,0,6,./generated_img_dataset/train_google/2236.png
 💘👩‍❤️‍👨🔃,constant pain,U+1F498 U+1F469 U+200D U+2764 U+FE0F U+200D U+1F468 U+1F503,0,6,./generated_img_dataset/train_google/2237.png
-🕰️:zzz:🫂,constant pain,U+1F570 U+FE0F U+3A U+7A U+7A U+7A U+3A U+1FAC2,0,6,./generated_img_dataset/train_google/2238.png
 💍👰‍♂️👰‍♀️🤵‍♂️💑,constant pain,U+1F48D U+1F470 U+200D U+2642 U+FE0F U+1F470 U+200D U+2640 U+FE0F U+1F935 U+200D U+2642 U+FE0F U+1F491,0,6,./generated_img_dataset/train_google/2239.png
 👬👨‍❤️‍💋‍👨⏳⌛💞👨‍🦳👨‍🦳,constant pain,U+1F46C U+1F468 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 U+23F3 U+231B U+1F49E U+1F468 U+200D U+1F9B3 U+1F468 U+200D U+1F9B3,0,6,./generated_img_dataset/train_google/2240.png
-🕰️:zzz:🫂,constant pain,U+1F570 U+FE0F U+3A U+7A U+7A U+7A U+3A U+1FAC2,0,6,./generated_img_dataset/train_google/2241.png
 🧬☮️,internal organ,U+1F9EC U+262E U+FE0F,0,6,./generated_img_dataset/train_google/2242.png
 📲🕹️👩‍💻,internal organ,U+1F4F2 U+1F579 U+FE0F U+1F469 U+200D U+1F4BB,0,6,./generated_img_dataset/train_google/2243.png
 💭💭,internal organ,U+1F4AD U+1F4AD,0,6,./generated_img_dataset/train_google/2244.png
@@ -2308,7 +2263,6 @@ EM,EN,unicode,label,strategy,image
 ✈️🏝️,foreign accent,U+2708 U+FE0F U+1F3DD U+FE0F,0,6,./generated_img_dataset/train_google/2306.png
 ❓❓🌆,foreign accent,U+2753 U+2753 U+1F306,0,6,./generated_img_dataset/train_google/2307.png
 ✈️🏝️,foreign accent,U+2708 U+FE0F U+1F3DD U+FE0F,0,6,./generated_img_dataset/train_google/2308.png
-🇻🇪🇲🇪🇲🇲🇺🇳,foreign accent,U+1F1FB U+1F1EA U+1F1F2 U+1F1EA U+1F1F2 U+1F1F2 U+1F1FA U+1F1F3,0,6,./generated_img_dataset/train_google/2309.png
 ✈️🗺️,foreign accent,U+2708 U+FE0F U+1F5FA U+FE0F,0,6,./generated_img_dataset/train_google/2310.png
 👽🏙️,foreign accent,U+1F47D U+1F3D9 U+FE0F,0,6,./generated_img_dataset/train_google/2311.png
 👽🏙️,foreign accent,U+1F47D U+1F3D9 U+FE0F,0,6,./generated_img_dataset/train_google/2312.png
@@ -2316,18 +2270,12 @@ EM,EN,unicode,label,strategy,image
 🔊🤔❓❓,foreign nation,U+1F50A U+1F914 U+2753 U+2753,0,6,./generated_img_dataset/train_google/2314.png
 ✈️🗣️👂,foreign nation,U+2708 U+FE0F U+1F5E3 U+FE0F U+1F442,0,6,./generated_img_dataset/train_google/2315.png
 👽🏙️,foreign nation,U+1F47D U+1F3D9 U+FE0F,0,6,./generated_img_dataset/train_google/2316.png
-🇨🇿🇬🇪🇬🇭,foreign nation,U+1F1E8 U+1F1FF U+1F1EC U+1F1EA U+1F1EC U+1F1ED,0,6,./generated_img_dataset/train_google/2317.png
-🇨🇿🇬🇪🇬🇭,foreign nation,U+1F1E8 U+1F1FF U+1F1EC U+1F1EA U+1F1EC U+1F1ED,0,6,./generated_img_dataset/train_google/2318.png
 🔊🤔❓❓,foreign nation,U+1F50A U+1F914 U+2753 U+2753,0,6,./generated_img_dataset/train_google/2319.png
 🔊🤔❓❓,foreign nation,U+1F50A U+1F914 U+2753 U+2753,0,6,./generated_img_dataset/train_google/2320.png
-🇨🇿🇬🇪🇬🇭,foreign nation,U+1F1E8 U+1F1FF U+1F1EC U+1F1EA U+1F1EC U+1F1ED,0,6,./generated_img_dataset/train_google/2321.png
 🔊🤔❓❓,foreign city,U+1F50A U+1F914 U+2753 U+2753,0,6,./generated_img_dataset/train_google/2322.png
 ✈️🗣️👂,foreign city,U+2708 U+FE0F U+1F5E3 U+FE0F U+1F442,0,6,./generated_img_dataset/train_google/2323.png
-🧳🇮🇴🇧🇦🇬🇾🇬🇶🎌🇬🇪,foreign city,U+1F9F3 U+1F1EE U+1F1F4 U+1F1E7 U+1F1E6 U+1F1EC U+1F1FE U+1F1EC U+1F1F6 U+1F38C U+1F1EC U+1F1EA,0,6,./generated_img_dataset/train_google/2324.png
 ✈️🗣️👂,foreign city,U+2708 U+FE0F U+1F5E3 U+FE0F U+1F442,0,6,./generated_img_dataset/train_google/2325.png
-🌏🇬🇧,foreign city,U+1F30F U+1F1EC U+1F1E7,0,6,./generated_img_dataset/train_google/2326.png
 🔊🤔❓❓,foreign city,U+1F50A U+1F914 U+2753 U+2753,0,6,./generated_img_dataset/train_google/2327.png
-🇫🇷🇯🇵👩‍🦱,foreign city,U+1F1EB U+1F1F7 U+1F1EF U+1F1F5 U+1F469 U+200D U+1F9B1,0,6,./generated_img_dataset/train_google/2328.png
 🗣️🤷‍♀️,foreign city,U+1F5E3 U+FE0F U+1F937 U+200D U+2640 U+FE0F,0,6,./generated_img_dataset/train_google/2329.png
 ❌🌶️👅,delicate china,U+274C U+1F336 U+FE0F U+1F445,0,6,./generated_img_dataset/train_google/2330.png
 👅🤔,delicate china,U+1F445 U+1F914,0,6,./generated_img_dataset/train_google/2331.png
@@ -2342,20 +2290,15 @@ EM,EN,unicode,label,strategy,image
 ⚠️📦🗣️💬,delicate wing,U+26A0 U+FE0F U+1F4E6 U+1F5E3 U+FE0F U+1F4AC,0,6,./generated_img_dataset/train_google/2340.png
 😋🤔,delicate wing,U+1F60B U+1F914,0,6,./generated_img_dataset/train_google/2341.png
 🧘🕊️☮️🗣️,delicate wing,U+1F9D8 U+1F54A U+FE0F U+262E U+FE0F U+1F5E3 U+FE0F,0,6,./generated_img_dataset/train_google/2342.png
-🫖🍽️🇨🇳,delicate wing,U+1FAD6 U+1F37D U+FE0F U+1F1E8 U+1F1F3,0,6,./generated_img_dataset/train_google/2343.png
 🧘🕊️☮️🗣️,delicate wing,U+1F9D8 U+1F54A U+FE0F U+262E U+FE0F U+1F5E3 U+FE0F,0,6,./generated_img_dataset/train_google/2344.png
 🗣️😃,delicate wing,U+1F5E3 U+FE0F U+1F603,0,6,./generated_img_dataset/train_google/2345.png
-❗🇨🇳,delicate negotiation,U+2757 U+1F1E8 U+1F1F3,0,6,./generated_img_dataset/train_google/2346.png
 💞🍜,delicate negotiation,U+1F49E U+1F35C,0,6,./generated_img_dataset/train_google/2347.png
-❌💪🏻🇨🇳☕,delicate negotiation,U+274C U+1F4AA U+1F3FB U+1F1E8 U+1F1F3 U+2615,0,6,./generated_img_dataset/train_google/2348.png
 ❌🌶️👅,delicate negotiation,U+274C U+1F336 U+FE0F U+1F445,0,6,./generated_img_dataset/train_google/2349.png
 🌬️🪡🚣,delicate negotiation,U+1F32C U+FE0F U+1FAA1 U+1F6A3,0,6,./generated_img_dataset/train_google/2350.png
-❌💪🏻🇨🇳☕,delicate negotiation,U+274C U+1F4AA U+1F3FB U+1F1E8 U+1F1F3 U+2615,0,6,./generated_img_dataset/train_google/2351.png
 👅🤔,delicate negotiation,U+1F445 U+1F914,0,6,./generated_img_dataset/train_google/2352.png
 🍽️🙌,delicate negotiation,U+1F37D U+FE0F U+1F64C,0,6,./generated_img_dataset/train_google/2353.png
 🛑🐝,delicate flavor,U+1F6D1 U+1F41D,0,6,./generated_img_dataset/train_google/2354.png
 🧘🕊️☮️🗣️,delicate flavor,U+1F9D8 U+1F54A U+FE0F U+262E U+FE0F U+1F5E3 U+FE0F,0,6,./generated_img_dataset/train_google/2355.png
-🇨🇳😁👍,delicate flavor,U+1F1E8 U+1F1F3 U+1F601 U+1F44D,0,6,./generated_img_dataset/train_google/2356.png
 🤔👥,delicate flavor,U+1F914 U+1F465,0,6,./generated_img_dataset/train_google/2357.png
 🤔🕊️,delicate flavor,U+1F914 U+1F54A U+FE0F,0,6,./generated_img_dataset/train_google/2358.png
 🗣️😃,delicate flavor,U+1F5E3 U+FE0F U+1F603,0,6,./generated_img_dataset/train_google/2359.png

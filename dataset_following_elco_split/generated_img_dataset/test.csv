@@ -25,7 +25,6 @@ EM,EN,unicode,label,strategy,image
 🗣️💢,big voice,U+1F5E3 U+FE0F U+1F4A2,1,1,./generated_img_dataset/test_google/23.png
 🧑‍🤝‍🧑👫👭👬,big group,U+1F9D1 U+200D U+1F91D U+200D U+1F9D1 U+1F46B U+1F46D U+1F46C,1,3,./generated_img_dataset/test_google/24.png
 👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦,big group,U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466,1,3,./generated_img_dataset/test_google/25.png
-👬👬👬👬👬👬👬👬👬👬👬,big group,U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C,1,3,./generated_img_dataset/test_google/26.png
 👥👥👥,big group,U+1F465 U+1F465 U+1F465,1,3,./generated_img_dataset/test_google/27.png
 👫👭👨‍👨‍👧‍👧👬👨‍👨‍👧,big group,U+1F46B U+1F46D U+1F468 U+200D U+1F468 U+200D U+1F467 U+200D U+1F467 U+1F46C U+1F468 U+200D U+1F468 U+200D U+1F467,1,2,./generated_img_dataset/test_google/28.png
 👥👥,big group,U+1F465 U+1F465,1,3,./generated_img_dataset/test_google/29.png
@@ -41,7 +40,6 @@ EM,EN,unicode,label,strategy,image
 💪🧍‍♂️,big man,U+1F4AA U+1F9CD U+200D U+2642 U+FE0F,1,1,./generated_img_dataset/test_google/39.png
 🌇❗,big city,U+1F307 U+2757,1,1,./generated_img_dataset/test_google/40.png
 🌇🌁🌆🏙️🌃🗽,big city,U+1F307 U+1F301 U+1F306 U+1F3D9 U+FE0F U+1F303 U+1F5FD,1,2,./generated_img_dataset/test_google/41.png
-🇷🇺,big city,U+1F1F7 U+1F1FA,1,4,./generated_img_dataset/test_google/42.png
 🏙️,big city,U+1F3D9 U+FE0F,1,4,./generated_img_dataset/test_google/43.png
 🌆🤯,big city,U+1F306 U+1F92F,1,1,./generated_img_dataset/test_google/44.png
 🏙️↕️↔️,big city,U+1F3D9 U+FE0F U+2195 U+FE0F U+2194 U+FE0F,1,1,./generated_img_dataset/test_google/45.png
@@ -103,19 +101,11 @@ EM,EN,unicode,label,strategy,image
 🔥📱,hot merchandise,U+1F525 U+1F4F1,1,0,./generated_img_dataset/test_google/101.png
 🗨️👕,hot merchandise,U+1F5E8 U+FE0F U+1F455,1,1,./generated_img_dataset/test_google/102.png
 👍🧸👕,hot merchandise,U+1F44D U+1F9F8 U+1F455,1,0,./generated_img_dataset/test_google/103.png
-🔥😐:pouting_face:,hot temper,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,0,./generated_img_dataset/test_google/104.png
 😤🤬🙅‍♂️🙅‍♂️,hot temper,U+1F624 U+1F92C U+1F645 U+200D U+2642 U+FE0F U+1F645 U+200D U+2642 U+FE0F,1,1,./generated_img_dataset/test_google/105.png
-:pouting_face::pouting_face:,hot temper,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,3,./generated_img_dataset/test_google/106.png
-:pouting_face:😤🤬,hot temper,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624 U+1F92C,1,2,./generated_img_dataset/test_google/107.png
-:pouting_face:😤,hot temper,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,1,2,./generated_img_dataset/test_google/108.png
-🔥:pouting_face:,hot temper,U+1F525 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,0,./generated_img_dataset/test_google/109.png
 💢🤬,hot temper,U+1F4A2 U+1F92C,1,1,./generated_img_dataset/test_google/110.png
-:pouting_face:🤬,hot temper,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F92C,1,2,./generated_img_dataset/test_google/111.png
 🔥🗣️✖️🗣️✔️📢,hot argument,U+1F525 U+1F5E3 U+FE0F U+2716 U+FE0F U+1F5E3 U+FE0F U+2714 U+FE0F U+1F4E2,1,0,./generated_img_dataset/test_google/112.png
 🙅🙅‍♂️😤🗯️,hot argument,U+1F645 U+1F645 U+200D U+2642 U+FE0F U+1F624 U+1F5EF U+FE0F,1,1,./generated_img_dataset/test_google/113.png
-:pouting_face:🤬🗣️,hot argument,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F92C U+1F5E3 U+FE0F,1,0,./generated_img_dataset/test_google/114.png
 🤬🗣️📣,hot argument,U+1F92C U+1F5E3 U+FE0F U+1F4E3,1,0,./generated_img_dataset/test_google/115.png
-🤬💬:pouting_face:,hot argument,U+1F92C U+1F4AC U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,0,./generated_img_dataset/test_google/116.png
 🔥🤬,hot argument,U+1F525 U+1F92C,1,0,./generated_img_dataset/test_google/117.png
 💢🗣️,hot argument,U+1F4A2 U+1F5E3 U+FE0F,1,0,./generated_img_dataset/test_google/118.png
 🤬💬,hot argument,U+1F92C U+1F4AC,1,0,./generated_img_dataset/test_google/119.png
@@ -135,7 +125,6 @@ EM,EN,unicode,label,strategy,image
 🕛👾,full game,U+1F55B U+1F47E,1,0,./generated_img_dataset/test_google/133.png
 🎮👬👬,full game,U+1F3AE U+1F46C U+1F46C,1,1,./generated_img_dataset/test_google/134.png
 🎫🧑👨🧑‍🦱👩‍🦱🈵,full auditorium,U+1F3AB U+1F9D1 U+1F468 U+1F9D1 U+200D U+1F9B1 U+1F469 U+200D U+1F9B1 U+1F235,1,1,./generated_img_dataset/test_google/135.png
-🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🕍,full auditorium,U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F54D,1,3,./generated_img_dataset/test_google/136.png
 👩‍💻👨‍💻🏫,full auditorium,U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F3EB,1,1,./generated_img_dataset/test_google/137.png
 ❌🛸🏟️,full auditorium,U+274C U+1F6F8 U+1F3DF U+FE0F,1,0,./generated_img_dataset/test_google/138.png
 🈵🏫,full auditorium,U+1F235 U+1F3EB,1,0,./generated_img_dataset/test_google/139.png
@@ -223,8 +212,6 @@ EM,EN,unicode,label,strategy,image
 👎🤴👸,ineffectual ruler,U+1F44E U+1F934 U+1F478,1,0,./generated_img_dataset/test_google/221.png
 🧑‍💻👩‍💻👨‍💻👎👎,ineffectual ruler,U+1F9D1 U+200D U+1F4BB U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F44E U+1F44E,1,0,./generated_img_dataset/test_google/222.png
 ❌🤴,ineffectual ruler,U+274C U+1F934,1,0,./generated_img_dataset/test_google/223.png
-:pouting_face:👮,ineffectual ruler,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F46E,1,1,./generated_img_dataset/test_google/224.png
-🏰👑👎👎👎👬👭:pouting_face:,ineffectual ruler,U+1F3F0 U+1F451 U+1F44E U+1F44E U+1F44E U+1F46C U+1F46D U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,1,./generated_img_dataset/test_google/225.png
 👑🙅,ineffectual ruler,U+1F451 U+1F645,1,0,./generated_img_dataset/test_google/226.png
 👂🧏‍♀️👎😒,ineffectual therapy,U+1F442 U+1F9CF U+200D U+2640 U+FE0F U+1F44E U+1F612,1,1,./generated_img_dataset/test_google/227.png
 👎💆,ineffectual therapy,U+1F44E U+1F486,1,0,./generated_img_dataset/test_google/228.png
@@ -245,9 +232,7 @@ EM,EN,unicode,label,strategy,image
 👍🤬,effective reprimand,U+1F44D U+1F92C,1,0,./generated_img_dataset/test_google/243.png
 😤🗣️💬,effective reprimand,U+1F624 U+1F5E3 U+FE0F U+1F4AC,1,1,./generated_img_dataset/test_google/244.png
 🗣️🧏‍♀️👍,effective reprimand,U+1F5E3 U+FE0F U+1F9CF U+200D U+2640 U+FE0F U+1F44D,1,0,./generated_img_dataset/test_google/245.png
-👍😠:pouting_face:😤,effective reprimand,U+1F44D U+1F620 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,1,0,./generated_img_dataset/test_google/246.png
 😤😤😔😔😔😥,effective reprimand,U+1F624 U+1F624 U+1F614 U+1F614 U+1F614 U+1F625,1,1,./generated_img_dataset/test_google/247.png
-:pouting_face:👍,effective reprimand,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F44D,1,0,./generated_img_dataset/test_google/248.png
 💨🤬,effective reprimand,U+1F4A8 U+1F92C,1,1,./generated_img_dataset/test_google/249.png
 👍😤,effective reprimand,U+1F44D U+1F624,1,0,./generated_img_dataset/test_google/250.png
 👍🚪,effective entrance,U+1F44D U+1F6AA,1,0,./generated_img_dataset/test_google/251.png
@@ -291,7 +276,6 @@ EM,EN,unicode,label,strategy,image
 🗓️,big group,U+1F5D3 U+FE0F,0,6,./generated_img_dataset/test_google/289.png
 🏙️↕️↔️,big group,U+1F3D9 U+FE0F U+2195 U+FE0F U+2194 U+FE0F,0,6,./generated_img_dataset/test_google/290.png
 🥘🌯🌯🤑🤑💸💸,big man,U+1F958 U+1F32F U+1F32F U+1F911 U+1F911 U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/291.png
-🇷🇺,big man,U+1F1F7 U+1F1FA,0,6,./generated_img_dataset/test_google/292.png
 🪙🪙,big man,U+1FA99 U+1FA99,0,6,./generated_img_dataset/test_google/293.png
 🏢🏢🏢📊🌍,big man,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/294.png
 🏢🏢🏢📊🌍,big man,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/295.png
@@ -324,7 +308,6 @@ EM,EN,unicode,label,strategy,image
 💸💸💸,big day,U+1F4B8 U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/322.png
 🥵🚰,hot doll,U+1F975 U+1F6B0,0,6,./generated_img_dataset/test_google/323.png
 ♨️💧🚰,hot doll,U+2668 U+FE0F U+1F4A7 U+1F6B0,0,6,./generated_img_dataset/test_google/324.png
-:pouting_face:😤,hot doll,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,0,6,./generated_img_dataset/test_google/325.png
 🥵🚰,hot doll,U+1F975 U+1F6B0,0,6,./generated_img_dataset/test_google/326.png
 🥵💬,hot doll,U+1F975 U+1F4AC,0,6,./generated_img_dataset/test_google/327.png
 🔥🏷️,hot doll,U+1F525 U+1F3F7 U+FE0F,0,6,./generated_img_dataset/test_google/328.png
@@ -334,21 +317,16 @@ EM,EN,unicode,label,strategy,image
 ♨️🪆,hot water,U+2668 U+FE0F U+1FA86,0,6,./generated_img_dataset/test_google/332.png
 🥵🍳🔥,hot water,U+1F975 U+1F373 U+1F525,0,6,./generated_img_dataset/test_google/333.png
 ♨️🪆,hot water,U+2668 U+FE0F U+1FA86,0,6,./generated_img_dataset/test_google/334.png
-🔥😐:pouting_face:,hot water,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/335.png
 🔥🎁🎁,hot water,U+1F525 U+1F381 U+1F381,0,6,./generated_img_dataset/test_google/336.png
 🌡️♨️🍳,hot water,U+1F321 U+FE0F U+2668 U+FE0F U+1F373,0,6,./generated_img_dataset/test_google/337.png
 ♨️🔥,hot water,U+2668 U+FE0F U+1F525,0,6,./generated_img_dataset/test_google/338.png
 🔥🔥👕🥿🕶️,hot stove,U+1F525 U+1F525 U+1F455 U+1F97F U+1F576 U+FE0F,0,6,./generated_img_dataset/test_google/339.png
 🔥🎁🎁,hot stove,U+1F525 U+1F381 U+1F381,0,6,./generated_img_dataset/test_google/340.png
-🔥😐:pouting_face:,hot stove,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/341.png
-🔥:pouting_face:,hot stove,U+1F525 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/342.png
 ☀️🎙️🗣️,hot stove,U+2600 U+FE0F U+1F399 U+FE0F U+1F5E3 U+FE0F,0,6,./generated_img_dataset/test_google/343.png
 🔥🎁🎁,hot stove,U+1F525 U+1F381 U+1F381,0,6,./generated_img_dataset/test_google/344.png
 🔥🎁🎁,hot stove,U+1F525 U+1F381 U+1F381,0,6,./generated_img_dataset/test_google/345.png
-🔥😐:pouting_face:,hot stove,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/346.png
 1️⃣🪆🎎,hot topic,U+31 U+FE0F U+20E3 U+1FA86 U+1F38E,0,6,./generated_img_dataset/test_google/347.png
 🌡️🤒,hot topic,U+1F321 U+FE0F U+1F912,0,6,./generated_img_dataset/test_google/348.png
-🔥😐:pouting_face:,hot topic,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/349.png
 🔥🔥👕🥿🕶️,hot topic,U+1F525 U+1F525 U+1F455 U+1F97F U+1F576 U+FE0F,0,6,./generated_img_dataset/test_google/350.png
 🔥🍳,hot topic,U+1F525 U+1F373,0,6,./generated_img_dataset/test_google/351.png
 ♨️💧🚰,hot topic,U+2668 U+FE0F U+1F4A7 U+1F6B0,0,6,./generated_img_dataset/test_google/352.png
@@ -361,7 +339,6 @@ EM,EN,unicode,label,strategy,image
 😤🤬🙅‍♂️🙅‍♂️,hot merchandise,U+1F624 U+1F92C U+1F645 U+200D U+2642 U+FE0F U+1F645 U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/359.png
 🔥💦,hot merchandise,U+1F525 U+1F4A6,0,6,./generated_img_dataset/test_google/360.png
 🥵🤒🤒,hot merchandise,U+1F975 U+1F912 U+1F912,0,6,./generated_img_dataset/test_google/361.png
-🤬💬:pouting_face:,hot merchandise,U+1F92C U+1F4AC U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/362.png
 🥴🤒👨‍⚕️,hot temper,U+1F974 U+1F912 U+1F468 U+200D U+2695 U+FE0F,0,6,./generated_img_dataset/test_google/363.png
 🪆🔥🔥,hot temper,U+1FA86 U+1F525 U+1F525,0,6,./generated_img_dataset/test_google/364.png
 🔥🗣️,hot temper,U+1F525 U+1F5E3 U+FE0F,0,6,./generated_img_dataset/test_google/365.png
@@ -491,10 +468,8 @@ EM,EN,unicode,label,strategy,image
 🤴👑📉👎,ineffectual therapy,U+1F934 U+1F451 U+1F4C9 U+1F44E,0,6,./generated_img_dataset/test_google/489.png
 🧑‍💻👩‍💻👨‍💻👎👎,ineffectual therapy,U+1F9D1 U+200D U+1F4BB U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F44E U+1F44E,0,6,./generated_img_dataset/test_google/490.png
 👎📏,ineffectual therapy,U+1F44E U+1F4CF,0,6,./generated_img_dataset/test_google/491.png
-🏰👑👎👎👎👬👭:pouting_face:,ineffectual therapy,U+1F3F0 U+1F451 U+1F44E U+1F44E U+1F44E U+1F46C U+1F46D U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/492.png
 🧑‍💻👩‍💻👨‍💻👎👎,ineffectual therapy,U+1F9D1 U+200D U+1F4BB U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F44E U+1F44E,0,6,./generated_img_dataset/test_google/493.png
 👍➡️,effective step,U+1F44D U+27A1 U+FE0F,0,6,./generated_img_dataset/test_google/494.png
-👍😠:pouting_face:😤,effective step,U+1F44D U+1F620 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,0,6,./generated_img_dataset/test_google/495.png
 💨🚪,effective step,U+1F4A8 U+1F6AA,0,6,./generated_img_dataset/test_google/496.png
 👍🚪,effective step,U+1F44D U+1F6AA,0,6,./generated_img_dataset/test_google/497.png
 💨🤬,effective step,U+1F4A8 U+1F92C,0,6,./generated_img_dataset/test_google/498.png
