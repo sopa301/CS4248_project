@@ -22,8 +22,6 @@ EM,EN,unicode,label,strategy,image
 🚶🎒🌲🌲,far trek,U+1F6B6 U+1F392 U+1F332 U+1F332,1,1,./generated_img_dataset/val_google/20.png
 🌎↔️🌏,far country,U+1F30E U+2194 U+FE0F U+1F30F,1,1,./generated_img_dataset/val_google/21.png
 🧳🛫🕧,far country,U+1F9F3 U+1F6EB U+1F567,1,1,./generated_img_dataset/val_google/22.png
-😵‍💫🇦🇽,far country,U+1F635 U+200D U+1F4AB U+1F1E6 U+1F1FD,1,1,./generated_img_dataset/val_google/23.png
-🚫🔜🇺🇸🇨🇵🇨🇮🇦🇨🇦🇽,far country,U+1F6AB U+1F51C U+1F1FA U+1F1F8 U+1F1E8 U+1F1F5 U+1F1E8 U+1F1EE U+1F1E6 U+1F1E8 U+1F1E6 U+1F1FD,1,0,./generated_img_dataset/val_google/24.png
 🗺️↔️,far country,U+1F5FA U+FE0F U+2194 U+FE0F,1,0,./generated_img_dataset/val_google/25.png
 🗺️🛳️🛫,far country,U+1F5FA U+FE0F U+1F6F3 U+FE0F U+1F6EB,1,1,./generated_img_dataset/val_google/26.png
 🌎⤴️↗️,far country,U+1F30E U+2934 U+FE0F U+2197 U+FE0F,1,1,./generated_img_dataset/val_google/27.png
@@ -154,7 +152,6 @@ EM,EN,unicode,label,strategy,image
 🔺👆,high point,U+1F53A U+1F446,1,0,./generated_img_dataset/val_google/152.png
 👌🍽️,exotic cuisine,U+1F44C U+1F37D U+FE0F,1,1,./generated_img_dataset/val_google/153.png
 👽🥘,exotic cuisine,U+1F47D U+1F958,1,0,./generated_img_dataset/val_google/154.png
-🇻🇪🇲🇪🇲🇲🌮🍱🍣,exotic cuisine,U+1F1FB U+1F1EA U+1F1F2 U+1F1EA U+1F1F2 U+1F1F2 U+1F32E U+1F371 U+1F363,1,1,./generated_img_dataset/val_google/155.png
 😈🥙,exotic cuisine,U+1F608 U+1F959,1,1,./generated_img_dataset/val_google/156.png
 🍱🥐🍕,exotic cuisine,U+1F371 U+1F950 U+1F355,1,2,./generated_img_dataset/val_google/157.png
 🤯👄🥤🍞,exotic cuisine,U+1F92F U+1F444 U+1F964 U+1F35E,1,1,./generated_img_dataset/val_google/158.png
@@ -199,10 +196,8 @@ EM,EN,unicode,label,strategy,image
 🧗‍♂️🗺️,far journey,U+1F9D7 U+200D U+2642 U+FE0F U+1F5FA U+FE0F,0,6,./generated_img_dataset/val_google/197.png
 🌎↔️🌏,far journey,U+1F30E U+2194 U+FE0F U+1F30F,0,6,./generated_img_dataset/val_google/198.png
 🧍🌎🧍,far journey,U+1F9CD U+1F30E U+1F9CD,0,6,./generated_img_dataset/val_google/199.png
-😵‍💫🇦🇽,far journey,U+1F635 U+200D U+1F4AB U+1F1E6 U+1F1FD,0,6,./generated_img_dataset/val_google/200.png
 🧳🛫🕧,far journey,U+1F9F3 U+1F6EB U+1F567,0,6,./generated_img_dataset/val_google/201.png
 🌎↔️🌏,far journey,U+1F30E U+2194 U+FE0F U+1F30F,0,6,./generated_img_dataset/val_google/202.png
-🚫🔜🇺🇸🇨🇵🇨🇮🇦🇨🇦🇽,far journey,U+1F6AB U+1F51C U+1F1FA U+1F1F8 U+1F1E8 U+1F1F5 U+1F1E8 U+1F1EE U+1F1E6 U+1F1E8 U+1F1E6 U+1F1FD,0,6,./generated_img_dataset/val_google/203.png
 🧳🛫🕧,far side,U+1F9F3 U+1F6EB U+1F567,0,6,./generated_img_dataset/val_google/204.png
 🚶🌾🏔️🧭,far side,U+1F6B6 U+1F33E U+1F3D4 U+FE0F U+1F9ED,0,6,./generated_img_dataset/val_google/205.png
 🚶‍♂️🥾,far side,U+1F6B6 U+200D U+2642 U+FE0F U+1F97E,0,6,./generated_img_dataset/val_google/206.png
@@ -349,13 +344,8 @@ EM,EN,unicode,label,strategy,image
 ☢️☣️🙅👆,high point,U+2622 U+FE0F U+2623 U+FE0F U+1F645 U+1F446,0,6,./generated_img_dataset/val_google/347.png
 🪜🙏🏼,high point,U+1FA9C U+1F64F U+1F3FC,0,6,./generated_img_dataset/val_google/348.png
 ⬆️🏔️,high point,U+2B06 U+FE0F U+1F3D4 U+FE0F,0,6,./generated_img_dataset/val_google/349.png
-🇫🇷🇯🇵👩‍🦱,exotic cuisine,U+1F1EB U+1F1F7 U+1F1EF U+1F1F5 U+1F469 U+200D U+1F9B1,0,6,./generated_img_dataset/val_google/350.png
-👽🇺🇳,exotic cuisine,U+1F47D U+1F1FA U+1F1F3,0,6,./generated_img_dataset/val_google/351.png
-🇻🇪🇲🇪🇲🇲🎙️🗣️,exotic cuisine,U+1F1FB U+1F1EA U+1F1F2 U+1F1EA U+1F1F2 U+1F1F2 U+1F399 U+FE0F U+1F5E3 U+FE0F,0,6,./generated_img_dataset/val_google/352.png
 ✈️🏙️,exotic cuisine,U+2708 U+FE0F U+1F3D9 U+FE0F,0,6,./generated_img_dataset/val_google/353.png
-🇦🇫🇦🇽🇦🇱,exotic cuisine,U+1F1E6 U+1F1EB U+1F1E6 U+1F1FD U+1F1E6 U+1F1F1,0,6,./generated_img_dataset/val_google/354.png
 🔊🤔❓❓,exotic cuisine,U+1F50A U+1F914 U+2753 U+2753,0,6,./generated_img_dataset/val_google/355.png
-🇻🇪🇲🇪🇲🇲🎙️🗣️,exotic cuisine,U+1F1FB U+1F1EA U+1F1F2 U+1F1EA U+1F1F2 U+1F1F2 U+1F399 U+FE0F U+1F5E3 U+FE0F,0,6,./generated_img_dataset/val_google/356.png
 👽🏙️,exotic cuisine,U+1F47D U+1F3D9 U+FE0F,0,6,./generated_img_dataset/val_google/357.png
 😋👃,fresh bread,U+1F60B U+1F443,0,6,./generated_img_dataset/val_google/358.png
 💨👃😃,fresh bread,U+1F4A8 U+1F443 U+1F603,0,6,./generated_img_dataset/val_google/359.png
