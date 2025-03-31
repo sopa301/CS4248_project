@@ -2,9 +2,7 @@
 
 * Passed test set with zero shot, few shot
 * Performance is not good, as good as random classification (or assigning all rows the same label)
-Kaggle Notebook here: https://www.kaggle.com/code/timothyleow12/openflamingo-test
-
-it's also in this repo
+Kaggle Notebook [here](https://www.kaggle.com/code/timothyleow12/openflamingo-test), or it's also in this repo
 
 ## How to use the dataset
 
