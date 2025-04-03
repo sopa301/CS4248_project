@@ -79,7 +79,7 @@ class BaseTrainer:
         self.n_batch_in_epoch = checkpoint_data["n_batch_in_epoch"]
 
         # Load model weights based on multi-GPU configuration.
-        if self.config['multigpu']:
+        if self.config['world_size']> 1:
             self.model.module.load_state_dict(checkpoint_data["model"])
         else:
             self.model.load_state_dict(checkpoint_data["model"])
@@ -199,7 +199,7 @@ class BaseTrainer:
             return
 
         fpath = self.save_dir / filename
-        m = self.model.module if self.config['multigpu'] else self.model
+        m = self.model.module if self.config['world_size'] > 1 else self.model
         torch.save(
             {
                 "model": m.state_dict(),
