@@ -280,7 +280,7 @@ sent1,sent2,label,strategy
 🧍‍♂️🤢,dirty overall,1,0
 💩👖,dirty overall,1,0
 👎🥊,dirty fighter,1,0
-🤬:pouting_face:,dirty fighter,1,1
+🤬😡,dirty fighter,1,1
 ❌⚖️💪👨‍🦲💢,dirty fighter,1,1
 🤬🤼‍♂️,dirty fighter,1,0
 🤮🥋,dirty fighter,1,0
@@ -1186,7 +1186,7 @@ sent1,sent2,label,strategy
 🗣️🗑️,sound thrashing,1,0
 🔊🥊,sound thrashing,1,0
 🔈🗑️🚮,sound thrashing,1,0
-:pouting_face:🧹😭,sound thrashing,1,1
+😡🧹😭,sound thrashing,1,1
 🔊🙅,sound thrashing,1,0
 👂🗑️,sound thrashing,1,0
 🤔,sound advice,1,4
@@ -1447,7 +1447,7 @@ sent1,sent2,label,strategy
 👎🦶,dirty dish,0,6
 😵‍💫😖👉🛁,dirty dish,0,6
 💩👊🥊,dirty slum,0,6
-🤬:pouting_face:,dirty slum,0,6
+🤬😡,dirty slum,0,6
 💩💵💰,dirty slum,0,6
 😵‍💫😖👉🛁,dirty slum,0,6
 💩👖,dirty slum,0,6
@@ -1605,8 +1605,8 @@ sent1,sent2,label,strategy
 👐📈,ample waistline,0,6
 👍🤬,remarkable sight,0,6
 😤🗣️💬,remarkable sight,0,6
-👍😠:pouting_face:😤,remarkable sight,0,6
-👍😠:pouting_face:😤,remarkable sight,0,6
+👍😠😡😤,remarkable sight,0,6
+👍😠😡😤,remarkable sight,0,6
 👍🤬,remarkable sight,0,6
 👍🚪,remarkable sight,0,6
 👍🚪,remarkable sight,0,6

@@ -103,19 +103,19 @@ sent1,sent2,label,strategy
 🔥📱,hot merchandise,1,0
 🗨️👕,hot merchandise,1,1
 👍🧸👕,hot merchandise,1,0
-🔥😐:pouting_face:,hot temper,1,0
+🔥😐😡,hot temper,1,0
 😤🤬🙅‍♂️🙅‍♂️,hot temper,1,1
-:pouting_face::pouting_face:,hot temper,1,3
-:pouting_face:😤🤬,hot temper,1,2
-:pouting_face:😤,hot temper,1,2
-🔥:pouting_face:,hot temper,1,0
+😡😡,hot temper,1,3
+😡😤🤬,hot temper,1,2
+😡😤,hot temper,1,2
+🔥😡,hot temper,1,0
 💢🤬,hot temper,1,1
-:pouting_face:🤬,hot temper,1,2
+😡🤬,hot temper,1,2
 🔥🗣️✖️🗣️✔️📢,hot argument,1,0
 🙅🙅‍♂️😤🗯️,hot argument,1,1
-:pouting_face:🤬🗣️,hot argument,1,0
+😡🤬🗣️,hot argument,1,0
 🤬🗣️📣,hot argument,1,0
-🤬💬:pouting_face:,hot argument,1,0
+🤬💬😡,hot argument,1,0
 🔥🤬,hot argument,1,0
 💢🗣️,hot argument,1,0
 🤬💬,hot argument,1,0
@@ -223,8 +223,8 @@ sent1,sent2,label,strategy
 👎🤴👸,ineffectual ruler,1,0
 🧑‍💻👩‍💻👨‍💻👎👎,ineffectual ruler,1,0
 ❌🤴,ineffectual ruler,1,0
-:pouting_face:👮,ineffectual ruler,1,1
-🏰👑👎👎👎👬👭:pouting_face:,ineffectual ruler,1,1
+😡👮,ineffectual ruler,1,1
+🏰👑👎👎👎👬👭😡,ineffectual ruler,1,1
 👑🙅,ineffectual ruler,1,0
 👂🧏‍♀️👎😒,ineffectual therapy,1,1
 👎💆,ineffectual therapy,1,0
@@ -245,9 +245,9 @@ sent1,sent2,label,strategy
 👍🤬,effective reprimand,1,0
 😤🗣️💬,effective reprimand,1,1
 🗣️🧏‍♀️👍,effective reprimand,1,0
-👍😠:pouting_face:😤,effective reprimand,1,0
+👍😠😡😤,effective reprimand,1,0
 😤😤😔😔😔😥,effective reprimand,1,1
-:pouting_face:👍,effective reprimand,1,0
+😡👍,effective reprimand,1,0
 💨🤬,effective reprimand,1,1
 👍😤,effective reprimand,1,0
 👍🚪,effective entrance,1,0
@@ -324,7 +324,7 @@ sent1,sent2,label,strategy
 💸💸💸,big day,0,6
 🥵🚰,hot doll,0,6
 ♨️💧🚰,hot doll,0,6
-:pouting_face:😤,hot doll,0,6
+😡😤,hot doll,0,6
 🥵🚰,hot doll,0,6
 🥵💬,hot doll,0,6
 🔥🏷️,hot doll,0,6
@@ -334,21 +334,21 @@ sent1,sent2,label,strategy
 ♨️🪆,hot water,0,6
 🥵🍳🔥,hot water,0,6
 ♨️🪆,hot water,0,6
-🔥😐:pouting_face:,hot water,0,6
+🔥😐😡,hot water,0,6
 🔥🎁🎁,hot water,0,6
 🌡️♨️🍳,hot water,0,6
 ♨️🔥,hot water,0,6
 🔥🔥👕🥿🕶️,hot stove,0,6
 🔥🎁🎁,hot stove,0,6
-🔥😐:pouting_face:,hot stove,0,6
-🔥:pouting_face:,hot stove,0,6
+🔥😐😡,hot stove,0,6
+🔥😡,hot stove,0,6
 ☀️🎙️🗣️,hot stove,0,6
 🔥🎁🎁,hot stove,0,6
 🔥🎁🎁,hot stove,0,6
-🔥😐:pouting_face:,hot stove,0,6
+🔥😐😡,hot stove,0,6
 1️⃣🪆🎎,hot topic,0,6
 🌡️🤒,hot topic,0,6
-🔥😐:pouting_face:,hot topic,0,6
+🔥😐😡,hot topic,0,6
 🔥🔥👕🥿🕶️,hot topic,0,6
 🔥🍳,hot topic,0,6
 ♨️💧🚰,hot topic,0,6
@@ -361,7 +361,7 @@ sent1,sent2,label,strategy
 😤🤬🙅‍♂️🙅‍♂️,hot merchandise,0,6
 🔥💦,hot merchandise,0,6
 🥵🤒🤒,hot merchandise,0,6
-🤬💬:pouting_face:,hot merchandise,0,6
+🤬💬😡,hot merchandise,0,6
 🥴🤒👨‍⚕️,hot temper,0,6
 🪆🔥🔥,hot temper,0,6
 🔥🗣️,hot temper,0,6
@@ -491,10 +491,10 @@ sent1,sent2,label,strategy
 🤴👑📉👎,ineffectual therapy,0,6
 🧑‍💻👩‍💻👨‍💻👎👎,ineffectual therapy,0,6
 👎📏,ineffectual therapy,0,6
-🏰👑👎👎👎👬👭:pouting_face:,ineffectual therapy,0,6
+🏰👑👎👎👎👬👭😡,ineffectual therapy,0,6
 🧑‍💻👩‍💻👨‍💻👎👎,ineffectual therapy,0,6
 👍➡️,effective step,0,6
-👍😠:pouting_face:😤,effective step,0,6
+👍😠😡😤,effective step,0,6
 💨🚪,effective step,0,6
 👍🚪,effective step,0,6
 💨🤬,effective step,0,6
