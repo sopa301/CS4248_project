@@ -1,4 +1,8 @@
 # How to use the dataset
+## Latest update
+* Use dataset-latest (follow the structure of this)
+* Use this notebook: https://www.kaggle.com/code/timothyleow12/nlp-project-chengyue-model
+* Updated scripts such that it's doing the performance analysis across sensitivity for positive labels only
 
 ## Each Dataset follows the ElCo split
 The image file path relevant to each row is in the last column of the `.csv` files.
