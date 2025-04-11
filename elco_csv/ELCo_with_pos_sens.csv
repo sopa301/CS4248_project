@@ -34,11 +34,11 @@ big group,🧑‍🤝‍🧑🧑‍🤝‍🧑🧑‍🤝‍🧑,"[':people_hold
 big man,🧔‍♂️😲⬆️,"[':man_beard:', ':astonished_face:', ':up_arrow:']",Metaphorical,CONSPICUOUSNESS,4
 big man,🎅,[':Santa_Claus:'],Single,CONSPICUOUSNESS,1
 big man,🧑‍🦱,[':person_curly_hair:'],Single,CONSPICUOUSNESS,1
-big man,🧍‍♂️💪,"[':man_standing:', ':flexed_biceps:']",Metaphorical,CONSPICUOUSNESS,3
+big man,🧍‍♂️💪,"[':man_standing:', ':flexed_biceps:']",Metaphorical,CONSPICUOUSNESS,1
 big man,💪🧔‍♂️,"[':flexed_biceps:', ':man_beard:']",Metaphorical,CONSPICUOUSNESS,3
 big man,👱‍♂️↔️↕️,"[':man_blond_hair:', ':left-right_arrow:', ':up-down_arrow:']",Metaphorical,CONSPICUOUSNESS,3
-big man,🦸🦸‍♂️,"[':superhero:', ':man_superhero:']",Metaphorical,CONSPICUOUSNESS,2
-big man,💪🧍‍♂️,"[':flexed_biceps:', ':man_standing:']",Metaphorical,CONSPICUOUSNESS,3
+big man,🦸🦸‍♂️,"[':superhero:', ':man_superhero:']",Metaphorical,CONSPICUOUSNESS,1
+big man,💪🧍‍♂️,"[':flexed_biceps:', ':man_standing:']",Metaphorical,CONSPICUOUSNESS,1
 big city,🌇❗,"[':sunset:', ':red_exclamation_mark:']",Metaphorical,SIZE,3
 big city,🌇🌁🌆🏙🌃🗽,"[':sunset:', ':foggy:', ':cityscape_at_dusk:', ':cityscape:', ':night_with_stars:', ':Statue_of_Liberty:']",Semantic list,SIZE,1
 big city,🇷🇺,[':Russia:'],Single,SIZE,1
@@ -343,7 +343,7 @@ short story,⌚📖,"[':watch:', ':open_book:']",Direct,DURATION,3
 short story,🤏🗣️,"[':pinching_hand:', ':speaking_head:']",Direct,DURATION,2
 short story,🤏🗣️📖,"[':pinching_hand:', ':speaking_head:', ':open_book:']",Direct,DURATION,2
 short story,⌛📖,"[':hourglass_done:', ':open_book:']",Direct,DURATION,3
-short life,🩳👽,"[':shorts:', ':alien:']",Direct,DURATION,2
+short life,🩳👽,"[':shorts:', ':alien:']",Direct,DURATION,4
 short life,🤏☠️,"[':pinching_hand:', ':skull_and_crossbones:']",Direct,DURATION,2
 short life,⏳🕐👩‍🦳🧓,"[':hourglass_not_done:', ':one_o’clock:', ':woman_white_hair:', ':older_person:']",Metaphorical,DURATION,4
 short life,👋😀⌛,"[':waving_hand:', ':grinning_face:', ':hourglass_done:']",Metaphorical,DURATION,5
