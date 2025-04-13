@@ -128,7 +128,8 @@ class EmoteMultimodalModel(nn.Module):
             param.requires_grad = False
         
         # Get dimensions
-        self.text_dim = 768  # BERT hidden size
+        self.text_dim = self.text_model.config.hidden_size
+
         self.img_dim = self.image_model.norm.normalized_shape[0]
         
         # Multimodal fusion
@@ -156,12 +157,20 @@ class EmoteMultimodalModel(nn.Module):
     
     def forward(self, input_ids=None, attention_mask=None, token_type_ids=None, images=None, labels=None, **kwargs):
         # Process text input
-        text_outputs = self.text_model(
-            input_ids=input_ids,
-            attention_mask=attention_mask,
-            token_type_ids=token_type_ids,
-            return_dict=True
-        )
+        if "bart-large" in self.config.model_name:
+            text_outputs = self.text_model(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                # output_hidden_states=True, 
+                return_dict=True,
+            )
+        else:
+            text_outputs = self.text_model(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                token_type_ids=token_type_ids,
+                return_dict=True
+            ) 
         
         # Get text features
         text_features = text_outputs.last_hidden_state
@@ -193,12 +202,17 @@ class EmoteMultimodalModel(nn.Module):
         self.total_steps += 1
         
         # Return in a format compatible with the existing code
+        if "bart-large" in self.config.model_name:
+            return type('obj', (object,), {
+                'loss': loss,
+                'logits': logits,
+                # 'hidden_states': text_outputs.hidden_states
+            })
         return type('obj', (object,), {
             'loss': loss,
             'logits': logits,
             'hidden_states': text_outputs.hidden_states
         })
-    
     # Methods for saving and loading
     def save_pretrained(self, save_directory):
         """Save the model to the specified directory."""

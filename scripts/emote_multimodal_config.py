@@ -15,7 +15,7 @@ class Emote_Multimodal_Config(Emote_Config):
         self.test_img_dir = os.path.join(os.environ.get("DATA_PATH"), "test_google")
         
         # Fusion parameters
-        self.fusion_hidden_size = 768  # Same as BERT hidden size for compatibility
+        self.fusion_hidden_size = 768 if model_name == "bert-base" or model_name =="roberta-base" else 1024
         self.fusion_dropout = 0.1
         
         # Model save directory for multimodal model

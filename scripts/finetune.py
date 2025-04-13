@@ -112,10 +112,11 @@ class EmoteTrainer:
                 small_dict['Sensitivity 3'] = test_acc_sensitivity[2]
                 small_dict['Sensitivity 4'] = test_acc_sensitivity[3]
                 small_dict['Sensitivity 5'] = test_acc_sensitivity[4]
+                small_dict['Negative'] = test_acc_sensitivity[5]
 
                 # save it into a csv
                 with open(self.fp_csv_best, 'w') as f:
-                    f.write('sensitivity,accuracy\n')
+                    f.write('category,accuracy\n')
                     for key in small_dict.keys():
                         f.write('{},{}\n'.format(key, small_dict[key]))
 
@@ -156,8 +157,8 @@ class EmoteTrainer:
         predictions, true_labels, strategy_types, sensitivity_types = [], [], [], []
         strategies_correct = [0]*7
         strategies_total = [0]*7
-        sensitivities_correct = [0]*5
-        sensitivities_total = [0]*5
+        sensitivities_correct = [0]*6 # 5 positional sensitivities (positive labels only) and 1 slot for negative labels (ignore its positional sensitivity)
+        sensitivities_total = [0]*6
 
 
         # Create a progress bar for batches
@@ -171,7 +172,9 @@ class EmoteTrainer:
             # Move batch (without strategies) to device
             batch = {k: v.to(self.device) for k, v in batch.items()}
 
+
             with torch.set_grad_enabled(train):
+
                 outputs = self.model(**batch)
                 
   
@@ -202,6 +205,13 @@ class EmoteTrainer:
                     if preds[i] == current_true_labels[i]:
                         # strategies_correct[current_strategies[i]] += 1
                         sensitivities_correct[current_sensitivities[i]-1] += 1
+                else: # for negative labels
+                    # strategies_total[current_strategies[i]] += 1
+                    sensitivities_total[5] += 1 # negative labels are always added to the final index
+
+                    if preds[i] == current_true_labels[i]:
+                        # strategies_correct[current_strategies[i]] += 1
+                        sensitivities_correct[5] += 1                    
 
             # Update batch progress bar with running loss
             batch_pbar.set_postfix({'loss': f"{loss.item():.4f}"})
@@ -249,17 +259,23 @@ class EmoteTrainer:
         #         strategy_acc.append(0)  # Append 0 for strategies with no instances
         
         # Print the accuracies for each sensitivity index [0,1,2,3,4] (+1 when printing)
-        for i in range(5):  # Sensitivity indices are 0-based
+        for i in range(6):  # Sensitivity indices are 0-based
             if sensitivities_total[i] != 0:
                 accuracy = round(sensitivities_correct[i] / sensitivities_total[i] * 100, 1)
                 sensitivity_acc.append(accuracy)
-                print(f'Sensitivity {i + 1} accuracy: {accuracy}, {sensitivities_correct[i]} / {sensitivities_total[i]}')
+                if i == 5:
+                    print(f'Negative samples accuracy: {accuracy}, {sensitivities_correct[i]} / {sensitivities_total[i]}')
+                else:
+                    print(f'Sensitivity {i + 1} accuracy: {accuracy}, {sensitivities_correct[i]} / {sensitivities_total[i]}')
                 # If str_ is in ['Valid', 'Test'], then write the accuracy for sensitivity i into fp_txt
                 if str_ in ['Valid', 'Test']:
                     with open(self.fp_txt, 'a') as f:
-                        f.write(f'Sensitivity {i + 1}, {accuracy}, {sensitivities_correct[i]} / {sensitivities_total[i]}\n')
-                        if i == 4:  # Last sensitivity
+                        if i == 5:  # negative samples (and also the last category)
+                            f.write(f'Negative, {accuracy}, {sensitivities_correct[i]} / {sensitivities_total[i]}\n')
                             f.write('\n')
+                        else:
+                            f.write(f'Sensitivity {i + 1}, {accuracy}, {sensitivities_correct[i]} / {sensitivities_total[i]}\n')
+
             else:
                 print(f'No instances of sensitivity {i + 1} found')
                 sensitivity_acc.append(0)  # Append 0 for sensitivities with no instances
