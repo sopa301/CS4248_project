@@ -10,12 +10,12 @@ class Emote_Multimodal_Config(Emote_Config):
         self.image_model_name = image_model_name
         
         # Image directories
-        self.train_img_dir = os.path.join(os.environ.get("DATA_PATH"), "train_google")
-        self.val_img_dir = os.path.join(os.environ.get("DATA_PATH"), "val_google")
-        self.test_img_dir = os.path.join(os.environ.get("DATA_PATH"), "test_google")
+        self.train_img_dir = 'dataset_following_elco_split/generated_img_dataset/train_google'
+        self.val_img_dir = 'dataset_following_elco_split/generated_img_dataset/val_google'
+        self.test_img_dir = 'dataset_following_elco_split/generated_img_dataset/test_google'
         
         # Fusion parameters
-        self.fusion_hidden_size = 768 if model_name == "bert-base" or model_name =="roberta-base" else 1024
+        self.fusion_hidden_size = 768  # Same as BERT hidden size for compatibility
         self.fusion_dropout = 0.1
         
         # Model save directory for multimodal model

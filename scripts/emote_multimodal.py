@@ -25,14 +25,13 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-def encode_data(tokenizer, sentences_1, sentences_2, labels, strategies, sensitivities):
+def encode_data(tokenizer, sentences_1, sentences_2, labels, strategies):
     """Encode the sentences and labels into a format that the model can understand."""
     inputs = tokenizer(list(sentences_1), list(sentences_2), truncation=True, padding=True, return_tensors="pt")
     labels = torch.tensor(labels)
     strategies = torch.tensor(strategies)
-    sensitivities = torch.tensor(sensitivities)
     
-    return inputs, labels, strategies, sensitivities
+    return inputs, labels, strategies
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -88,24 +87,24 @@ if __name__ == '__main__':
     all_data = pd.concat([train_data, val_data, test_data], ignore_index=True)
 
     # Encode the data
-    train_inputs, train_labels, train_strategies, train_sensitivities = encode_data(tokenizer, train_data['sent1'], train_data['sent2'], train_data['label'], train_data['strategy'], train_data['positional_sensitivity'])
-    val_inputs, val_labels, val_strategies, val_sensitivities = encode_data(tokenizer, val_data['sent1'], val_data['sent2'], val_data['label'], val_data['strategy'], val_data['positional_sensitivity'])
-    test_inputs, test_labels, test_strategies, test_sensitivities = encode_data(tokenizer, test_data['sent1'], test_data['sent2'], test_data['label'], test_data['strategy'], test_data['positional_sensitivity'])
-    all_inputs, all_labels, all_strategies, all_sensitivities = encode_data(tokenizer, all_data['sent1'], all_data['sent2'], all_data['label'], all_data['strategy'], all_data['positional_sensitivity'])
+    train_inputs, train_labels, train_strategies = encode_data(tokenizer, train_data['sent1'], train_data['sent2'], train_data['label'], train_data['strategy'])
+    val_inputs, val_labels, val_strategies = encode_data(tokenizer, val_data['sent1'], val_data['sent2'], val_data['label'], val_data['strategy'])
+    test_inputs, test_labels, test_strategies = encode_data(tokenizer, test_data['sent1'], test_data['sent2'], test_data['label'], test_data['strategy'])
+    all_inputs, all_labels, all_strategies = encode_data(tokenizer, all_data['sent1'], all_data['sent2'], all_data['label'], all_data['strategy'])
 
     # Create the datasets
     if config.use_images:
-        train_dataset = MultimodalDataset(train_inputs, train_labels, train_strategies, train_sensitivities, config.train_img_dir)
-        val_dataset = MultimodalDataset(val_inputs, val_labels, val_strategies, val_sensitivities, config.val_img_dir)
-        test_dataset = MultimodalDataset(test_inputs, test_labels, test_strategies, test_sensitivities, config.test_img_dir)
-        all_dataset = MultimodalDataset(all_inputs, all_labels, all_strategies, test_sensitivities, config.train_img_dir)  # Using train_img_dir as a fallback
+        train_dataset = MultimodalDataset(train_inputs, train_labels, train_strategies, config.train_img_dir)
+        val_dataset = MultimodalDataset(val_inputs, val_labels, val_strategies, config.val_img_dir)
+        test_dataset = MultimodalDataset(test_inputs, test_labels, test_strategies, config.test_img_dir)
+        all_dataset = MultimodalDataset(all_inputs, all_labels, all_strategies, config.train_img_dir)  # Using train_img_dir as a fallback
     else:
         # Use the original dataset class for text-only
         from emote import CustomizedDataset
-        train_dataset = CustomizedDataset(train_inputs, train_labels, train_strategies, train_sensitivities)
-        val_dataset = CustomizedDataset(val_inputs, val_labels, val_strategies, val_sensitivities)
-        test_dataset = CustomizedDataset(test_inputs, test_labels, test_strategies, test_sensitivities)
-        all_dataset = CustomizedDataset(all_inputs, all_labels, all_strategies, all-all_sensitivities)
+        train_dataset = CustomizedDataset(train_inputs, train_labels, train_strategies)
+        val_dataset = CustomizedDataset(val_inputs, val_labels, val_strategies)
+        test_dataset = CustomizedDataset(test_inputs, test_labels, test_strategies)
+        all_dataset = CustomizedDataset(all_inputs, all_labels, all_strategies)
 
     # Define the batch size
     batch_size = config.bs
@@ -118,6 +117,100 @@ if __name__ == '__main__':
 
     # Define the device
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+    # --- START MANUAL DEBUG BLOCK ---
+    print("\n--- Starting Manual Debug Check ---")
+    try:
+        debug_batch = next(iter(train_loader))
+        print(f"Loaded one batch. Keys: {debug_batch.keys()}")
+
+        debug_images = debug_batch['images']
+        debug_labels = debug_batch['labels']
+        debug_strategies = debug_batch.pop('strategies') # Pop strategies manually
+
+        print(f"Image shape: {debug_images.shape}, dtype: {debug_images.dtype}")
+        print(f"Labels shape: {debug_labels.shape}, dtype: {debug_labels.dtype}")
+        print(f"Labels in batch: {debug_labels.cpu().numpy()}")
+        print(f"Label distribution: {np.bincount(debug_labels.cpu().numpy())}")
+        print(f"Image Stats: Min={debug_images.min():.4f}, Max={debug_images.max():.4f}, Mean={debug_images.mean():.4f}, Std={debug_images.std():.4f}")
+        if torch.isnan(debug_images).any():
+            print("ERROR: NaN found in debug_images!")
+        else:
+            print("Image NaN check passed.")
+
+        # Initialize the *simplest working model* (Frozen Swin + MLP Head)
+        # Ensure config is defined before this block
+        print("Initializing simplified model for debug...")
+        # Assumes 'config' is the Emote_Multimodal_Config object
+        from multimodal_model import EmoteMultimodalModel
+        debug_model = EmoteMultimodalModel(config, num_labels=2)
+        debug_model.to(device)
+        debug_model.train() # Set to train mode
+
+        # Manual forward pass
+        print("Performing manual forward pass...")
+        debug_images = debug_images.to(device)
+        debug_labels = debug_labels.to(device)
+        # Pass only images, as the simplified model's forward expects that
+        # Note: The internal loss calculation in forward won't run without labels passed,
+        # but we calculate loss manually below.
+        logits = debug_model(images=debug_images).logits # Get logits directly
+
+        print(f"Logits shape: {logits.shape}, dtype: {logits.dtype}")
+        print(f"Logits sample: {logits[:5].detach().cpu().numpy()}")
+        print(f"Logits Stats: Min={logits.min().item():.4f}, Max={logits.max().item():.4f}, Mean={logits.mean().item():.4f}, Std={logits.std().item():.4f}")
+        if torch.isnan(logits).any():
+            print("ERROR: NaN found in logits!")
+
+        # Manual loss calculation
+        loss_fct = nn.CrossEntropyLoss()
+        loss = loss_fct(logits, debug_labels)
+        print(f"Manual Loss Calculated: {loss.item():.6f}")
+        if torch.isnan(loss):
+            print("ERROR: Loss is NaN!")
+
+        # Manual backward pass
+        print("Performing manual backward pass...")
+        loss.backward()
+
+        # Inspect gradients of TRAINABLE head parameters
+        print("--- Head Gradient Inspection ---")
+        head_grads_found = False
+        head_grads_zero = True
+        for name, param in debug_model.named_parameters():
+            if 'head.' in name and param.requires_grad: # Focus on MLP head
+                print(f"Param: {name}, Requires Grad: {param.requires_grad}")
+                if param.grad is None:
+                    print("  ERROR: Gradient is None!")
+                else:
+                    head_grads_found = True
+                    grad_norm = param.grad.norm().item()
+                    print(f"  Gradient Norm: {grad_norm:.6f}")
+                    if torch.isnan(param.grad).any():
+                        print("  ERROR: Gradient is NaN!")
+                    if grad_norm > 1e-9: # Check if non-zero
+                         head_grads_zero = False
+        if not head_grads_found: print("ERROR: No head parameters found or none require grad!")
+        if head_grads_zero and head_grads_found: print("ERROR: All head gradients are zero!")
+
+
+        # Optional: Check if any FROZEN params got gradients (shouldn't happen)
+        # print("--- Frozen Gradient Check ---")
+        # frozen_grads_found = False
+        # for name, param in debug_model.named_parameters():
+        #     if 'head.' not in name and not param.requires_grad: # Frozen parts
+        #          if param.grad is not None:
+        #               print(f"ERROR: Gradient found for FROZEN parameter: {name}")
+        #               frozen_grads_found = True
+        # if not frozen_grads_found: print("OK: No gradients found for frozen parameters.")
+
+    except Exception as e:
+        print(f"An error occurred during manual debug: {e}")
+        import traceback
+        traceback.print_exc()
+
+    print("--- Finished Manual Debug Check ---")
+    # --- END MANUAL DEBUG BLOCK ---
 
     if args.finetune == 0:
         # Unsupervised evaluation is not supported for multimodal model
@@ -142,19 +235,7 @@ if __name__ == '__main__':
         exit()
 
     # Initialize the model
-    if config.use_images:
-        model = EmoteMultimodalModel(config, num_labels=2)
-        # Resize the token embeddings of the model
-        model.text_model.resize_token_embeddings(len(tokenizer))
-    else:
-        # Load the pretrained model and changed the output space into 2 labels
-        model = AutoModelForSequenceClassification.from_pretrained(
-            config.model_path, 
-            num_labels=2, 
-            output_hidden_states=True, 
-            ignore_mismatched_sizes=True
-        )
-        model.resize_token_embeddings(len(tokenizer))
+    model = EmoteMultimodalModel(config, num_labels=2)
     
     model.to(device)
 

@@ -27,32 +27,31 @@ def set_seed(seed):
     torch.backends.cudnn.benchmark = False
 
 
-def encode_data(tokenizer, sentences_1, sentences_2, labels, strategies, sensitivities):
+def encode_data(tokenizer, sentences_1, sentences_2, labels, strategies):
     """Encode the sentences and labels into a format that the model can understand."""
     inputs = tokenizer(list(sentences_1), list(sentences_2), truncation=True, padding=True, return_tensors="pt")
     labels = torch.tensor(labels)
     strategies = torch.tensor(strategies)
-    sensitivities = torch.tensor(sensitivities)
     
-    return inputs, labels, strategies, sensitivities
+    return inputs, labels, strategies
         
 
 class CustomizedDataset(Dataset):
-    def __init__(self, encodings, labels, strategies, sensitivities):
+    def __init__(self, encodings, labels, strategies):
         self.encodings = encodings
         self.labels = labels
         self.strategies = strategies
-        self.sensitivities = sensitivities
 
     def __getitem__(self, idx):
         item = {key: val[idx].clone().detach() for key, val in self.encodings.items()}
         item['labels'] = self.labels[idx].clone().detach()
         item['strategies'] = self.strategies[idx].clone().detach()
-        item['sensitivities'] = self.sensitivities[idx].clone().detach
         return item
 
     def __len__(self):
         return len(self.labels)
+
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -94,16 +93,16 @@ if __name__ == '__main__':
 
 
     # Encode the data
-    train_inputs, train_labels, train_strategies, train_sensitivities = encode_data(tokenizer, train_data['sent1'], train_data['sent2'], train_data['label'], train_data['strategy'], train_data['positional_sensitivity'])
-    val_inputs, val_labels, val_strategies, val_sensitivities = encode_data(tokenizer, val_data['sent1'], val_data['sent2'], val_data['label'], val_data['strategy'], val_data['positional_sensitivity'])
-    test_inputs, test_labels, test_strategies, test_sensitivities = encode_data(tokenizer, test_data['sent1'], test_data['sent2'], test_data['label'], test_data['strategy'], test_data['positional_sensitivity'])
-    all_inputs, all_labels, all_strategies, all_sensitivities = encode_data(tokenizer, all_data['sent1'], all_data['sent2'], all_data['label'], all_data['strategy'], all_data['positional_sensitivity'])
+    train_inputs, train_labels, train_strategies = encode_data(tokenizer, train_data['sent1'], train_data['sent2'], train_data['label'], train_data['strategy'])
+    val_inputs, val_labels, val_strategies = encode_data(tokenizer, val_data['sent1'], val_data['sent2'], val_data['label'], val_data['strategy'])
+    test_inputs, test_labels, test_strategies = encode_data(tokenizer, test_data['sent1'], test_data['sent2'], test_data['label'], test_data['strategy'])
+    all_inputs, all_labels, all_strategies = encode_data(tokenizer, all_data['sent1'], all_data['sent2'], all_data['label'], all_data['strategy'])
 
     # Create the datasets
-    train_dataset = CustomizedDataset(train_inputs, train_labels, train_strategies, train_sensitivities)
-    val_dataset = CustomizedDataset(val_inputs, val_labels, val_strategies, val_sensitivities)
-    test_dataset = CustomizedDataset(test_inputs, test_labels, test_strategies, test_sensitivities)
-    all_dataset = CustomizedDataset(all_inputs, all_labels, all_strategies, all_sensitivities)
+    train_dataset = CustomizedDataset(train_inputs, train_labels, train_strategies)
+    val_dataset = CustomizedDataset(val_inputs, val_labels, val_strategies)
+    test_dataset = CustomizedDataset(test_inputs, test_labels, test_strategies)
+    all_dataset = CustomizedDataset(all_inputs, all_labels, all_strategies)
 
     # Define the batch size
     batch_size = new_emote_config.bs
