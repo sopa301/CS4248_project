@@ -1,0 +1,3 @@
+[submodule "/home/andrew/CS4248_project/dataset/noto-emoji"]
+	path = /home/andrew/CS4248_project/dataset/noto-emoji
+	url = git@github.com:googlefonts/noto-emoji.git
