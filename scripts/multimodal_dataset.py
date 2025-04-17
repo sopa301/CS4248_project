@@ -52,38 +52,6 @@ class MultimodalDataset(Dataset):
         item = {key: val[original_idx].clone().detach() for key, val in self.encodings.items()}
         item['labels'] = self.labels[original_idx].clone().detach()
         item['strategies'] = self.strategies[original_idx].clone().detach()
-        # Load grid_image
-        grid_img_path = os.path.join(self.img_dir, f"{original_idx}.png")
-        
-        grid_img_path = os.path.join("dataset/google_dataset/", self.df.iloc[original_idx]['filename'])
-        # Debug info
-        if self.debug:
-            # Extract text info if possible (from input_ids)
-            if 'input_ids' in item and self.tokenizer is not None:
-                try:
-                    # Convert to CPU and integer if needed
-                    input_ids = item['input_ids'].cpu().int().tolist()
-                    text = self.tokenizer.decode(input_ids)
-                    print(f"Index: {original_idx}, Grid image: {grid_img_path}, Label: {item['labels'].item()}, Strategy: {item['strategies'].item()}")
-                    print(f"Text: {text}")
-                    print("-" * 50)
-                except Exception as e:
-                    print(f"Index: {original_idx}, Grid image: {grid_img_path}, Label: {item['labels'].item()}, Strategy: {item['strategies'].item()}")
-                    print(f"Could not decode text: {str(e)}")
-                    print("-" * 50)
-            else:
-                print(f"Index: {original_idx}, Grid image: {grid_img_path}, Label: {item['labels'].item()}, Strategy: {item['strategies'].item()}")
-                print("-" * 50)
-        
-        # The grid_image should always exist since we filtered the indices
-        try:
-            grid_image = Image.open(grid_img_path).convert('RGB')
-            grid_image = self.img_transform(grid_image)
-        except Exception as e:
-            print(f"Warning: Could not process image {grid_img_path} despite it existing. Error: {e}")
-            grid_image = self.placeholder_image
-        
-        item['grid_image'] = grid_image
         item['images'] = self._get_list_images(original_idx)
         return item
     
