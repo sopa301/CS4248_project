@@ -1,0 +1,519 @@
+EM,EN,unicode,label,strategy,image,predicted_label,generated_text
+👔📈,big business,U+1F454 U+1F4C8,1,1,./generated_img_dataset/test_google/0.png,1,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: yes.
+🏢🤑🤑,big business,U+1F3E2 U+1F911 U+1F911,1,1,./generated_img_dataset/test_google/1.png,1,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: yes.
+👨‍💻🤝,big business,U+1F468 U+200D U+1F4BB U+1F91D,1,1,./generated_img_dataset/test_google/2.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+🏢🧑‍🤝‍🧑🧑‍🤝‍🧑🧑‍🤝‍🧑,big business,U+1F3E2 U+1F9D1 U+200D U+1F91D U+200D U+1F9D1 U+1F9D1 U+200D U+1F91D U+200D U+1F9D1 U+1F9D1 U+200D U+1F91D U+200D U+1F9D1,1,1,./generated_img_dataset/test_google/3.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+👩‍💻🤑,big business,U+1F469 U+200D U+1F4BB U+1F911,1,1,./generated_img_dataset/test_google/4.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+💰📈,big business,U+1F4B0 U+1F4C8,1,1,./generated_img_dataset/test_google/5.png,1,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: yes.
+🏢🏢🏢📊🌍,big business,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,1,1,./generated_img_dataset/test_google/6.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+🤝📆,big business,U+1F91D U+1F4C6,1,1,./generated_img_dataset/test_google/7.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+📈💸,big expenditure,U+1F4C8 U+1F4B8,1,0,./generated_img_dataset/test_google/8.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+🥘🌯🌯🤑🤑💸💸,big expenditure,U+1F958 U+1F32F U+1F32F U+1F911 U+1F911 U+1F4B8 U+1F4B8,1,1,./generated_img_dataset/test_google/9.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+👨‍💻💸,big expenditure,U+1F468 U+200D U+1F4BB U+1F4B8,1,1,./generated_img_dataset/test_google/10.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+💸💸,big expenditure,U+1F4B8 U+1F4B8,1,3,./generated_img_dataset/test_google/11.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+🤑💸,big expenditure,U+1F911 U+1F4B8,1,1,./generated_img_dataset/test_google/12.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+📈💸,big expenditure,U+1F4C8 U+1F4B8,1,0,./generated_img_dataset/test_google/13.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+🐘💵💸,big expenditure,U+1F418 U+1F4B5 U+1F4B8,1,0,./generated_img_dataset/test_google/14.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+🤑💸,big expenditure,U+1F911 U+1F4B8,1,1,./generated_img_dataset/test_google/15.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+📢🗣️,big voice,U+1F4E2 U+1F5E3 U+FE0F,1,1,./generated_img_dataset/test_google/16.png,1,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: yes.
+📢📣,big voice,U+1F4E2 U+1F4E3,1,2,./generated_img_dataset/test_google/17.png,1,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: yes.
+🔊,big voice,U+1F50A,1,4,./generated_img_dataset/test_google/18.png,1,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: yes.
+🗣️📢,big voice,U+1F5E3 U+FE0F U+1F4E2,1,1,./generated_img_dataset/test_google/19.png,1,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: yes.
+🗣️💢,big voice,U+1F5E3 U+FE0F U+1F4A2,1,1,./generated_img_dataset/test_google/20.png,1,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: yes.
+🎙️🗣️,big voice,U+1F399 U+FE0F U+1F5E3 U+FE0F,1,1,./generated_img_dataset/test_google/21.png,1,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: yes.
+🤬🤬,big voice,U+1F92C U+1F92C,1,3,./generated_img_dataset/test_google/22.png,0,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: no.
+🗣️💢,big voice,U+1F5E3 U+FE0F U+1F4A2,1,1,./generated_img_dataset/test_google/23.png,1,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: yes.
+🧑‍🤝‍🧑👫👭👬,big group,U+1F9D1 U+200D U+1F91D U+200D U+1F9D1 U+1F46B U+1F46D U+1F46C,1,3,./generated_img_dataset/test_google/24.png,1,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: yes.
+👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦,big group,U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466,1,3,./generated_img_dataset/test_google/25.png,1,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: yes.
+👬👬👬👬👬👬👬👬👬👬👬,big group,U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C U+1F46C,1,3,./generated_img_dataset/test_google/26.png,0,<SKIPPED_OR_ERROR>
+👥👥👥,big group,U+1F465 U+1F465 U+1F465,1,3,./generated_img_dataset/test_google/27.png,1,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: yes.
+👫👭👨‍👨‍👧‍👧👬👨‍👨‍👧,big group,U+1F46B U+1F46D U+1F468 U+200D U+1F468 U+200D U+1F467 U+200D U+1F467 U+1F46C U+1F468 U+200D U+1F468 U+200D U+1F467,1,2,./generated_img_dataset/test_google/28.png,1,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: yes.
+👥👥,big group,U+1F465 U+1F465,1,3,./generated_img_dataset/test_google/29.png,1,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: yes.
+👩‍👩‍👦‍👦👩‍👩‍👦‍👦👩‍👩‍👦‍👦👩‍👩‍👦‍👦👩‍👩‍👦‍👦,big group,U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466,1,3,./generated_img_dataset/test_google/30.png,1,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: yes.
+🧑‍🤝‍🧑🧑‍🤝‍🧑🧑‍🤝‍🧑,big group,U+1F9D1 U+200D U+1F91D U+200D U+1F9D1 U+1F9D1 U+200D U+1F91D U+200D U+1F9D1 U+1F9D1 U+200D U+1F91D U+200D U+1F9D1,1,3,./generated_img_dataset/test_google/31.png,1,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: yes.
+🧔‍♂️😲⬆️,big man,U+1F9D4 U+200D U+2642 U+FE0F U+1F632 U+2B06 U+FE0F,1,1,./generated_img_dataset/test_google/32.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🎅,big man,U+1F385,1,4,./generated_img_dataset/test_google/33.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🧑‍🦱,big man,U+1F9D1 U+200D U+1F9B1,1,4,./generated_img_dataset/test_google/34.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🧍‍♂️💪,big man,U+1F9CD U+200D U+2642 U+FE0F U+1F4AA,1,1,./generated_img_dataset/test_google/35.png,1,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: yes.
+💪🧔‍♂️,big man,U+1F4AA U+1F9D4 U+200D U+2642 U+FE0F,1,1,./generated_img_dataset/test_google/36.png,1,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: yes.
+👱‍♂️↔️↕️,big man,U+1F471 U+200D U+2642 U+FE0F U+2194 U+FE0F U+2195 U+FE0F,1,1,./generated_img_dataset/test_google/37.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🦸🦸‍♂️,big man,U+1F9B8 U+1F9B8 U+200D U+2642 U+FE0F,1,1,./generated_img_dataset/test_google/38.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+💪🧍‍♂️,big man,U+1F4AA U+1F9CD U+200D U+2642 U+FE0F,1,1,./generated_img_dataset/test_google/39.png,1,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: yes.
+🌇❗,big city,U+1F307 U+2757,1,1,./generated_img_dataset/test_google/40.png,1,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: yes.
+🌇🌁🌆🏙️🌃🗽,big city,U+1F307 U+1F301 U+1F306 U+1F3D9 U+FE0F U+1F303 U+1F5FD,1,2,./generated_img_dataset/test_google/41.png,1,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: yes.
+🇷🇺,big city,U+1F1F7 U+1F1FA,1,4,./generated_img_dataset/test_google/42.png,0,<SKIPPED_OR_ERROR>
+🏙️,big city,U+1F3D9 U+FE0F,1,4,./generated_img_dataset/test_google/43.png,1,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: yes.
+🌆🤯,big city,U+1F306 U+1F92F,1,1,./generated_img_dataset/test_google/44.png,1,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: yes.
+🏙️↕️↔️,big city,U+1F3D9 U+FE0F U+2195 U+FE0F U+2194 U+FE0F,1,1,./generated_img_dataset/test_google/45.png,1,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: yes.
+🌃🌃🌃🌃🌃,big city,U+1F303 U+1F303 U+1F303 U+1F303 U+1F303,1,3,./generated_img_dataset/test_google/46.png,1,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: yes.
+🌇🏙️,big city,U+1F307 U+1F3D9 U+FE0F,1,2,./generated_img_dataset/test_google/47.png,1,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: yes.
+🧔‍♂️💰,big tipper,U+1F9D4 U+200D U+2642 U+FE0F U+1F4B0,1,1,./generated_img_dataset/test_google/48.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+🥞💸,big tipper,U+1F95E U+1F4B8,1,1,./generated_img_dataset/test_google/49.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+💴💴💆‍♂️💇‍♂️,big tipper,U+1F4B4 U+1F4B4 U+1F486 U+200D U+2642 U+FE0F U+1F487 U+200D U+2642 U+FE0F,1,1,./generated_img_dataset/test_google/50.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+🪙🪙,big tipper,U+1FA99 U+1FA99,1,3,./generated_img_dataset/test_google/51.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+🤑👨‍🦰💰,big tipper,U+1F911 U+1F468 U+200D U+1F9B0 U+1F4B0,1,1,./generated_img_dataset/test_google/52.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+💵💵,big tipper,U+1F4B5 U+1F4B5,1,3,./generated_img_dataset/test_google/53.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+💸💸💸,big tipper,U+1F4B8 U+1F4B8 U+1F4B8,1,3,./generated_img_dataset/test_google/54.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+👍💸,big tipper,U+1F44D U+1F4B8,1,1,./generated_img_dataset/test_google/55.png,1,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: yes.
+❗📆,big day,U+2757 U+1F4C6,1,0,./generated_img_dataset/test_google/56.png,1,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: yes.
+👰💒🤵‍♂️,big day,U+1F470 U+1F492 U+1F935 U+200D U+2642 U+FE0F,1,1,./generated_img_dataset/test_google/57.png,1,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: yes.
+👩‍❤️‍👨👰,big day,U+1F469 U+200D U+2764 U+FE0F U+200D U+1F468 U+1F470,1,1,./generated_img_dataset/test_google/58.png,1,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: yes.
+😰☀️,big day,U+1F630 U+2600 U+FE0F,1,1,./generated_img_dataset/test_google/59.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+👰‍♂️👰‍♀️🤵‍♂️🤵‍♀️,big day,U+1F470 U+200D U+2642 U+FE0F U+1F470 U+200D U+2640 U+FE0F U+1F935 U+200D U+2642 U+FE0F U+1F935 U+200D U+2640 U+FE0F,1,1,./generated_img_dataset/test_google/60.png,1,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: yes.
+🥇☀️,big day,U+1F947 U+2600 U+FE0F,1,1,./generated_img_dataset/test_google/61.png,1,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: yes.
+😵😵😵,big day,U+1F635 U+1F635 U+1F635,1,1,./generated_img_dataset/test_google/62.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+🗓️,big day,U+1F5D3 U+FE0F,1,4,./generated_img_dataset/test_google/63.png,1,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: yes.
+🥵👧,hot doll,U+1F975 U+1F467,1,0,./generated_img_dataset/test_google/64.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+🪆🔥🔥,hot doll,U+1FA86 U+1F525 U+1F525,1,0,./generated_img_dataset/test_google/65.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+💅👱‍♀️,hot doll,U+1F485 U+1F471 U+200D U+2640 U+FE0F,1,1,./generated_img_dataset/test_google/66.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+🔥🪆,hot doll,U+1F525 U+1FA86,1,0,./generated_img_dataset/test_google/67.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+1️⃣🪆🎎,hot doll,U+31 U+FE0F U+20E3 U+1FA86 U+1F38E,1,1,./generated_img_dataset/test_google/68.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+🔥🧸,hot doll,U+1F525 U+1F9F8,1,0,./generated_img_dataset/test_google/69.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+♨️🪆,hot doll,U+2668 U+FE0F U+1FA86,1,0,./generated_img_dataset/test_google/70.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+🥵🧸,hot doll,U+1F975 U+1F9F8,1,0,./generated_img_dataset/test_google/71.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+♨️💦,hot water,U+2668 U+FE0F U+1F4A6,1,0,./generated_img_dataset/test_google/72.png,1,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: yes.
+🥵🚰,hot water,U+1F975 U+1F6B0,1,0,./generated_img_dataset/test_google/73.png,0,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: no.
+♨️💧,hot water,U+2668 U+FE0F U+1F4A7,1,0,./generated_img_dataset/test_google/74.png,1,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: yes.
+🔥💦,hot water,U+1F525 U+1F4A6,1,0,./generated_img_dataset/test_google/75.png,1,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: yes.
+♨️💧🚰,hot water,U+2668 U+FE0F U+1F4A7 U+1F6B0,1,0,./generated_img_dataset/test_google/76.png,1,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: yes.
+♨️🚰,hot water,U+2668 U+FE0F U+1F6B0,1,0,./generated_img_dataset/test_google/77.png,1,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: yes.
+♨️💧,hot water,U+2668 U+FE0F U+1F4A7,1,0,./generated_img_dataset/test_google/78.png,1,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: yes.
+📛💦,hot water,U+1F4DB U+1F4A6,1,0,./generated_img_dataset/test_google/79.png,1,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: yes.
+🌡️♨️🍳,hot stove,U+1F321 U+FE0F U+2668 U+FE0F U+1F373,1,0,./generated_img_dataset/test_google/80.png,1,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: yes.
+♨️🍳,hot stove,U+2668 U+FE0F U+1F373,1,0,./generated_img_dataset/test_google/81.png,1,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: yes.
+♨️🎛️🔥,hot stove,U+2668 U+FE0F U+1F39B U+FE0F U+1F525,1,0,./generated_img_dataset/test_google/82.png,1,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: yes.
+🔥🍳,hot stove,U+1F525 U+1F373,1,0,./generated_img_dataset/test_google/83.png,0,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: no.
+🥵🍳🔥,hot stove,U+1F975 U+1F373 U+1F525,1,0,./generated_img_dataset/test_google/84.png,0,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: no.
+♨️🔥,hot stove,U+2668 U+FE0F U+1F525,1,0,./generated_img_dataset/test_google/85.png,1,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: yes.
+🔥♨️,hot stove,U+1F525 U+2668 U+FE0F,1,0,./generated_img_dataset/test_google/86.png,1,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: yes.
+📛🌡️🫕,hot stove,U+1F4DB U+1F321 U+FE0F U+1FAD5,1,0,./generated_img_dataset/test_google/87.png,1,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: yes.
+🔥🔊🗣️🗣️🤔🤔👍👎,hot topic,U+1F525 U+1F50A U+1F5E3 U+FE0F U+1F5E3 U+FE0F U+1F914 U+1F914 U+1F44D U+1F44E,1,1,./generated_img_dataset/test_google/88.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🤩💬,hot topic,U+1F929 U+1F4AC,1,1,./generated_img_dataset/test_google/89.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+☀️🎙️🗣️,hot topic,U+2600 U+FE0F U+1F399 U+FE0F U+1F5E3 U+FE0F,1,0,./generated_img_dataset/test_google/90.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🔥🔥🔥🔥📰,hot topic,U+1F525 U+1F525 U+1F525 U+1F525 U+1F4F0,1,0,./generated_img_dataset/test_google/91.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🔥💬,hot topic,U+1F525 U+1F4AC,1,0,./generated_img_dataset/test_google/92.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🔥🗣️,hot topic,U+1F525 U+1F5E3 U+FE0F,1,0,./generated_img_dataset/test_google/93.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🔥🗣️,hot topic,U+1F525 U+1F5E3 U+FE0F,1,0,./generated_img_dataset/test_google/94.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🥵💬,hot topic,U+1F975 U+1F4AC,1,0,./generated_img_dataset/test_google/95.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🔥👀✋🤚🙏🥺💰,hot merchandise,U+1F525 U+1F440 U+270B U+1F91A U+1F64F U+1F97A U+1F4B0,1,1,./generated_img_dataset/test_google/96.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🔥🔥👕🥿🕶️,hot merchandise,U+1F525 U+1F525 U+1F455 U+1F97F U+1F576 U+FE0F,1,0,./generated_img_dataset/test_google/97.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🔥🎁🎁,hot merchandise,U+1F525 U+1F381 U+1F381,1,0,./generated_img_dataset/test_google/98.png,1,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: yes.
+🔥🏷️,hot merchandise,U+1F525 U+1F3F7 U+FE0F,1,0,./generated_img_dataset/test_google/99.png,1,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: yes.
+🔥🛍️🧸👕👗✏️📔,hot merchandise,U+1F525 U+1F6CD U+FE0F U+1F9F8 U+1F455 U+1F457 U+270F U+FE0F U+1F4D4,1,0,./generated_img_dataset/test_google/100.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🔥📱,hot merchandise,U+1F525 U+1F4F1,1,0,./generated_img_dataset/test_google/101.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🗨️👕,hot merchandise,U+1F5E8 U+FE0F U+1F455,1,1,./generated_img_dataset/test_google/102.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+👍🧸👕,hot merchandise,U+1F44D U+1F9F8 U+1F455,1,0,./generated_img_dataset/test_google/103.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🔥😐:pouting_face:,hot temper,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,0,./generated_img_dataset/test_google/104.png,0,<SKIPPED_OR_ERROR>
+😤🤬🙅‍♂️🙅‍♂️,hot temper,U+1F624 U+1F92C U+1F645 U+200D U+2642 U+FE0F U+1F645 U+200D U+2642 U+FE0F,1,1,./generated_img_dataset/test_google/105.png,0,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: no.
+:pouting_face::pouting_face:,hot temper,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,3,./generated_img_dataset/test_google/106.png,0,<SKIPPED_OR_ERROR>
+:pouting_face:😤🤬,hot temper,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624 U+1F92C,1,2,./generated_img_dataset/test_google/107.png,0,<SKIPPED_OR_ERROR>
+:pouting_face:😤,hot temper,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,1,2,./generated_img_dataset/test_google/108.png,0,<SKIPPED_OR_ERROR>
+🔥:pouting_face:,hot temper,U+1F525 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,0,./generated_img_dataset/test_google/109.png,0,<SKIPPED_OR_ERROR>
+💢🤬,hot temper,U+1F4A2 U+1F92C,1,1,./generated_img_dataset/test_google/110.png,0,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: no.
+:pouting_face:🤬,hot temper,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F92C,1,2,./generated_img_dataset/test_google/111.png,0,<SKIPPED_OR_ERROR>
+🔥🗣️✖️🗣️✔️📢,hot argument,U+1F525 U+1F5E3 U+FE0F U+2716 U+FE0F U+1F5E3 U+FE0F U+2714 U+FE0F U+1F4E2,1,0,./generated_img_dataset/test_google/112.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+🙅🙅‍♂️😤🗯️,hot argument,U+1F645 U+1F645 U+200D U+2642 U+FE0F U+1F624 U+1F5EF U+FE0F,1,1,./generated_img_dataset/test_google/113.png,1,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: yes.
+:pouting_face:🤬🗣️,hot argument,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F92C U+1F5E3 U+FE0F,1,0,./generated_img_dataset/test_google/114.png,0,<SKIPPED_OR_ERROR>
+🤬🗣️📣,hot argument,U+1F92C U+1F5E3 U+FE0F U+1F4E3,1,0,./generated_img_dataset/test_google/115.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+🤬💬:pouting_face:,hot argument,U+1F92C U+1F4AC U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,0,./generated_img_dataset/test_google/116.png,0,<SKIPPED_OR_ERROR>
+🔥🤬,hot argument,U+1F525 U+1F92C,1,0,./generated_img_dataset/test_google/117.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+💢🗣️,hot argument,U+1F4A2 U+1F5E3 U+FE0F,1,0,./generated_img_dataset/test_google/118.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+🤬💬,hot argument,U+1F92C U+1F4AC,1,0,./generated_img_dataset/test_google/119.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+☀️🤒🌡️😷😴🥶,hot forehead,U+2600 U+FE0F U+1F912 U+1F321 U+FE0F U+1F637 U+1F634 U+1F976,1,1,./generated_img_dataset/test_google/120.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+🥴🤒👨‍⚕️,hot forehead,U+1F974 U+1F912 U+1F468 U+200D U+2695 U+FE0F,1,1,./generated_img_dataset/test_google/121.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+🔥🤒🌡️,hot forehead,U+1F525 U+1F912 U+1F321 U+FE0F,1,1,./generated_img_dataset/test_google/122.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+🥵🤒🤒,hot forehead,U+1F975 U+1F912 U+1F912,1,1,./generated_img_dataset/test_google/123.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+🌡️🤒,hot forehead,U+1F321 U+FE0F U+1F912,1,1,./generated_img_dataset/test_google/124.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+♨️🤯,hot forehead,U+2668 U+FE0F U+1F92F,1,1,./generated_img_dataset/test_google/125.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+🩺🤒,hot forehead,U+1FA7A U+1F912,1,1,./generated_img_dataset/test_google/126.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+🤒🤕,hot forehead,U+1F912 U+1F915,1,1,./generated_img_dataset/test_google/127.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+💯🆓🎮,full game,U+1F4AF U+1F193 U+1F3AE,1,0,./generated_img_dataset/test_google/128.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🎯🏀,full game,U+1F3AF U+1F3C0,1,0,./generated_img_dataset/test_google/129.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🎮💯,full game,U+1F3AE U+1F4AF,1,0,./generated_img_dataset/test_google/130.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🎮🏁,full game,U+1F3AE U+1F3C1,1,0,./generated_img_dataset/test_google/131.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+👍🎮,full game,U+1F44D U+1F3AE,1,0,./generated_img_dataset/test_google/132.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🕛👾,full game,U+1F55B U+1F47E,1,0,./generated_img_dataset/test_google/133.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🎮👬👬,full game,U+1F3AE U+1F46C U+1F46C,1,1,./generated_img_dataset/test_google/134.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🎫🧑👨🧑‍🦱👩‍🦱🈵,full auditorium,U+1F3AB U+1F9D1 U+1F468 U+1F9D1 U+200D U+1F9B1 U+1F469 U+200D U+1F9B1 U+1F235,1,1,./generated_img_dataset/test_google/135.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🧍‍♂️🕍,full auditorium,U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F9CD U+200D U+2642 U+FE0F U+1F54D,1,3,./generated_img_dataset/test_google/136.png,0,<SKIPPED_OR_ERROR>
+👩‍💻👨‍💻🏫,full auditorium,U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F3EB,1,1,./generated_img_dataset/test_google/137.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+❌🛸🏟️,full auditorium,U+274C U+1F6F8 U+1F3DF U+FE0F,1,0,./generated_img_dataset/test_google/138.png,1,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: yes.
+🈵🏫,full auditorium,U+1F235 U+1F3EB,1,0,./generated_img_dataset/test_google/139.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+⛽🏫,full auditorium,U+26FD U+1F3EB,1,0,./generated_img_dataset/test_google/140.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+🎟️🎟️🎭,full auditorium,U+1F39F U+FE0F U+1F39F U+FE0F U+1F3AD,1,1,./generated_img_dataset/test_google/141.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+💯❗,full attention,U+1F4AF U+2757,1,0,./generated_img_dataset/test_google/142.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+👩🧐🤯,full attention,U+1F469 U+1F9D0 U+1F92F,1,1,./generated_img_dataset/test_google/143.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+💯❗,full attention,U+1F4AF U+2757,1,0,./generated_img_dataset/test_google/144.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+🤓👨‍💻👨‍🏫👨‍🎓,full attention,U+1F913 U+1F468 U+200D U+1F4BB U+1F468 U+200D U+1F3EB U+1F468 U+200D U+1F393,1,2,./generated_img_dataset/test_google/145.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+🧐✍️,full attention,U+1F9D0 U+270D U+FE0F,1,1,./generated_img_dataset/test_google/146.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+👨‍✈️,full attention,U+1F468 U+200D U+2708 U+FE0F,1,4,./generated_img_dataset/test_google/147.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+🙋‍♂️🦻🏫,full attention,U+1F64B U+200D U+2642 U+FE0F U+1F9BB U+1F3EB,1,1,./generated_img_dataset/test_google/148.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+🥛➕🚰🚰🚰🚰🚰🈵,full glass,U+1F95B U+2795 U+1F6B0 U+1F6B0 U+1F6B0 U+1F6B0 U+1F6B0 U+1F235,1,1,./generated_img_dataset/test_google/149.png,1,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: yes.
+🥛🈵,full glass,U+1F95B U+1F235,1,0,./generated_img_dataset/test_google/150.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+💯🥛,full glass,U+1F4AF U+1F95B,1,0,./generated_img_dataset/test_google/151.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+🚰🥛,full glass,U+1F6B0 U+1F95B,1,1,./generated_img_dataset/test_google/152.png,1,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: yes.
+🚰✅,full glass,U+1F6B0 U+2705,1,0,./generated_img_dataset/test_google/153.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+🍺,full glass,U+1F37A,1,4,./generated_img_dataset/test_google/154.png,1,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: yes.
+🥛🥂,full glass,U+1F95B U+1F942,1,2,./generated_img_dataset/test_google/155.png,1,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: yes.
+♥️👨‍👩‍👧‍👦💼💰💰💰💯,full life,U+2665 U+FE0F U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466 U+1F4BC U+1F4B0 U+1F4B0 U+1F4B0 U+1F4AF,1,1,./generated_img_dataset/test_google/156.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+🎑🏔️🌄,full life,U+1F391 U+1F3D4 U+FE0F U+1F304,1,2,./generated_img_dataset/test_google/157.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+🥰☺️🏡,full life,U+1F970 U+263A U+FE0F U+1F3E1,1,1,./generated_img_dataset/test_google/158.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+🎉😊😌🤗🥳🤩,full life,U+1F389 U+1F60A U+1F60C U+1F917 U+1F973 U+1F929,1,1,./generated_img_dataset/test_google/159.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+😊♥️,full life,U+1F60A U+2665 U+FE0F,1,1,./generated_img_dataset/test_google/160.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+🥵🤣🥵🤣,full life,U+1F975 U+1F923 U+1F975 U+1F923,1,1,./generated_img_dataset/test_google/161.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+😆🥳💑,full life,U+1F606 U+1F973 U+1F491,1,0,./generated_img_dataset/test_google/162.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+👦,little boy,U+1F466,1,4,./generated_img_dataset/test_google/163.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+👦🧍,little boy,U+1F466 U+1F9CD,1,2,./generated_img_dataset/test_google/164.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+🤏👶👦,little boy,U+1F90F U+1F476 U+1F466,1,0,./generated_img_dataset/test_google/165.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+👦,little boy,U+1F466,1,4,./generated_img_dataset/test_google/166.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+👇🏻👦,little boy,U+1F447 U+1F3FB U+1F466,1,0,./generated_img_dataset/test_google/167.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+👦👈👶,little boy,U+1F466 U+1F448 U+1F476,1,1,./generated_img_dataset/test_google/168.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+👦🏻,little boy,U+1F466 U+1F3FB,1,4,./generated_img_dataset/test_google/169.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+🤏👦,little boy,U+1F90F U+1F466,1,0,./generated_img_dataset/test_google/170.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+🧔‍♂️,little man,U+1F9D4 U+200D U+2642 U+FE0F,1,4,./generated_img_dataset/test_google/171.png,0,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: no.
+🧍↕️🤏,little man,U+1F9CD U+2195 U+FE0F U+1F90F,1,0,./generated_img_dataset/test_google/172.png,0,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: no.
+👦🧑‍🦰,little man,U+1F466 U+1F9D1 U+200D U+1F9B0,1,2,./generated_img_dataset/test_google/173.png,0,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: no.
+🤏🧍‍♂️,little man,U+1F90F U+1F9CD U+200D U+2642 U+FE0F,1,0,./generated_img_dataset/test_google/174.png,1,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: yes.
+👇🏻🚶‍♂️,little man,U+1F447 U+1F3FB U+1F6B6 U+200D U+2642 U+FE0F,1,0,./generated_img_dataset/test_google/175.png,1,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: yes.
+💪👦,little man,U+1F4AA U+1F466,1,1,./generated_img_dataset/test_google/176.png,1,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: yes.
+🤏🏻👨🏻,little man,U+1F90F U+1F3FB U+1F468 U+1F3FB,1,0,./generated_img_dataset/test_google/177.png,1,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: yes.
+🤏👱‍♂️,little man,U+1F90F U+1F471 U+200D U+2642 U+FE0F,1,0,./generated_img_dataset/test_google/178.png,1,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: yes.
+🏠,little house,U+1F3E0,1,4,./generated_img_dataset/test_google/179.png,1,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: yes.
+🏠↕️🤏,little house,U+1F3E0 U+2195 U+FE0F U+1F90F,1,0,./generated_img_dataset/test_google/180.png,1,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: yes.
+🏠🔽,little house,U+1F3E0 U+1F53D,1,0,./generated_img_dataset/test_google/181.png,1,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: yes.
+🤏🏡,little house,U+1F90F U+1F3E1,1,0,./generated_img_dataset/test_google/182.png,1,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: yes.
+🖼️🏡,little house,U+1F5BC U+FE0F U+1F3E1,1,0,./generated_img_dataset/test_google/183.png,1,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: yes.
+🏚️,little house,U+1F3DA U+FE0F,1,4,./generated_img_dataset/test_google/184.png,1,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: yes.
+🤏🏻🏠,little house,U+1F90F U+1F3FB U+1F3E0,1,0,./generated_img_dataset/test_google/185.png,1,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: yes.
+🤏🏠,little house,U+1F90F U+1F3E0,1,0,./generated_img_dataset/test_google/186.png,1,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: yes.
+🛢️,thin oil,U+1F6E2 U+FE0F,1,4,./generated_img_dataset/test_google/187.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+♨️🪔,thin oil,U+2668 U+FE0F U+1FA94,1,0,./generated_img_dataset/test_google/188.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🤏🪔,thin oil,U+1F90F U+1FA94,1,0,./generated_img_dataset/test_google/189.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+💧🪔,thin oil,U+1F4A7 U+1FA94,1,1,./generated_img_dataset/test_google/190.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🤏🛢️,thin oil,U+1F90F U+1F6E2 U+FE0F,1,0,./generated_img_dataset/test_google/191.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🤏🥃,thin oil,U+1F90F U+1F943,1,0,./generated_img_dataset/test_google/192.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🤏📏🛢️,thin oil,U+1F90F U+1F4CF U+1F6E2 U+FE0F,1,0,./generated_img_dataset/test_google/193.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🤏👨‍🍳🛢️,thin oil,U+1F90F U+1F468 U+200D U+1F373 U+1F6E2 U+FE0F,1,0,./generated_img_dataset/test_google/194.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🍲👎,thin soup,U+1F372 U+1F44E,1,1,./generated_img_dataset/test_google/195.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+♨️,thin soup,U+2668 U+FE0F,1,4,./generated_img_dataset/test_google/196.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+💧🥫,thin soup,U+1F4A7 U+1F96B,1,1,./generated_img_dataset/test_google/197.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+💦💦🥣,thin soup,U+1F4A6 U+1F4A6 U+1F963,1,1,./generated_img_dataset/test_google/198.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+🍜,thin soup,U+1F35C,1,4,./generated_img_dataset/test_google/199.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+🤏🫕,thin soup,U+1F90F U+1FAD5,1,0,./generated_img_dataset/test_google/200.png,1,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: yes.
+🤏📏🥣,thin soup,U+1F90F U+1F4CF U+1F963,1,0,./generated_img_dataset/test_google/201.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+🤏🥣,thin soup,U+1F90F U+1F963,1,0,./generated_img_dataset/test_google/202.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+🌫️,thin air,U+1F32B U+FE0F,1,4,./generated_img_dataset/test_google/203.png,1,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: yes.
+♨️,thin air,U+2668 U+FE0F,1,4,./generated_img_dataset/test_google/204.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+🤏🍃,thin air,U+1F90F U+1F343,1,0,./generated_img_dataset/test_google/205.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+🍃,thin air,U+1F343,1,4,./generated_img_dataset/test_google/206.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+😵‍💫💨,thin air,U+1F635 U+200D U+1F4AB U+1F4A8,1,1,./generated_img_dataset/test_google/207.png,1,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: yes.
+🍃🤏,thin air,U+1F343 U+1F90F,1,0,./generated_img_dataset/test_google/208.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+🤏📏💨,thin air,U+1F90F U+1F4CF U+1F4A8,1,0,./generated_img_dataset/test_google/209.png,1,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: yes.
+🤌🏻🌬️,thin air,U+1F90C U+1F3FB U+1F32C U+FE0F,1,0,./generated_img_dataset/test_google/210.png,1,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: yes.
+🤏✍️,thin line,U+1F90F U+270D U+FE0F,1,0,./generated_img_dataset/test_google/211.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+♨️✏️📝,thin line,U+2668 U+FE0F U+270F U+FE0F U+1F4DD,1,0,./generated_img_dataset/test_google/212.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤏📏,thin line,U+1F90F U+1F4CF,1,0,./generated_img_dataset/test_google/213.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+📝,thin line,U+1F4DD,1,4,./generated_img_dataset/test_google/214.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+📏🤏📉,thin line,U+1F4CF U+1F90F U+1F4C9,1,0,./generated_img_dataset/test_google/215.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤏🖊️,thin line,U+1F90F U+1F58A U+FE0F,1,0,./generated_img_dataset/test_google/216.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤏📏➖,thin line,U+1F90F U+1F4CF U+2796,1,0,./generated_img_dataset/test_google/217.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤌🏻〰️,thin line,U+1F90C U+1F3FB U+3030 U+FE0F,1,0,./generated_img_dataset/test_google/218.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤴👑📉👎,ineffectual ruler,U+1F934 U+1F451 U+1F4C9 U+1F44E,1,1,./generated_img_dataset/test_google/219.png,1,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: yes.
+👎📏,ineffectual ruler,U+1F44E U+1F4CF,1,0,./generated_img_dataset/test_google/220.png,1,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: yes.
+👎🤴👸,ineffectual ruler,U+1F44E U+1F934 U+1F478,1,0,./generated_img_dataset/test_google/221.png,1,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: yes.
+🧑‍💻👩‍💻👨‍💻👎👎,ineffectual ruler,U+1F9D1 U+200D U+1F4BB U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F44E U+1F44E,1,0,./generated_img_dataset/test_google/222.png,0,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: no.
+❌🤴,ineffectual ruler,U+274C U+1F934,1,0,./generated_img_dataset/test_google/223.png,1,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: yes.
+:pouting_face:👮,ineffectual ruler,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F46E,1,1,./generated_img_dataset/test_google/224.png,0,<SKIPPED_OR_ERROR>
+🏰👑👎👎👎👬👭:pouting_face:,ineffectual ruler,U+1F3F0 U+1F451 U+1F44E U+1F44E U+1F44E U+1F46C U+1F46D U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,1,1,./generated_img_dataset/test_google/225.png,0,<SKIPPED_OR_ERROR>
+👑🙅,ineffectual ruler,U+1F451 U+1F645,1,0,./generated_img_dataset/test_google/226.png,1,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: yes.
+👂🧏‍♀️👎😒,ineffectual therapy,U+1F442 U+1F9CF U+200D U+2640 U+FE0F U+1F44E U+1F612,1,1,./generated_img_dataset/test_google/227.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+👎💆,ineffectual therapy,U+1F44E U+1F486,1,0,./generated_img_dataset/test_google/228.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+👎🏥,ineffectual therapy,U+1F44E U+1F3E5,1,0,./generated_img_dataset/test_google/229.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+🧑👂❌❌,ineffectual therapy,U+1F9D1 U+1F442 U+274C U+274C,1,1,./generated_img_dataset/test_google/230.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+❌💆‍♂️👨‍⚕️,ineffectual therapy,U+274C U+1F486 U+200D U+2642 U+FE0F U+1F468 U+200D U+2695 U+FE0F,1,0,./generated_img_dataset/test_google/231.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+🗒️❌💀,ineffectual therapy,U+1F5D2 U+FE0F U+274C U+1F480,1,0,./generated_img_dataset/test_google/232.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+👨‍⚕️🗣️🧠👎☹️,ineffectual therapy,U+1F468 U+200D U+2695 U+FE0F U+1F5E3 U+FE0F U+1F9E0 U+1F44E U+2639 U+FE0F,1,1,./generated_img_dataset/test_google/233.png,1,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: yes.
+💊🙅‍♀️,ineffectual therapy,U+1F48A U+1F645 U+200D U+2640 U+FE0F,1,0,./generated_img_dataset/test_google/234.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+👍🪜,effective step,U+1F44D U+1FA9C,1,1,./generated_img_dataset/test_google/235.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👍👣➡️,effective step,U+1F44D U+1F463 U+27A1 U+FE0F,1,0,./generated_img_dataset/test_google/236.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👏🪜,effective step,U+1F44F U+1FA9C,1,1,./generated_img_dataset/test_google/237.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👍👣💡💬,effective step,U+1F44D U+1F463 U+1F4A1 U+1F4AC,1,1,./generated_img_dataset/test_google/238.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+💯💯💯✨,effective step,U+1F4AF U+1F4AF U+1F4AF U+2728,1,1,./generated_img_dataset/test_google/239.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👍🚶,effective step,U+1F44D U+1F6B6,1,0,./generated_img_dataset/test_google/240.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+💨🪜,effective step,U+1F4A8 U+1FA9C,1,1,./generated_img_dataset/test_google/241.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👍👣,effective step,U+1F44D U+1F463,1,0,./generated_img_dataset/test_google/242.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👍🤬,effective reprimand,U+1F44D U+1F92C,1,0,./generated_img_dataset/test_google/243.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+😤🗣️💬,effective reprimand,U+1F624 U+1F5E3 U+FE0F U+1F4AC,1,1,./generated_img_dataset/test_google/244.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+🗣️🧏‍♀️👍,effective reprimand,U+1F5E3 U+FE0F U+1F9CF U+200D U+2640 U+FE0F U+1F44D,1,0,./generated_img_dataset/test_google/245.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍😠:pouting_face:😤,effective reprimand,U+1F44D U+1F620 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,1,0,./generated_img_dataset/test_google/246.png,0,<SKIPPED_OR_ERROR>
+😤😤😔😔😔😥,effective reprimand,U+1F624 U+1F624 U+1F614 U+1F614 U+1F614 U+1F625,1,1,./generated_img_dataset/test_google/247.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+:pouting_face:👍,effective reprimand,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F44D,1,0,./generated_img_dataset/test_google/248.png,0,<SKIPPED_OR_ERROR>
+💨🤬,effective reprimand,U+1F4A8 U+1F92C,1,1,./generated_img_dataset/test_google/249.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍😤,effective reprimand,U+1F44D U+1F624,1,0,./generated_img_dataset/test_google/250.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍🚪,effective entrance,U+1F44D U+1F6AA,1,0,./generated_img_dataset/test_google/251.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+👍🚪🧑,effective entrance,U+1F44D U+1F6AA U+1F9D1,1,0,./generated_img_dataset/test_google/252.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+💃👏,effective entrance,U+1F483 U+1F44F,1,1,./generated_img_dataset/test_google/253.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+👍🚪,effective entrance,U+1F44D U+1F6AA,1,0,./generated_img_dataset/test_google/254.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+🚪🥂,effective entrance,U+1F6AA U+1F942,1,1,./generated_img_dataset/test_google/255.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+👍➡️,effective entrance,U+1F44D U+27A1 U+FE0F,1,1,./generated_img_dataset/test_google/256.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+💨🚪,effective entrance,U+1F4A8 U+1F6AA,1,1,./generated_img_dataset/test_google/257.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+👍🚪🔓,effective entrance,U+1F44D U+1F6AA U+1F513,1,0,./generated_img_dataset/test_google/258.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+💪🧍‍♂️,big business,U+1F4AA U+1F9CD U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/259.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+🏙️↕️↔️,big business,U+1F3D9 U+FE0F U+2195 U+FE0F U+2194 U+FE0F,0,6,./generated_img_dataset/test_google/260.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+💴💴💆‍♂️💇‍♂️,big business,U+1F4B4 U+1F4B4 U+1F486 U+200D U+2642 U+FE0F U+1F487 U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/261.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦👨‍👦,big business,U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466 U+1F468 U+200D U+1F466,0,6,./generated_img_dataset/test_google/262.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+💴💴💆‍♂️💇‍♂️,big business,U+1F4B4 U+1F4B4 U+1F486 U+200D U+2642 U+FE0F U+1F487 U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/263.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+🌇❗,big business,U+1F307 U+2757,0,6,./generated_img_dataset/test_google/264.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+👫👭👨‍👨‍👧‍👧👬👨‍👨‍👧,big business,U+1F46B U+1F46D U+1F468 U+200D U+1F468 U+200D U+1F467 U+200D U+1F467 U+1F46C U+1F468 U+200D U+1F468 U+200D U+1F467,0,6,./generated_img_dataset/test_google/265.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+🧔‍♂️💰,big business,U+1F9D4 U+200D U+2642 U+FE0F U+1F4B0,0,6,./generated_img_dataset/test_google/266.png,0,user:  does this emoji sequence mean 'big business'? answer yes or no. assistant: no.
+❗📆,big expenditure,U+2757 U+1F4C6,0,6,./generated_img_dataset/test_google/267.png,0,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: no.
+🌇❗,big expenditure,U+1F307 U+2757,0,6,./generated_img_dataset/test_google/268.png,0,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: no.
+👰‍♂️👰‍♀️🤵‍♂️🤵‍♀️,big expenditure,U+1F470 U+200D U+2642 U+FE0F U+1F470 U+200D U+2640 U+FE0F U+1F935 U+200D U+2642 U+FE0F U+1F935 U+200D U+2640 U+FE0F,0,6,./generated_img_dataset/test_google/269.png,0,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: no.
+🪙🪙,big expenditure,U+1FA99 U+1FA99,0,6,./generated_img_dataset/test_google/270.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+🌇❗,big expenditure,U+1F307 U+2757,0,6,./generated_img_dataset/test_google/271.png,0,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: no.
+❗📆,big expenditure,U+2757 U+1F4C6,0,6,./generated_img_dataset/test_google/272.png,0,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: no.
+💴💴💆‍♂️💇‍♂️,big expenditure,U+1F4B4 U+1F4B4 U+1F486 U+200D U+2642 U+FE0F U+1F487 U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/273.png,1,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: yes.
+🧍‍♂️💪,big expenditure,U+1F9CD U+200D U+2642 U+FE0F U+1F4AA,0,6,./generated_img_dataset/test_google/274.png,0,user:  does this emoji sequence mean 'big expenditure'? answer yes or no. assistant: no.
+😵😵😵,big voice,U+1F635 U+1F635 U+1F635,0,6,./generated_img_dataset/test_google/275.png,0,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: no.
+🌇🏙️,big voice,U+1F307 U+1F3D9 U+FE0F,0,6,./generated_img_dataset/test_google/276.png,0,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: no.
+🎅,big voice,U+1F385,0,6,./generated_img_dataset/test_google/277.png,0,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: no.
+🥇☀️,big voice,U+1F947 U+2600 U+FE0F,0,6,./generated_img_dataset/test_google/278.png,0,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: no.
+🏙️↕️↔️,big voice,U+1F3D9 U+FE0F U+2195 U+FE0F U+2194 U+FE0F,0,6,./generated_img_dataset/test_google/279.png,0,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: no.
+👨‍💻🤝,big voice,U+1F468 U+200D U+1F4BB U+1F91D,0,6,./generated_img_dataset/test_google/280.png,0,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: no.
+💸💸,big voice,U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/281.png,0,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: no.
+🏢🤑🤑,big voice,U+1F3E2 U+1F911 U+1F911,0,6,./generated_img_dataset/test_google/282.png,0,user:  does this emoji sequence mean 'big voice'? answer yes or no. assistant: no.
+🎅,big group,U+1F385,0,6,./generated_img_dataset/test_google/283.png,0,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: no.
+🗣️💢,big group,U+1F5E3 U+FE0F U+1F4A2,0,6,./generated_img_dataset/test_google/284.png,0,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: no.
+👩‍💻🤑,big group,U+1F469 U+200D U+1F4BB U+1F911,0,6,./generated_img_dataset/test_google/285.png,0,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: no.
+💸💸💸,big group,U+1F4B8 U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/286.png,1,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: yes.
+🤑💸,big group,U+1F911 U+1F4B8,0,6,./generated_img_dataset/test_google/287.png,0,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: no.
+🤬🤬,big group,U+1F92C U+1F92C,0,6,./generated_img_dataset/test_google/288.png,0,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: no.
+🗓️,big group,U+1F5D3 U+FE0F,0,6,./generated_img_dataset/test_google/289.png,0,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: no.
+🏙️↕️↔️,big group,U+1F3D9 U+FE0F U+2195 U+FE0F U+2194 U+FE0F,0,6,./generated_img_dataset/test_google/290.png,0,user:  does this emoji sequence mean 'big group'? answer yes or no. assistant: no.
+🥘🌯🌯🤑🤑💸💸,big man,U+1F958 U+1F32F U+1F32F U+1F911 U+1F911 U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/291.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🇷🇺,big man,U+1F1F7 U+1F1FA,0,6,./generated_img_dataset/test_google/292.png,0,<SKIPPED_OR_ERROR>
+🪙🪙,big man,U+1FA99 U+1FA99,0,6,./generated_img_dataset/test_google/293.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🏢🏢🏢📊🌍,big man,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/294.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🏢🏢🏢📊🌍,big man,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/295.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🤝📆,big man,U+1F91D U+1F4C6,0,6,./generated_img_dataset/test_google/296.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🏢🏢🏢📊🌍,big man,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/297.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+🏢🏢🏢📊🌍,big man,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/298.png,0,user:  does this emoji sequence mean 'big man'? answer yes or no. assistant: no.
+👨‍💻💸,big city,U+1F468 U+200D U+1F4BB U+1F4B8,0,6,./generated_img_dataset/test_google/299.png,0,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: no.
+🥘🌯🌯🤑🤑💸💸,big city,U+1F958 U+1F32F U+1F32F U+1F911 U+1F911 U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/300.png,0,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: no.
+🗓️,big city,U+1F5D3 U+FE0F,0,6,./generated_img_dataset/test_google/301.png,0,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: no.
+🧑‍🦱,big city,U+1F9D1 U+200D U+1F9B1,0,6,./generated_img_dataset/test_google/302.png,0,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: no.
+🗣️💢,big city,U+1F5E3 U+FE0F U+1F4A2,0,6,./generated_img_dataset/test_google/303.png,0,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: no.
+🏢🏢🏢📊🌍,big city,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/304.png,1,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: yes.
+👩‍👩‍👦‍👦👩‍👩‍👦‍👦👩‍👩‍👦‍👦👩‍👩‍👦‍👦👩‍👩‍👦‍👦,big city,U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466,0,6,./generated_img_dataset/test_google/305.png,0,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: no.
+🦸🦸‍♂️,big city,U+1F9B8 U+1F9B8 U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/306.png,0,user:  does this emoji sequence mean 'big city'? answer yes or no. assistant: no.
+🏢🏢🏢📊🌍,big tipper,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/307.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+👔📈,big tipper,U+1F454 U+1F4C8,0,6,./generated_img_dataset/test_google/308.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+🗣️💢,big tipper,U+1F5E3 U+FE0F U+1F4A2,0,6,./generated_img_dataset/test_google/309.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+💸💸,big tipper,U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/310.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+🏢🏢🏢📊🌍,big tipper,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/311.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+💸💸,big tipper,U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/312.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+👥👥👥,big tipper,U+1F465 U+1F465 U+1F465,0,6,./generated_img_dataset/test_google/313.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+😰☀️,big tipper,U+1F630 U+2600 U+FE0F,0,6,./generated_img_dataset/test_google/314.png,0,user:  does this emoji sequence mean 'big tipper'? answer yes or no. assistant: no.
+📈💸,big day,U+1F4C8 U+1F4B8,0,6,./generated_img_dataset/test_google/315.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+🏢🏢🏢📊🌍,big day,U+1F3E2 U+1F3E2 U+1F3E2 U+1F4CA U+1F30D,0,6,./generated_img_dataset/test_google/316.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+🥘🌯🌯🤑🤑💸💸,big day,U+1F958 U+1F32F U+1F32F U+1F911 U+1F911 U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/317.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+🏙️↕️↔️,big day,U+1F3D9 U+FE0F U+2195 U+FE0F U+2194 U+FE0F,0,6,./generated_img_dataset/test_google/318.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+🤬🤬,big day,U+1F92C U+1F92C,0,6,./generated_img_dataset/test_google/319.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+🏙️↕️↔️,big day,U+1F3D9 U+FE0F U+2195 U+FE0F U+2194 U+FE0F,0,6,./generated_img_dataset/test_google/320.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+🏙️↕️↔️,big day,U+1F3D9 U+FE0F U+2195 U+FE0F U+2194 U+FE0F,0,6,./generated_img_dataset/test_google/321.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+💸💸💸,big day,U+1F4B8 U+1F4B8 U+1F4B8,0,6,./generated_img_dataset/test_google/322.png,0,user:  does this emoji sequence mean 'big day'? answer yes or no. assistant: no.
+🥵🚰,hot doll,U+1F975 U+1F6B0,0,6,./generated_img_dataset/test_google/323.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+♨️💧🚰,hot doll,U+2668 U+FE0F U+1F4A7 U+1F6B0,0,6,./generated_img_dataset/test_google/324.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+:pouting_face:😤,hot doll,U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,0,6,./generated_img_dataset/test_google/325.png,0,<SKIPPED_OR_ERROR>
+🥵🚰,hot doll,U+1F975 U+1F6B0,0,6,./generated_img_dataset/test_google/326.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+🥵💬,hot doll,U+1F975 U+1F4AC,0,6,./generated_img_dataset/test_google/327.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+🔥🏷️,hot doll,U+1F525 U+1F3F7 U+FE0F,0,6,./generated_img_dataset/test_google/328.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+👍🧸👕,hot doll,U+1F44D U+1F9F8 U+1F455,0,6,./generated_img_dataset/test_google/329.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+🔥🗣️,hot doll,U+1F525 U+1F5E3 U+FE0F,0,6,./generated_img_dataset/test_google/330.png,0,user:  does this emoji sequence mean 'hot doll'? answer yes or no. assistant: no.
+📛🌡️🫕,hot water,U+1F4DB U+1F321 U+FE0F U+1FAD5,0,6,./generated_img_dataset/test_google/331.png,1,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: yes.
+♨️🪆,hot water,U+2668 U+FE0F U+1FA86,0,6,./generated_img_dataset/test_google/332.png,0,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: no.
+🥵🍳🔥,hot water,U+1F975 U+1F373 U+1F525,0,6,./generated_img_dataset/test_google/333.png,0,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: no.
+♨️🪆,hot water,U+2668 U+FE0F U+1FA86,0,6,./generated_img_dataset/test_google/334.png,0,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: no.
+🔥😐:pouting_face:,hot water,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/335.png,0,<SKIPPED_OR_ERROR>
+🔥🎁🎁,hot water,U+1F525 U+1F381 U+1F381,0,6,./generated_img_dataset/test_google/336.png,0,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: no.
+🌡️♨️🍳,hot water,U+1F321 U+FE0F U+2668 U+FE0F U+1F373,0,6,./generated_img_dataset/test_google/337.png,0,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: no.
+♨️🔥,hot water,U+2668 U+FE0F U+1F525,0,6,./generated_img_dataset/test_google/338.png,0,user:  does this emoji sequence mean 'hot water'? answer yes or no. assistant: no.
+🔥🔥👕🥿🕶️,hot stove,U+1F525 U+1F525 U+1F455 U+1F97F U+1F576 U+FE0F,0,6,./generated_img_dataset/test_google/339.png,0,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: no.
+🔥🎁🎁,hot stove,U+1F525 U+1F381 U+1F381,0,6,./generated_img_dataset/test_google/340.png,0,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: no.
+🔥😐:pouting_face:,hot stove,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/341.png,0,<SKIPPED_OR_ERROR>
+🔥:pouting_face:,hot stove,U+1F525 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/342.png,0,<SKIPPED_OR_ERROR>
+☀️🎙️🗣️,hot stove,U+2600 U+FE0F U+1F399 U+FE0F U+1F5E3 U+FE0F,0,6,./generated_img_dataset/test_google/343.png,0,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: no.
+🔥🎁🎁,hot stove,U+1F525 U+1F381 U+1F381,0,6,./generated_img_dataset/test_google/344.png,0,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: no.
+🔥🎁🎁,hot stove,U+1F525 U+1F381 U+1F381,0,6,./generated_img_dataset/test_google/345.png,0,user:  does this emoji sequence mean 'hot stove'? answer yes or no. assistant: no.
+🔥😐:pouting_face:,hot stove,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/346.png,0,<SKIPPED_OR_ERROR>
+1️⃣🪆🎎,hot topic,U+31 U+FE0F U+20E3 U+1FA86 U+1F38E,0,6,./generated_img_dataset/test_google/347.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🌡️🤒,hot topic,U+1F321 U+FE0F U+1F912,0,6,./generated_img_dataset/test_google/348.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🔥😐:pouting_face:,hot topic,U+1F525 U+1F610 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/349.png,0,<SKIPPED_OR_ERROR>
+🔥🔥👕🥿🕶️,hot topic,U+1F525 U+1F525 U+1F455 U+1F97F U+1F576 U+FE0F,0,6,./generated_img_dataset/test_google/350.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+🔥🍳,hot topic,U+1F525 U+1F373,0,6,./generated_img_dataset/test_google/351.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+♨️💧🚰,hot topic,U+2668 U+FE0F U+1F4A7 U+1F6B0,0,6,./generated_img_dataset/test_google/352.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+👍🧸👕,hot topic,U+1F44D U+1F9F8 U+1F455,0,6,./generated_img_dataset/test_google/353.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+♨️🍳,hot topic,U+2668 U+FE0F U+1F373,0,6,./generated_img_dataset/test_google/354.png,0,user:  does this emoji sequence mean 'hot topic'? answer yes or no. assistant: no.
+☀️🤒🌡️😷😴🥶,hot merchandise,U+2600 U+FE0F U+1F912 U+1F321 U+FE0F U+1F637 U+1F634 U+1F976,0,6,./generated_img_dataset/test_google/355.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🔥🗣️✖️🗣️✔️📢,hot merchandise,U+1F525 U+1F5E3 U+FE0F U+2716 U+FE0F U+1F5E3 U+FE0F U+2714 U+FE0F U+1F4E2,0,6,./generated_img_dataset/test_google/356.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🌡️♨️🍳,hot merchandise,U+1F321 U+FE0F U+2668 U+FE0F U+1F373,0,6,./generated_img_dataset/test_google/357.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🥵💬,hot merchandise,U+1F975 U+1F4AC,0,6,./generated_img_dataset/test_google/358.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+😤🤬🙅‍♂️🙅‍♂️,hot merchandise,U+1F624 U+1F92C U+1F645 U+200D U+2642 U+FE0F U+1F645 U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/359.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🔥💦,hot merchandise,U+1F525 U+1F4A6,0,6,./generated_img_dataset/test_google/360.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🥵🤒🤒,hot merchandise,U+1F975 U+1F912 U+1F912,0,6,./generated_img_dataset/test_google/361.png,0,user:  does this emoji sequence mean 'hot merchandise'? answer yes or no. assistant: no.
+🤬💬:pouting_face:,hot merchandise,U+1F92C U+1F4AC U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/362.png,0,<SKIPPED_OR_ERROR>
+🥴🤒👨‍⚕️,hot temper,U+1F974 U+1F912 U+1F468 U+200D U+2695 U+FE0F,0,6,./generated_img_dataset/test_google/363.png,0,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: no.
+🪆🔥🔥,hot temper,U+1FA86 U+1F525 U+1F525,0,6,./generated_img_dataset/test_google/364.png,1,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: yes.
+🔥🗣️,hot temper,U+1F525 U+1F5E3 U+FE0F,0,6,./generated_img_dataset/test_google/365.png,1,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: yes.
+🔥💦,hot temper,U+1F525 U+1F4A6,0,6,./generated_img_dataset/test_google/366.png,1,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: yes.
+🔥🛍️🧸👕👗✏️📔,hot temper,U+1F525 U+1F6CD U+FE0F U+1F9F8 U+1F455 U+1F457 U+270F U+FE0F U+1F4D4,0,6,./generated_img_dataset/test_google/367.png,0,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: no.
+♨️🍳,hot temper,U+2668 U+FE0F U+1F373,0,6,./generated_img_dataset/test_google/368.png,0,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: no.
+🗨️👕,hot temper,U+1F5E8 U+FE0F U+1F455,0,6,./generated_img_dataset/test_google/369.png,0,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: no.
+🥵💬,hot temper,U+1F975 U+1F4AC,0,6,./generated_img_dataset/test_google/370.png,0,user:  does this emoji sequence mean 'hot temper'? answer yes or no. assistant: no.
+♨️💧🚰,hot argument,U+2668 U+FE0F U+1F4A7 U+1F6B0,0,6,./generated_img_dataset/test_google/371.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+🔥🔊🗣️🗣️🤔🤔👍👎,hot argument,U+1F525 U+1F50A U+1F5E3 U+FE0F U+1F5E3 U+FE0F U+1F914 U+1F914 U+1F44D U+1F44E,0,6,./generated_img_dataset/test_google/372.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+🔥🎁🎁,hot argument,U+1F525 U+1F381 U+1F381,0,6,./generated_img_dataset/test_google/373.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+📛🌡️🫕,hot argument,U+1F4DB U+1F321 U+FE0F U+1FAD5,0,6,./generated_img_dataset/test_google/374.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+👍🧸👕,hot argument,U+1F44D U+1F9F8 U+1F455,0,6,./generated_img_dataset/test_google/375.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+🥵👧,hot argument,U+1F975 U+1F467,0,6,./generated_img_dataset/test_google/376.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+♨️🎛️🔥,hot argument,U+2668 U+FE0F U+1F39B U+FE0F U+1F525,0,6,./generated_img_dataset/test_google/377.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+🥵🧸,hot argument,U+1F975 U+1F9F8,0,6,./generated_img_dataset/test_google/378.png,0,user:  does this emoji sequence mean 'hot argument'? answer yes or no. assistant: no.
+♨️💧,hot forehead,U+2668 U+FE0F U+1F4A7,0,6,./generated_img_dataset/test_google/379.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+🤬🗣️📣,hot forehead,U+1F92C U+1F5E3 U+FE0F U+1F4E3,0,6,./generated_img_dataset/test_google/380.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+1️⃣🪆🎎,hot forehead,U+31 U+FE0F U+20E3 U+1FA86 U+1F38E,0,6,./generated_img_dataset/test_google/381.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+1️⃣🪆🎎,hot forehead,U+31 U+FE0F U+20E3 U+1FA86 U+1F38E,0,6,./generated_img_dataset/test_google/382.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+1️⃣🪆🎎,hot forehead,U+31 U+FE0F U+20E3 U+1FA86 U+1F38E,0,6,./generated_img_dataset/test_google/383.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+1️⃣🪆🎎,hot forehead,U+31 U+FE0F U+20E3 U+1FA86 U+1F38E,0,6,./generated_img_dataset/test_google/384.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+🤩💬,hot forehead,U+1F929 U+1F4AC,0,6,./generated_img_dataset/test_google/385.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+💢🤬,hot forehead,U+1F4A2 U+1F92C,0,6,./generated_img_dataset/test_google/386.png,0,user:  does this emoji sequence mean 'hot forehead'? answer yes or no. assistant: no.
+⛽🏫,full game,U+26FD U+1F3EB,0,6,./generated_img_dataset/test_google/387.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🥛🈵,full game,U+1F95B U+1F235,0,6,./generated_img_dataset/test_google/388.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🈵🏫,full game,U+1F235 U+1F3EB,0,6,./generated_img_dataset/test_google/389.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🚰✅,full game,U+1F6B0 U+2705,0,6,./generated_img_dataset/test_google/390.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+💯❗,full game,U+1F4AF U+2757,0,6,./generated_img_dataset/test_google/391.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+💯❗,full game,U+1F4AF U+2757,0,6,./generated_img_dataset/test_google/392.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+🙋‍♂️🦻🏫,full game,U+1F64B U+200D U+2642 U+FE0F U+1F9BB U+1F3EB,0,6,./generated_img_dataset/test_google/393.png,0,user:  does this emoji sequence mean 'full game'? answer yes or no. assistant: no.
+👍🎮,full auditorium,U+1F44D U+1F3AE,0,6,./generated_img_dataset/test_google/394.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+💯🆓🎮,full auditorium,U+1F4AF U+1F193 U+1F3AE,0,6,./generated_img_dataset/test_google/395.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+♥️👨‍👩‍👧‍👦💼💰💰💰💯,full auditorium,U+2665 U+FE0F U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466 U+1F4BC U+1F4B0 U+1F4B0 U+1F4B0 U+1F4AF,0,6,./generated_img_dataset/test_google/396.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+😆🥳💑,full auditorium,U+1F606 U+1F973 U+1F491,0,6,./generated_img_dataset/test_google/397.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+💯🥛,full auditorium,U+1F4AF U+1F95B,0,6,./generated_img_dataset/test_google/398.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+😆🥳💑,full auditorium,U+1F606 U+1F973 U+1F491,0,6,./generated_img_dataset/test_google/399.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+♥️👨‍👩‍👧‍👦💼💰💰💰💯,full auditorium,U+2665 U+FE0F U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466 U+1F4BC U+1F4B0 U+1F4B0 U+1F4B0 U+1F4AF,0,6,./generated_img_dataset/test_google/400.png,0,user:  does this emoji sequence mean 'full auditorium'? answer yes or no. assistant: no.
+🕛👾,full attention,U+1F55B U+1F47E,0,6,./generated_img_dataset/test_google/401.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+🥰☺️🏡,full attention,U+1F970 U+263A U+FE0F U+1F3E1,0,6,./generated_img_dataset/test_google/402.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+💯🥛,full attention,U+1F4AF U+1F95B,0,6,./generated_img_dataset/test_google/403.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+👩‍💻👨‍💻🏫,full attention,U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F3EB,0,6,./generated_img_dataset/test_google/404.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+🥰☺️🏡,full attention,U+1F970 U+263A U+FE0F U+1F3E1,0,6,./generated_img_dataset/test_google/405.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+👩‍💻👨‍💻🏫,full attention,U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F3EB,0,6,./generated_img_dataset/test_google/406.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+🎫🧑👨🧑‍🦱👩‍🦱🈵,full attention,U+1F3AB U+1F9D1 U+1F468 U+1F9D1 U+200D U+1F9B1 U+1F469 U+200D U+1F9B1 U+1F235,0,6,./generated_img_dataset/test_google/407.png,0,user:  does this emoji sequence mean 'full attention'? answer yes or no. assistant: no.
+❌🛸🏟️,full glass,U+274C U+1F6F8 U+1F3DF U+FE0F,0,6,./generated_img_dataset/test_google/408.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+🎯🏀,full glass,U+1F3AF U+1F3C0,0,6,./generated_img_dataset/test_google/409.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+🎮🏁,full glass,U+1F3AE U+1F3C1,0,6,./generated_img_dataset/test_google/410.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+🧐✍️,full glass,U+1F9D0 U+270D U+FE0F,0,6,./generated_img_dataset/test_google/411.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+💯❗,full glass,U+1F4AF U+2757,0,6,./generated_img_dataset/test_google/412.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+👨‍✈️,full glass,U+1F468 U+200D U+2708 U+FE0F,0,6,./generated_img_dataset/test_google/413.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+🎉😊😌🤗🥳🤩,full glass,U+1F389 U+1F60A U+1F60C U+1F917 U+1F973 U+1F929,0,6,./generated_img_dataset/test_google/414.png,0,user:  does this emoji sequence mean 'full glass'? answer yes or no. assistant: no.
+🎮💯,full life,U+1F3AE U+1F4AF,0,6,./generated_img_dataset/test_google/415.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+🤓👨‍💻👨‍🏫👨‍🎓,full life,U+1F913 U+1F468 U+200D U+1F4BB U+1F468 U+200D U+1F3EB U+1F468 U+200D U+1F393,0,6,./generated_img_dataset/test_google/416.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+🎯🏀,full life,U+1F3AF U+1F3C0,0,6,./generated_img_dataset/test_google/417.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+🎫🧑👨🧑‍🦱👩‍🦱🈵,full life,U+1F3AB U+1F9D1 U+1F468 U+1F9D1 U+200D U+1F9B1 U+1F469 U+200D U+1F9B1 U+1F235,0,6,./generated_img_dataset/test_google/418.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+🎟️🎟️🎭,full life,U+1F39F U+FE0F U+1F39F U+FE0F U+1F3AD,0,6,./generated_img_dataset/test_google/419.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+💯❗,full life,U+1F4AF U+2757,0,6,./generated_img_dataset/test_google/420.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+❌🛸🏟️,full life,U+274C U+1F6F8 U+1F3DF U+FE0F,0,6,./generated_img_dataset/test_google/421.png,0,user:  does this emoji sequence mean 'full life'? answer yes or no. assistant: no.
+🏚️,little boy,U+1F3DA U+FE0F,0,6,./generated_img_dataset/test_google/422.png,0,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: no.
+👦🧑‍🦰,little boy,U+1F466 U+1F9D1 U+200D U+1F9B0,0,6,./generated_img_dataset/test_google/423.png,0,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: no.
+🏠↕️🤏,little boy,U+1F3E0 U+2195 U+FE0F U+1F90F,0,6,./generated_img_dataset/test_google/424.png,0,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: no.
+🏠,little boy,U+1F3E0,0,6,./generated_img_dataset/test_google/425.png,0,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: no.
+🏠↕️🤏,little boy,U+1F3E0 U+2195 U+FE0F U+1F90F,0,6,./generated_img_dataset/test_google/426.png,0,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: no.
+🤏🏠,little boy,U+1F90F U+1F3E0,0,6,./generated_img_dataset/test_google/427.png,0,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: no.
+💪👦,little boy,U+1F4AA U+1F466,0,6,./generated_img_dataset/test_google/428.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+🤏👱‍♂️,little boy,U+1F90F U+1F471 U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/429.png,1,user:  does this emoji sequence mean 'little boy'? answer yes or no. assistant: yes.
+🖼️🏡,little man,U+1F5BC U+FE0F U+1F3E1,0,6,./generated_img_dataset/test_google/430.png,0,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: no.
+👦,little man,U+1F466,0,6,./generated_img_dataset/test_google/431.png,1,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: yes.
+👦👈👶,little man,U+1F466 U+1F448 U+1F476,0,6,./generated_img_dataset/test_google/432.png,1,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: yes.
+🤏🏠,little man,U+1F90F U+1F3E0,0,6,./generated_img_dataset/test_google/433.png,0,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: no.
+🏠,little man,U+1F3E0,0,6,./generated_img_dataset/test_google/434.png,0,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: no.
+🖼️🏡,little man,U+1F5BC U+FE0F U+1F3E1,0,6,./generated_img_dataset/test_google/435.png,0,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: no.
+🏠,little man,U+1F3E0,0,6,./generated_img_dataset/test_google/436.png,0,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: no.
+🏠↕️🤏,little man,U+1F3E0 U+2195 U+FE0F U+1F90F,0,6,./generated_img_dataset/test_google/437.png,0,user:  does this emoji sequence mean 'little man'? answer yes or no. assistant: no.
+🧔‍♂️,little house,U+1F9D4 U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/438.png,0,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: no.
+🤏🏻👨🏻,little house,U+1F90F U+1F3FB U+1F468 U+1F3FB,0,6,./generated_img_dataset/test_google/439.png,0,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: no.
+🤏🏻👨🏻,little house,U+1F90F U+1F3FB U+1F468 U+1F3FB,0,6,./generated_img_dataset/test_google/440.png,0,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: no.
+🤏👱‍♂️,little house,U+1F90F U+1F471 U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/441.png,0,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: no.
+🤏🏻👨🏻,little house,U+1F90F U+1F3FB U+1F468 U+1F3FB,0,6,./generated_img_dataset/test_google/442.png,0,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: no.
+👇🏻👦,little house,U+1F447 U+1F3FB U+1F466,0,6,./generated_img_dataset/test_google/443.png,0,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: no.
+🤏👶👦,little house,U+1F90F U+1F476 U+1F466,0,6,./generated_img_dataset/test_google/444.png,0,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: no.
+🤏🧍‍♂️,little house,U+1F90F U+1F9CD U+200D U+2642 U+FE0F,0,6,./generated_img_dataset/test_google/445.png,0,user:  does this emoji sequence mean 'little house'? answer yes or no. assistant: no.
+📝,thin oil,U+1F4DD,0,6,./generated_img_dataset/test_google/446.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+♨️✏️📝,thin oil,U+2668 U+FE0F U+270F U+FE0F U+1F4DD,0,6,./generated_img_dataset/test_google/447.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🤏🖊️,thin oil,U+1F90F U+1F58A U+FE0F,0,6,./generated_img_dataset/test_google/448.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+💦💦🥣,thin oil,U+1F4A6 U+1F4A6 U+1F963,0,6,./generated_img_dataset/test_google/449.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+♨️✏️📝,thin oil,U+2668 U+FE0F U+270F U+FE0F U+1F4DD,0,6,./generated_img_dataset/test_google/450.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🤏📏,thin oil,U+1F90F U+1F4CF,0,6,./generated_img_dataset/test_google/451.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🍜,thin oil,U+1F35C,0,6,./generated_img_dataset/test_google/452.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+🍜,thin oil,U+1F35C,0,6,./generated_img_dataset/test_google/453.png,0,user:  does this emoji sequence mean 'thin oil'? answer yes or no. assistant: no.
+💧🪔,thin soup,U+1F4A7 U+1FA94,0,6,./generated_img_dataset/test_google/454.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+📏🤏📉,thin soup,U+1F4CF U+1F90F U+1F4C9,0,6,./generated_img_dataset/test_google/455.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+💧🪔,thin soup,U+1F4A7 U+1FA94,0,6,./generated_img_dataset/test_google/456.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+♨️✏️📝,thin soup,U+2668 U+FE0F U+270F U+FE0F U+1F4DD,0,6,./generated_img_dataset/test_google/457.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+♨️,thin soup,U+2668 U+FE0F,0,6,./generated_img_dataset/test_google/458.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+🤌🏻〰️,thin soup,U+1F90C U+1F3FB U+3030 U+FE0F,0,6,./generated_img_dataset/test_google/459.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+🤏📏➖,thin soup,U+1F90F U+1F4CF U+2796,0,6,./generated_img_dataset/test_google/460.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+🤏📏🛢️,thin soup,U+1F90F U+1F4CF U+1F6E2 U+FE0F,0,6,./generated_img_dataset/test_google/461.png,0,user:  does this emoji sequence mean 'thin soup'? answer yes or no. assistant: no.
+🤏🫕,thin air,U+1F90F U+1FAD5,0,6,./generated_img_dataset/test_google/462.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+🤏🥣,thin air,U+1F90F U+1F963,0,6,./generated_img_dataset/test_google/463.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+🤏🥣,thin air,U+1F90F U+1F963,0,6,./generated_img_dataset/test_google/464.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+📝,thin air,U+1F4DD,0,6,./generated_img_dataset/test_google/465.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+🍜,thin air,U+1F35C,0,6,./generated_img_dataset/test_google/466.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+🤏🖊️,thin air,U+1F90F U+1F58A U+FE0F,0,6,./generated_img_dataset/test_google/467.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+📏🤏📉,thin air,U+1F4CF U+1F90F U+1F4C9,0,6,./generated_img_dataset/test_google/468.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+♨️✏️📝,thin air,U+2668 U+FE0F U+270F U+FE0F U+1F4DD,0,6,./generated_img_dataset/test_google/469.png,0,user:  does this emoji sequence mean 'thin air'? answer yes or no. assistant: no.
+🤏📏🛢️,thin line,U+1F90F U+1F4CF U+1F6E2 U+FE0F,0,6,./generated_img_dataset/test_google/470.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤏🛢️,thin line,U+1F90F U+1F6E2 U+FE0F,0,6,./generated_img_dataset/test_google/471.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🍃🤏,thin line,U+1F343 U+1F90F,0,6,./generated_img_dataset/test_google/472.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🛢️,thin line,U+1F6E2 U+FE0F,0,6,./generated_img_dataset/test_google/473.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤏📏💨,thin line,U+1F90F U+1F4CF U+1F4A8,0,6,./generated_img_dataset/test_google/474.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤏👨‍🍳🛢️,thin line,U+1F90F U+1F468 U+200D U+1F373 U+1F6E2 U+FE0F,0,6,./generated_img_dataset/test_google/475.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤏👨‍🍳🛢️,thin line,U+1F90F U+1F468 U+200D U+1F373 U+1F6E2 U+FE0F,0,6,./generated_img_dataset/test_google/476.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🤏👨‍🍳🛢️,thin line,U+1F90F U+1F468 U+200D U+1F373 U+1F6E2 U+FE0F,0,6,./generated_img_dataset/test_google/477.png,0,user:  does this emoji sequence mean 'thin line'? answer yes or no. assistant: no.
+🧑👂❌❌,ineffectual ruler,U+1F9D1 U+1F442 U+274C U+274C,0,6,./generated_img_dataset/test_google/478.png,0,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: no.
+👎💆,ineffectual ruler,U+1F44E U+1F486,0,6,./generated_img_dataset/test_google/479.png,0,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: no.
+❌💆‍♂️👨‍⚕️,ineffectual ruler,U+274C U+1F486 U+200D U+2642 U+FE0F U+1F468 U+200D U+2695 U+FE0F,0,6,./generated_img_dataset/test_google/480.png,0,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: no.
+💊🙅‍♀️,ineffectual ruler,U+1F48A U+1F645 U+200D U+2640 U+FE0F,0,6,./generated_img_dataset/test_google/481.png,0,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: no.
+👎💆,ineffectual ruler,U+1F44E U+1F486,0,6,./generated_img_dataset/test_google/482.png,0,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: no.
+👂🧏‍♀️👎😒,ineffectual ruler,U+1F442 U+1F9CF U+200D U+2640 U+FE0F U+1F44E U+1F612,0,6,./generated_img_dataset/test_google/483.png,0,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: no.
+👎💆,ineffectual ruler,U+1F44E U+1F486,0,6,./generated_img_dataset/test_google/484.png,0,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: no.
+👎🏥,ineffectual ruler,U+1F44E U+1F3E5,0,6,./generated_img_dataset/test_google/485.png,0,user:  does this emoji sequence mean 'ineffectual ruler'? answer yes or no. assistant: no.
+👎🤴👸,ineffectual therapy,U+1F44E U+1F934 U+1F478,0,6,./generated_img_dataset/test_google/486.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+👑🙅,ineffectual therapy,U+1F451 U+1F645,0,6,./generated_img_dataset/test_google/487.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+❌🤴,ineffectual therapy,U+274C U+1F934,0,6,./generated_img_dataset/test_google/488.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+🤴👑📉👎,ineffectual therapy,U+1F934 U+1F451 U+1F4C9 U+1F44E,0,6,./generated_img_dataset/test_google/489.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+🧑‍💻👩‍💻👨‍💻👎👎,ineffectual therapy,U+1F9D1 U+200D U+1F4BB U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F44E U+1F44E,0,6,./generated_img_dataset/test_google/490.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+👎📏,ineffectual therapy,U+1F44E U+1F4CF,0,6,./generated_img_dataset/test_google/491.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+🏰👑👎👎👎👬👭:pouting_face:,ineffectual therapy,U+1F3F0 U+1F451 U+1F44E U+1F44E U+1F44E U+1F46C U+1F46D U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A,0,6,./generated_img_dataset/test_google/492.png,0,<SKIPPED_OR_ERROR>
+🧑‍💻👩‍💻👨‍💻👎👎,ineffectual therapy,U+1F9D1 U+200D U+1F4BB U+1F469 U+200D U+1F4BB U+1F468 U+200D U+1F4BB U+1F44E U+1F44E,0,6,./generated_img_dataset/test_google/493.png,0,user:  does this emoji sequence mean 'ineffectual therapy'? answer yes or no. assistant: no.
+👍➡️,effective step,U+1F44D U+27A1 U+FE0F,0,6,./generated_img_dataset/test_google/494.png,1,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: yes.
+👍😠:pouting_face:😤,effective step,U+1F44D U+1F620 U+3A U+70 U+6F U+75 U+74 U+69 U+6E U+67 U+5F U+66 U+61 U+63 U+65 U+3A U+1F624,0,6,./generated_img_dataset/test_google/495.png,0,<SKIPPED_OR_ERROR>
+💨🚪,effective step,U+1F4A8 U+1F6AA,0,6,./generated_img_dataset/test_google/496.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👍🚪,effective step,U+1F44D U+1F6AA,0,6,./generated_img_dataset/test_google/497.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+💨🤬,effective step,U+1F4A8 U+1F92C,0,6,./generated_img_dataset/test_google/498.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👍🚪,effective step,U+1F44D U+1F6AA,0,6,./generated_img_dataset/test_google/499.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+💨🚪,effective step,U+1F4A8 U+1F6AA,0,6,./generated_img_dataset/test_google/500.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👍😤,effective step,U+1F44D U+1F624,0,6,./generated_img_dataset/test_google/501.png,0,user:  does this emoji sequence mean 'effective step'? answer yes or no. assistant: no.
+👍🚪,effective reprimand,U+1F44D U+1F6AA,0,6,./generated_img_dataset/test_google/502.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍👣💡💬,effective reprimand,U+1F44D U+1F463 U+1F4A1 U+1F4AC,0,6,./generated_img_dataset/test_google/503.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍👣,effective reprimand,U+1F44D U+1F463,0,6,./generated_img_dataset/test_google/504.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍🪜,effective reprimand,U+1F44D U+1FA9C,0,6,./generated_img_dataset/test_google/505.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍➡️,effective reprimand,U+1F44D U+27A1 U+FE0F,0,6,./generated_img_dataset/test_google/506.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍🚪,effective reprimand,U+1F44D U+1F6AA,0,6,./generated_img_dataset/test_google/507.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍➡️,effective reprimand,U+1F44D U+27A1 U+FE0F,0,6,./generated_img_dataset/test_google/508.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍👣,effective reprimand,U+1F44D U+1F463,0,6,./generated_img_dataset/test_google/509.png,0,user:  does this emoji sequence mean 'effective reprimand'? answer yes or no. assistant: no.
+👍🚶,effective entrance,U+1F44D U+1F6B6,0,6,./generated_img_dataset/test_google/510.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+🗣️🧏‍♀️👍,effective entrance,U+1F5E3 U+FE0F U+1F9CF U+200D U+2640 U+FE0F U+1F44D,0,6,./generated_img_dataset/test_google/511.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+💨🤬,effective entrance,U+1F4A8 U+1F92C,0,6,./generated_img_dataset/test_google/512.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+👍👣,effective entrance,U+1F44D U+1F463,0,6,./generated_img_dataset/test_google/513.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+👏🪜,effective entrance,U+1F44F U+1FA9C,0,6,./generated_img_dataset/test_google/514.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+😤🗣️💬,effective entrance,U+1F624 U+1F5E3 U+FE0F U+1F4AC,0,6,./generated_img_dataset/test_google/515.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+💨🤬,effective entrance,U+1F4A8 U+1F92C,0,6,./generated_img_dataset/test_google/516.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.
+👍👣➡️,effective entrance,U+1F44D U+1F463 U+27A1 U+FE0F,0,6,./generated_img_dataset/test_google/517.png,0,user:  does this emoji sequence mean 'effective entrance'? answer yes or no. assistant: no.

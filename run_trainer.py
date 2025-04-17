@@ -44,32 +44,49 @@ def get_emoji_tokenizer():
     return tokenizer
 def get_text_tokenizer():
     from transformers import AutoTokenizer
-    tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+    tokenizer = AutoTokenizer.from_pretrained("textattack/bert-base-uncased-MNLI")
+    tokenizer.add_tokens(['[EM]'])
     return tokenizer
 
 def custom_collate_fn(batch):
     batch_out = {}
-    text = [item["EN"] for item in batch]
+    # valid_batch = [item for item in batch if isinstance(item["text1"], str) and isinstance(item["EN"], str)]
+    text1 = [item["sent1"] for item in batch]
+    text2 = [item["sent2"] for item in batch]
+
+    # print("text1:", text1)
+    # print("text2:", text2)  
     text_tokenizer = get_text_tokenizer()
-    batch_out["text_tokens"] = text_tokenizer(text, padding=True, return_tensors="pt")  # Pad dynamically
-    batch_out["labels"] = torch.stack([item["labels"] for item in batch])
-    emojis = [item["emojis"] for item in batch]
-    emoji_tokenizer = get_emoji_tokenizer()
-    batch_out["emoji_tokens"] = emoji_tokenizer(emojis, padding=True, return_tensors="pt")  # Pad dynamically
-    batch_out["images"] = [item["images"] for item in batch]
+    encodings = text_tokenizer(text1, text2, padding=True, return_tensors="pt")
+    batch_out.update({key: val.clone().detach() for key, val in encodings.items()})
+    labels = torch.stack([item["labels"] for item in batch])
+    # print(f"Label: {labels}")
+    batch_out["labels"] = labels
+    
+    # emojis = [item["emojis"] for item in batch]
+    # emoji_tokenizer = get_emoji_tokenizer()
+    # batch_out["emoji_tokens"] = emoji_tokenizer(emojis, padding=True, return_tensors="pt")
+    
+    # Make sure images are a list of lists of tensors
+    batch_out["images"] = [img_list if isinstance(img_list, list) else [img_list] for img_list in [item["images"] for item in batch]]
+
     return batch_out
 
 
 def build_model(config):
-    from model import FinalModel
+    # from model3 import EmoteMultimodalModel
+    from model4 import EmoteMultimodalModel
     # from model2 import FinalModel
     if config['half_precision']:
         weight_dtype = torch.float16
         logging.info(f"Running with half precision ({weight_dtype}).")
     else:
         weight_dtype = torch.float32
-    model = FinalModel(device=config['device'])
+
+    model = EmoteMultimodalModel(config=config, num_labels=2)
     model.to(config['device'])
+    tokenizer = get_text_tokenizer()
+    model.text_model.resize_token_embeddings(len(tokenizer))
     return model
 
 def get_dataloader(config):
@@ -110,19 +127,19 @@ def get_dataloader(config):
         train_dataset,
         batch_size=config.get('batch_size', 32),
         shuffle=True,
-        collate_fn=custom_collate_fn,
+        # collate_fn=custom_collate_fn,
         generator=loader_generator,
         num_workers=config.get('num_workers', 4)
     )
 
     # Create the DataLoader for validation
-    val_dataloader = DataLoader(
-        val_dataset,
-        batch_size=1,
-        shuffle=False,
-        collate_fn=custom_collate_fn,
-    )
-    # val_dataloader = None
+    # val_dataloader = DataLoader(
+    #     val_dataset,
+    #     batch_size=1,
+    #     shuffle=False,
+    #     collate_fn=custom_collate_fn,
+    # )
+    val_dataloader = None
     return train_dataloader, val_dataloader
 
 

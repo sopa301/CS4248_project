@@ -1,9 +1,9 @@
-train: False   # train or eval
+train: True   # train or eval
 # Devices
 device: 0      # cuda:int
 world_size: 1  #  no. of gpus
 distributed: False
-num_workers: 2   
+num_workers: 4   
 
 device_ids: [1]
 

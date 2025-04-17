@@ -9,7 +9,7 @@ import regex
 import ast
 from transformers import AutoImageProcessor, AutoFeatureExtractor
 from transformers import AutoTokenizer, AutoModel
-
+from run_trainer import get_text_tokenizer
 class DatasetMode(Enum):
     EVAL = "evaluate"
     TRAIN = "train"
@@ -28,17 +28,25 @@ class EmoteDataset(Dataset):
         csv_file = os.path.join(dataset_dir, csv_file)
         data = pd.read_csv(csv_file)
         
+        self.processor = AutoImageProcessor.from_pretrained(
+            "microsoft/swin-base-patch4-window12-384-in22k", use_fast=False
+        )
         # Optionally sample a portion of the data
         if portion < 1.0:
             data = data.sample(frac=portion, random_state=random_state).reset_index(drop=True)
         
-        self.en = list(data['EN'])
+        self.en = list(data['sent2'])
+        self.text1 = list(data['sent1'])
         self.labels = list(data['label'])
         self.image_files = data['separate_filenames']
+        self.grid_image = data['filename']
         self.unicodes = list(data['unicode'])
         self.strategies = list(data['strategy'])
-        self.emojis = data['EM']
-
+        
+        self.emojis = data['sent2']
+        text_tokenizer = get_text_tokenizer()
+        self.encodings = text_tokenizer(self.text1, self.en, padding=True, truncation=True, return_tensors="pt")
+        
         self.base_dir = dataset_dir
         
         self.mode = mode
@@ -46,38 +54,45 @@ class EmoteDataset(Dataset):
     def __getitem__(self, idx):
         # Retrieve the tokenized inputs and the corresponding labels/strategies
         batch = {}
-        batch['EN'] = self.en[idx]
+        # batch['sent2'] = self.en[idx]
+        # batch['sent1'] = self.text1[idx]
         batch['labels'] = torch.tensor(self.labels[idx]).clone()
         # batch['strategies'] = self.strategies[idx]
+        # batch['images'] = self._get_list_images(idx)
         batch['images'] = self._get_images(idx)
+        batch.update({key: val[idx].clone().detach() for key, val in self.encodings.items()})
         # batch['unicodes'] = self.unicodes[idx]
-        batch['emojis'] = self.emojis[idx]    # put all emojis in a string, will be tokenized in collate_fn
+        # batch['emojis'] = self.emojis[idx]    # put all emojis in a string, will be tokenized in collate_fn
+
         if DatasetMode.TRAIN == self.mode:
             batch['images'] = self._training_preprocess(batch['images'])
         return batch
     
-    def _get_images(self, index):
-        """
-        Load images for the given index based on the filenames stored in the list.
-        Returns a list of Tensor objects.
-        """
+    def _get_list_images(self, index):
         images = []
         for image_filename in ast.literal_eval(self.image_files[index]):
             image_path = os.path.join(self.base_dir, image_filename)
             try:
                 img = Image.open(image_path).convert("RGB")
-                processor = AutoImageProcessor.from_pretrained(
-                    "microsoft/swin-base-patch4-window12-384-in22k",
-                    # 'microsoft/swinv2-base-patch4-window12-192-22k',
-                    use_fast=False
-                )
-                processed = processor(img, return_tensors="pt")
-                img = processed["pixel_values"]
+                processed = self.processor(img, return_tensors="pt")
+                img = processed["pixel_values"].squeeze(0)  # [3, H, W]
             except Exception as e:
                 print(f"Error loading image {image_path}: {e}")
-                return None
+                continue
             images.append(img)
         return images
+    
+    def _get_images(self, index):
+        image_filename = self.grid_image[index]
+        image_path = os.path.join(self.base_dir + "google_dataset/", image_filename)
+        try:
+            img = Image.open(image_path).convert("RGB")
+            processed = self.processor(img, return_tensors="pt")
+            img = processed["pixel_values"].squeeze(0)  # [3, H, W]
+        except Exception as e:
+            print(f"Error loading image {image_path}: {e}")
+            img = None
+        return img
     
     def _training_preprocess(self, images):
         """

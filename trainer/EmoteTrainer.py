@@ -24,7 +24,7 @@ class EmoteTrainer(BaseTrainer):
         self.f1_metric = F1Score(task="binary").to(self.device)
 
         if config['train']:
-            self.__set_trainability()
+            # self.__set_trainability()
             if not config['resume']:
                 self.__init_model_weights()
 
@@ -41,13 +41,18 @@ class EmoteTrainer(BaseTrainer):
     def _train_on_batch(self, train_step, batch):
         # Set model to training mode
         self.model.train()
-        
+        # print(batch.keys())
+        batch = {k: v.to(self.device) if not k == "strategies" else v for k, v in batch.items()}
+        for imgs in batch['images']:
+            for img in imgs:
+                img = img.to(self.device)
+
         with autocast('cuda',enabled=self.config['half_precision']):
 
-            outputs = self.model(batch['images'], batch['emoji_tokens'].to(self.device), batch['text_tokens'].to(self.device))
+            outputs = self.model(**batch)
             
             loss = self.loss_fn(
-                outputs,
+                outputs['logits'],
                 torch.nn.functional.one_hot(batch['labels'].to(self.device), num_classes=2).float()
             )
             loss = loss.mean()
@@ -72,21 +77,23 @@ class EmoteTrainer(BaseTrainer):
     def _validate_on_batch(self, val_step, batch) -> tuple[dict, dict]:
         # Set the model to evaluation mode.
         self.model.eval()
+        batch = {k: v.to(self.device) if not k == "strategies" else v for k, v in batch.items()}
+        for imgs in batch['images']:
+            for img in imgs:
+                img = img.to(self.device)
         # Forward pass
         outputs = self.model(
-            batch['images'],
-            batch['emoji_tokens'].to(self.device),
-            batch['text_tokens'].to(self.device)
+            **batch
         )
         # Compute loss with one-hot encoded targets
         loss = self.loss_fn(
-            outputs,
+            outputs["logits"],
             torch.nn.functional.one_hot(batch['labels'].to(self.device), num_classes=2).float()
         )
         loss = loss.mean()
         
         # Compute predictions by taking the argmax over class logits.
-        preds = torch.argmax(outputs, dim=1)
+        preds = torch.argmax(outputs["logits"], dim=1)
         labels = batch['labels'].to(self.device)
         
         # Calculate accuracy: mean of correctly predicted labels.
@@ -164,11 +171,11 @@ class EmoteTrainer(BaseTrainer):
                         nn.init.kaiming_normal_(param)
                 print(f"Initialized custom module '{name}' with Kaiming normal.")
 
-    def __set_trainability(self):
-        #set trainability
-        # for param in self.model.fusion_model.swin.parameters():
-        #     param.requires_grad = False
-        for param in self.model.fusion_model.bertweet.parameters():
-            param.requires_grad = False
-        for param in self.model.eng_encoder.parameters():
-            param.requires_grad = False
+    # def __set_trainability(self):
+    #     #set trainability
+    #     # for param in self.model.fusion_model.swin.parameters():
+    #     #     param.requires_grad = False
+    #     for param in self.model.fusion_model.bertweet.parameters():
+    #         param.requires_grad = False
+    #     for param in self.model.eng_encoder.parameters():
+    #         param.requires_grad = False
